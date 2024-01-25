@@ -9,23 +9,42 @@
 
 {%- schema -%}
   {
-    "name": "My First Section",
+    "name": "Custom Image with Text",
     "settings": [
       {
         "type": "image_picker",
         "id": "image",
         "label": "Image"
-      }, {
-        "type": "text",
+      }, 
+      {
+        "type": "richtext",
         "id": "title",
         "label": "Heading",
         "default": "<h1>My First Section!!!</h1>"
-      }, {
+      },  
+      {
+        "type": "color",
+        "id": "heading-color",
+        "label": "Heading Color",
+        "default": "#121212"
+      },
+      {
+        "type": "range",
+        "id": "heading-size",
+        "min": 20,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "Font Size of Heading",
+        "default": 20
+      }, 
+      {
         "type": "richtext",
         "id": "text",
         "label": "Description",
         "default": "<p>Write your own Description!!</p>"
-      }, {
+      },
+      {
         "type": "checkbox",
         "id": "reverse",
         "label": "Reverse Image Position",
@@ -34,7 +53,7 @@
     ],
     "presets": [
       {
-        "name": "My First Section",
+        "name": "Custom Image with Text",
         "category": "Image"
       }
     ],
@@ -64,13 +83,15 @@
   </div> {% endcomment %}
 
 <style>
+
+  .heading{
+    font-size: {{ section.settings.heading-size }}px;
+    color: {{ section.settings.heading-color }};
+  }
+
   .image-with-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-    /* @include phone{
-        grid-templates-columns: 1fr ;
-    } */
   }
 
   .reverse{
@@ -86,7 +107,7 @@
     direction: ltr;
   }
 
-  .image-with-text-body{
+  .image-with-text-body {
     width: 75%;
     margin: 0 auto;
   }

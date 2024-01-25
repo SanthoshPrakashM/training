@@ -1,6 +1,16 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+  .rich-text__heading {  /*Added by santhosh dynamically */
+    color: #63cbcf;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px 0 0;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: system-ui;
+  }
+
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -24,6 +34,7 @@
               <h2
                 class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
+            
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
@@ -168,7 +179,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
-      "default": 40
+      "default": 0
     },
     {
       "type": "range",
@@ -178,7 +189,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 52
+      "default": 20
     }
   ],
   "blocks": [

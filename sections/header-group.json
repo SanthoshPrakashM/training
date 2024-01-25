@@ -2,32 +2,44 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
+    "custom_slider_announce_bar_iHbqwE": {
+      "type": "custom-slider-announce-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
+        "header_KidL43": {
+          "type": "header",
           "settings": {
-            "text": "Welcome to our store",
-            "text_alignment": "center",
-            "color_scheme": "scheme-1",
-            "link": ""
+            "message": "<p><strong>💕Valentine's Day Deals - up to 50% off.<\/strong><\/p>"
+          }
+        },
+        "header_PhxGm4": {
+          "type": "header",
+          "settings": {
+            "message": "<p><strong>Extra $$OFF<\/strong> for human and vegan fiber wigs.<\/p>"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
-      ]
+        "header_KidL43",
+        "header_PhxGm4"
+      ],
+      "settings": {
+        "autoplay": true,
+        "delay": "2000",
+        "colorBackground": "#000000",
+        "colorText": "#ffffff",
+        "font_size": 16
+      }
     },
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "scheme-1",
-        "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "logo_position": "top-center",
+        "menu": "new-to-hair-extensions",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "none",
         "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
@@ -38,7 +50,7 @@
     }
   },
   "order": [
-    "announcement-bar",
+    "custom_slider_announce_bar_iHbqwE",
     "header"
   ]
 }

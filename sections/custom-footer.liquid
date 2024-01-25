@@ -1,0 +1,158 @@
+<section class="custom-footer-container">
+  <footer>
+      <div class="custom-footer">
+          <h2 class="heading">{{ section.settings.heading }}</h2>
+          <h3 class="sub-heading">{{ section.settings.sub-heading }}</h3>
+ 
+          <form class="email" action="submit">
+              <input class="mail"  type="email" name="Email" id="email" >
+              <input class="button" type="button" value="SUBMIT">
+          </form>
+ 
+          <img src="{{ section.settings.media-logo1 | img_url: '20x'}}" >
+          <img src="{{ section.settings.media-logo2 | img_url: '20x'}}" >
+          <img src="{{ section.settings.media-logo3 | img_url: '20x'}}" >
+          <img src="{{ section.settings.media-logo4 | img_url: '20x'}}" >
+     
+          <h3 class="options"> {{ section.settings.text }} </h3>
+      </div>
+  </footer>
+  </section>
+ 
+  <style>
+  .custom-footer{
+      text-align: center;
+      background-color:#cbc7e3 ;
+      margin-top: 10%;
+  }
+ 
+  .heading{
+      width: 100%;
+      font-size: 100px;
+      font-weight: bolder;
+      font-family: system-ui;
+      margin: 0px;
+      margin-top: 10px;
+  }
+ 
+  .sub-heading{
+      width: 100%;
+      font-size: 25px;
+      margin: 0px;
+      margin-top: 30px;
+  }
+ 
+  .email .mail{
+      margin-top:40px;
+      border: none;
+      background-color: transparent;
+      height: 40px;
+      width: 400px;
+      border-bottom: 3px solid black;
+  }
+ 
+  .email .button{
+      border: 3px solid black;
+      height: 2%;
+      width: 40px;
+      background-color: white;
+      color: black;
+      font-family: system-ui;
+      font-weight: 800;
+      margin-left: 2%;
+  }
+ 
+  .button:hover{
+      border: 3px solid white;
+      height: 2%;
+      width: 40px;
+      background-color: black;
+      color: white;
+      font-family: system-ui;
+      font-weight: 800;
+      margin-left: 2%;
+  }
+
+  .email .mail:onclick {
+    margin-top:40px;
+    border: none;
+    background-color: transparent;
+    height: 40px;
+    width: 400px;
+    border-bottom: 3px solid black;
+}
+ 
+  img{
+      margin: 15px;
+      height: 25px;
+  }
+ 
+  .options{
+      font-size: 20px;
+      margin: 0px;
+      margin-top: 10px;
+      text-decoration: none;
+      color: black;
+  }
+ 
+  </style>
+ 
+  {% schema %}
+    {
+      "name": "Custom Footer",
+      "tag": "section",
+      "class": "custom-footer",
+      "settings": [
+          {
+              "type": "text",
+              "id": "heading",
+              "label": "Heading",
+              "default": "get up to 55% off."
+          },
+          {
+            "type": "text",
+            "id": "sub-heading",
+            "label": "Sub-Heading",
+            "default": "Sign up and add 5% off to our ongoing up to 50% off sale with our welcome coupon."
+          },
+          {
+            "type": "image_picker",
+            "id": "media-logo1",
+            "label": "Media Logo1"
+          },
+          {
+            "type": "image_picker",
+            "id": "media-logo2",
+            "label": "Media Logo2"
+          },
+          {
+            "type": "image_picker",
+            "id": "media-logo3",
+            "label": "Media Logo3"
+          },
+          {
+            "type": "image_picker",
+            "id": "media-logo4",
+            "label": "Media Logo4"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Options"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Option's URL"
+          }
+      ],      
+      "presets": [
+        {
+          "name": "Custom Footer"
+        }
+      ],
+      "enabled_on": {
+        "groups": ["footer"]
+      }
+    }
+  {% endschema %}

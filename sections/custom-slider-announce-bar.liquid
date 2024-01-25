@@ -1,0 +1,121 @@
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+{%- if  section.blocks.size > 0 -%}
+    <div id="announcement-bar" class="swiper-container announcement-bar">
+        <div class="swiper-wrapper">
+            {%- for block in section.blocks -%}
+                <div class="swiper-slide message"> {{ block.settings.message }}</div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+<style>
+    .announcement-bar{
+        background:{{ section.settings.colorBackground }};
+        position: relative;
+        overflow: hidden;
+    }
+    .announcement-bar .message{
+        text-align:center;
+        color:{{section.settings.colorText}};
+        font-size:{{section.settings.font_size}}px;
+        text-transform:{{section.settings.mobile_thumbnails1}};
+    }
+    #announcement-bar {
+        height: 40px; /* Adjust the height as needed */
+        color: #333; /* Customize the text color */
+        font-size: 14px; /* Customize the font size */
+    }
+
+    .swiper-slide {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+</style>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  var swiper = new Swiper('#announcement-bar', {
+    direction: 'horizontal',
+    loop: true,
+
+    autoplay: {
+      delay: {{ section.settings.delay }}
+    },
+    
+    effect: 'slide',
+    speed: 500, // Adjust the animation speed (in milliseconds)
+  });
+});
+</script>
+{%- endif -%}
+
+
+{% schema %}
+  {
+    "name": "My Sliding Bar",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Autoplay",
+        "default":true
+      },
+      {
+        "type": "text",
+        "id": "delay",
+        "label": "Delay between transitions (in ms)",
+        "default": "2000"
+      },
+      {
+        "type": "color",
+        "id": "colorBackground",
+        "label": "Background color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "colorText",
+        "label": "Text color",
+        "default": "#ffffff"
+      },
+   {
+      "type": "range",
+      "id": "font_size",
+      "min": 14,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    }
+],
+"blocks": [
+      {
+        "type": "header",
+        "name": "Message",
+        "settings": [
+          {
+              "id": "message",
+              "type": "richtext",
+             "label": "Enter your text"
+            }
+        ]
+      }
+],
+"presets":[
+    {
+        "name":" My Slider Announcement Bar"
+    }
+],
+"enabled_on": {
+  "groups": ["header"]
+}
+  }
+{% endschema %}

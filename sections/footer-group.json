@@ -2,6 +2,19 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_footer_8fHHY6": {
+      "type": "custom-footer",
+      "settings": {
+        "heading": "get up to 55% off.",
+        "sub-heading": "Sign up and add 5% off to our ongoing up to 50% off sale with our welcome coupon.",
+        "media-logo1": "shopify:\/\/shop_images\/icons8-instagram-100.png",
+        "media-logo2": "shopify:\/\/shop_images\/icons8-facebook-90.png",
+        "media-logo3": "shopify:\/\/shop_images\/icons8-pinterest-100.png",
+        "media-logo4": "shopify:\/\/shop_images\/icons8-pinterest-100.png",
+        "text": "<p>Hairstylist ✂️<\/p><p>About us<\/p><p>Contact us<\/p><p>Shopify & Delivery<\/p><p>Privacy Shopping<\/p><p>FAQ<\/p><p>Influencer Affilitated Program<\/p><p>Exchanges & Returns<\/p><p>Terms & Conditions <\/p>",
+        "url": ""
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -32,10 +45,12 @@
         "footer-1",
         "footer-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
@@ -48,6 +63,7 @@
     }
   },
   "order": [
+    "custom_footer_8fHHY6",
     "footer"
   ]
 }

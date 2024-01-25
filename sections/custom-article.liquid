@@ -1,0 +1,86 @@
+<article class="custom-article">
+    <header>
+      <h1>{{ article.title }}</h1>
+  
+      {%- if section.settings.blog_show_author -%}
+        <span>
+          By {{ section.settings.article.author }}
+        </span>
+      {%- endif -%}
+  
+      {%- if section.settings.blog_show_date -%}
+        <span>
+          {{ section.settings.article.published_at | time_tag: ', %d - %m - %Y' }}
+        </span>
+      {%- endif -%}
+  
+    </header>
+  
+    {{ section.settings.article.content }}
+    <img src="{{ section.settings.article.image |  img_url: '150x' }}" >
+  
+    {%- if section.settings.article.tags.size > 0 -%}
+      <footer>
+        <ul aria-label="Tags">
+        {%- for tag in section.settings.article.tags -%}
+          <li>
+            <a href="{{ blog.url }}/tagged/{{ tag | handle }}">
+              {{ tag }}
+            </a>
+          </li>
+        {%- endfor -%}
+        </ul>
+      <footer>
+    {%- endif -%}   
+  
+  </article>
+
+  
+  
+  <style>
+    .custom-article {
+        text-align: left;
+    }
+
+
+
+
+    
+
+  {% schema %}
+  {
+    "name": "Custom Article",
+    "settings": [
+        {
+        "type": "article",
+        "id": "article",
+        "label": "Select Article"
+      },
+      {
+        "type": "blog",
+        "id": "blog",
+        "label": "Select Blog"
+      },
+      {
+        "type": "checkbox",
+        "id": "blog_show_author",
+        "label": "Show author",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "blog_show_date",
+        "label": "Show date",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Article"
+      }
+    ],
+    "enabled_on": {
+        "templates":["*"]
+    }
+  }
+  {% endschema %}
