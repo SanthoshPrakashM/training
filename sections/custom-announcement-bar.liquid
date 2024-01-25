@@ -1,0 +1,97 @@
+<div class="custom-announcement-bar">
+  <a href="{{section.settings.link}}" class="custom-announcement-bar-link">
+    <p class="custom-announcement-bar-message">{{ section.settings.announcement-bar-text }}</p>
+  </a>
+</div>
+
+<style>
+  .custom-announcement-bar {
+    text-align: center;
+  }
+
+  .custom-announcement-bar .custom-announcement-bar-message {
+    {% if section.settings.bold-text %}
+      font-weight: bold;
+    {% endif %}
+
+    font-size: {{ section.settings.font-size }}px;
+
+    padding: {{ section.settings.height }}px 0;
+
+    background-color: {{ section.settings.background }};
+
+    margin: 0;
+
+    color: {{ section.settings.font-color }};
+  }
+
+  .custom-announcement-bar a {
+    text-decoration: none;
+  }
+</style>
+
+{%- schema -%}
+  {
+    "name": "My First Announcement bar",
+    "settings": [
+      {
+        "type": "text",
+        "id": "announcement-bar-text",
+        "default": "This is the default .. Type Something",
+        "label": "Announcement text"
+      },
+      {
+        "type": "checkbox",
+        "id": "bold-text",
+        "default": false,
+        "label": "Bold Text"
+      },
+      {
+        "type": "range",
+        "id": "font-size",
+        "default": 14,
+        "label": "Font Size",
+        "min": 12,
+        "max": 20,
+        "step": 1,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "height",
+        "default": 6,
+        "label": "Height",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "unit": "px"
+      }, {
+        "type": "color",
+        "id": "background",
+        "default": "#ffffff",
+        "label": "Background Color"
+      }, {
+        "type": "url",
+        "id": "link",
+        "label": "Link"
+      }, {
+        "type": "color",
+        "id": "font-color",
+        "default": "#000000",
+        "label": "Font Color"
+      }
+
+    ],
+    
+    "presets": [
+      {
+        "name": "My First Announcement Bar"
+      }
+    ],
+
+    "enabled_on": {
+      "templates": ["*"],
+      "groups": ["header"]
+    }
+  }
+{%- endschema -%}

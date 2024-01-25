@@ -60,6 +60,26 @@
     >
   {%- endif -%}
 
+
+  
+  <div class="wrapper">
+    {% for collection in collections %}
+      <h2>Collection Title : {{ collection.title }}</h2>
+      {% unless collection.description == blank %}
+        <p>Collection Description {{collection.description}}</p>        
+      {% endunless %}
+
+      {% for product in collection.products %}
+        <img src="{{product | image_url }}">
+        <h3>Product Title : {{product.title}} </h3>
+        <h3>Product Price : {{product.price | money_with_currency}}</h3>
+      {% else %}
+        <p>There is no products in {{collection.title}} </p>
+      {% endfor %}
+    {% endfor %}
+  </div>
+
+
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">

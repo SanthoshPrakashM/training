@@ -1,0 +1,94 @@
+<div class="image-with-text section {% if section.settings.reverse %}reverse{% endif %}">
+    <img src="{{ section.settings.image | img_url: '380x' }}" alt="{{ section.settings.title }}">
+    <div class="image-with-text-description-container">
+      <h2 class="heading">{{ section.settings.title }}</h2>
+      <div class="image-with-text-body">{{ section.settings.text }}</div>
+    </div>
+</div>
+
+
+{%- schema -%}
+  {
+    "name": "My First Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }, {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "<h1>My First Section!!!</h1>"
+      }, {
+        "type": "richtext",
+        "id": "text",
+        "label": "Description",
+        "default": "<p>Write your own Description!!</p>"
+      }, {
+        "type": "checkbox",
+        "id": "reverse",
+        "label": "Reverse Image Position",
+        "default": false
+      }
+    ],
+    "presets": [
+      {
+        "name": "My First Section",
+        "category": "Image"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["*"]
+    }
+  }
+{%- endschema -%}
+
+
+
+{% comment %} <div class="wrapper">
+    {% for collection in collections %}
+      <h2>Collection Title : {{ collection.title }}</h2>
+      {% unless collection.description == blank %}
+        <p>Collection Description {{collection.description}}</p>        
+      {% endunless %}
+
+      {% for product in collection.products %}
+        <img src="{{product | image_url }}">
+        <h3>Product Title : {{product.title}} </h3>
+        <h3>Product Price : {{product.price | money_with_currency}}</h3>
+      {% else %}
+        <p>There is no products in {{collection.title}} </p>
+      {% endfor %}
+    {% endfor %}
+  </div> {% endcomment %}
+
+<style>
+  .image-with-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    /* @include phone{
+        grid-templates-columns: 1fr ;
+    } */
+  }
+
+  .reverse{
+    direction: rtl;
+  }
+
+  .image-with-text-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    direction: ltr;
+  }
+
+  .image-with-text-body{
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+</style>
