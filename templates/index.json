@@ -1,5 +1,22 @@
 {
   "sections": {
+    "custom_slideshow_task_enE9AH": {
+      "type": "custom-slideshow-task",
+      "disabled": true,
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/2-Vday-desktop_1780x_b046085a-2630-43e8-928c-6b595561beaf.png",
+        "image2": "shopify:\/\/shop_images\/1-Vday-desktop_1780x_1.jpg",
+        "image3": "shopify:\/\/shop_images\/2-Vday-desktop_1780x_b046085a-2630-43e8-928c-6b595561beaf.png",
+        "title": "<p><strong>VALENTINE'S DAY<\/strong><\/p>",
+        "heading-color": "#f5d7df",
+        "heading-size": 42,
+        "text1": "",
+        "text2": "",
+        "desc1-size": 100,
+        "desc2-size": 100,
+        "reverse": false
+      }
+    },
     "custom_brands_slider_kcBUzL": {
       "type": "custom-brands-slider",
       "blocks": {
@@ -93,7 +110,7 @@
       "settings": {
         "bg_color": "",
         "scroll_time": "50",
-        "font_color": "#000000",
+        "font_color": "#080808",
         "font_size": 16,
         "pause_text": "initial"
       }
@@ -618,6 +635,7 @@
     },
     "custom_richtext_xxDDCK": {
       "type": "custom-richtext",
+      "disabled": true,
       "settings": {
         "heading1": "<h1>+5,000<\/h1>",
         "heading2": "<h1>five Star Reviews<\/h1>",
@@ -669,6 +687,7 @@
     }
   },
   "order": [
+    "custom_slideshow_task_enE9AH",
     "custom_brands_slider_kcBUzL",
     "featured_collection_nga4iL",
     "rich_text_rq86mY",
