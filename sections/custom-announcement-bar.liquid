@@ -1,50 +1,167 @@
-<div class="custom-announcement-bar">
-  <a href="{{section.settings.link}}" class="custom-announcement-bar-link">
-    <p class="custom-announcement-bar-message">{{ section.settings.announcement-bar-text }}</p>
-  </a>
+{% comment %} <div class="custom-announcement-bar">
+    <p class="custom-announcement-bar-message">{{ section.settings.announcement-bar-text1 }}</p>
+    <p class="custom-announcement-bar-message"></p>
+
+    <a href="mailto:info@falcondrivingnj.com"> <i class="icon-interface"></i>  </a>
+    <p class="custom-announcement-bar-message"></p>
+</div> {% endcomment %}
+
+
+<div class="custom-announcement-bar"> 
+  <address class="location"> 
+    <i class="icon-placeholder-for-map">
+      <img id ="location" src="{{ section.settings.location | img_url: '20x'}}" alt="">
+    </i>{{ section.settings.announcement-bar-text1 }} 
+  </address> 
+
+  <address class="phone">  
+    <i class="icon-phone-call">
+      <img id ="phone" src="{{ section.settings.phone | img_url: '20x'}}" alt="">
+    </i>{{ section.settings.announcement-bar-text2 }}</a> 
+  </address>
+
+  <address class="email"> 
+    <i class="icon-interface">
+      <img id ="mail" src="{{ section.settings.mail | img_url: '20x'}}" alt="">
+    </i> {{ section.settings.announcement-bar-text3 }} </a> 
+  </address> 
+
+  <address class="time"> 
+    <i class="icon-clock">
+      <img id ="time" src="{{ section.settings.time | img_url: '20x'}}" alt="">
+    </i> {{ section.settings.announcement-bar-text4 }} 
+  </address>
+
+  <address class="facebook"> 
+    <i class="facebook-icon">
+      <img id ="fb" src="{{ section.settings.facebook | img_url: '20x'}}" alt="">
+    </i> 
+  </address>
+
+  <address class="twitter"> 
+    <i class="twitter-icon">
+      <img id ="twitter" src="{{ section.settings.twitter | img_url: '20x'}}" alt="">
+    </i> 
+  </address>
+
+  <address class="insta"> 
+    <i class="insta-icon">
+      <img id ="ig" src="{{ section.settings.insta | img_url: '20x'}}" alt="">
+    </i> 
+  </address>
+
 </div>
 
 <style>
-  .custom-announcement-bar {
-    text-align: center;
+
+  img#location {
+    padding-right: 10px;
+    margin-top: 5px;
   }
 
-  .custom-announcement-bar .custom-announcement-bar-message {
-    {% if section.settings.bold-text %}
-      font-weight: bold;
-    {% endif %}
+  img#phone {
+    padding-right: 10px;
+    margin-top: 5px;
+  }
 
-    font-size: {{ section.settings.font-size }}px;
+  img#mail {
+    padding-right: 10px;
+    margin-top: 5px;
+  }
+
+  img#time {
+    padding-right: 10px;
+    margin-top: 5px;
+  }
+
+  img#fb {
+    padding-right: 10px;
+    margin-top: 5px;
+  }
+
+  img#twitter {
+    padding-right: 10px;
+    margin-top: 5px;
+  }
+
+  img#ig {
+    padding-right: 10px;
+    margin-top: 5px;
+  }
+
+  .custom-announcement-bar {
+    display: flex;
+
+    text-align: center;
 
     padding: {{ section.settings.height }}px 0;
+
+    color: {{ section.settings.font-color }};
+
+    font-size: {{ section.settings.font-size }}px;
 
     background-color: {{ section.settings.background }};
 
     margin: 0;
-
-    color: {{ section.settings.font-color }};
+    
   }
 
-  .custom-announcement-bar a {
-    text-decoration: none;
-  }
+  address {
+    font-style: normal;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 </style>
 
 {%- schema -%}
   {
-    "name": "My First Announcement bar",
+    "name": "My Task Announcement bar",
     "settings": [
       {
-        "type": "text",
-        "id": "announcement-bar-text",
-        "default": "This is the default .. Type Something",
+        "type": "image_picker",
+        "id": "location",
+        "label": "Location"
+      },
+      {
+        "type": "image_picker",
+        "id": "phone",
+        "label": "Phone"
+      },
+      {
+        "type": "image_picker",
+        "id": "mail",
+        "label": "Email"
+      },
+      {
+        "type": "image_picker",
+        "id": "time",
+        "label": "Time"
+      },
+      {
+        "type": "richtext",
+        "id": "announcement-bar-text1",
         "label": "Announcement text"
       },
       {
-        "type": "checkbox",
-        "id": "bold-text",
-        "default": false,
-        "label": "Bold Text"
+        "type": "richtext",
+        "id": "announcement-bar-text2",
+        "label": "Announcement text"
+      },
+      {
+        "type": "richtext",
+        "id": "announcement-bar-text3",
+        "label": "Announcement text"
+      },
+      {
+        "type": "richtext",
+        "id": "announcement-bar-text4",
+        "label": "Announcement text"
       },
       {
         "type": "range",
@@ -59,7 +176,7 @@
       {
         "type": "range",
         "id": "height",
-        "default": 6,
+        "default": 0,
         "label": "Height",
         "min": 0,
         "max": 20,
@@ -68,29 +185,39 @@
       }, {
         "type": "color",
         "id": "background",
-        "default": "#ffffff",
+        "default": "#383838",
         "label": "Background Color"
-      }, {
-        "type": "url",
-        "id": "link",
-        "label": "Link"
-      }, {
+      }, 
+      {
         "type": "color",
         "id": "font-color",
-        "default": "#000000",
+        "default": "#FFFFFF",
         "label": "Font Color"
+      },
+      {
+        "type": "image_picker",
+        "id": "facebook",
+        "label": "Facebook"
+      },
+      {
+        "type": "image_picker",
+        "id": "twitter",
+        "label": "Twitter"
+      },
+      {
+        "type": "image_picker",
+        "id": "insta",
+        "label": "Instagram"
       }
 
-    ],
-    
+    ],    
     "presets": [
       {
-        "name": "My First Announcement Bar"
+        "name": "My Task Announcement Bar"
       }
     ],
 
     "enabled_on": {
-      "templates": ["*"],
       "groups": ["header"]
     }
   }

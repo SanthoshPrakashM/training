@@ -32,15 +32,6 @@
         font-size:{{ section.settings.font_size }}px;
     }
       
-      @keyframes scroll {
-        0% {
-          transform: translateX(0);
-        }
-        100% {
-          transform: translateX(calc(-250px * 6));
-        }
-      }
-    
       #section-id-{{ section.id }}.hc-index-slider {
         margin: auto;
         overflow: hidden;
@@ -75,18 +66,13 @@
 
     {% schema %}
       {
-        "name": "Sliding Text",
+        "name": "A Task Announcement",
         "settings": [
           {
             "type": "color",
             "id": "bg_color",
-            "label": "Background Color"
-          },
-          {
-              "type": "text",
-              "label": "Scroll Time",
-              "id": "scroll_time",
-              "default": "50"
+            "label": "Background Color",
+            "default":"#383838"
           },
           {
             "type": "color",
@@ -104,27 +90,11 @@
           "unit": "px",
           "label": "Font size",
           "default": 14
-        },
-        {
-          "type": "select",
-          "id": "pause_text",
-          "label": "Pause text on mouse hover",
-          "options": [
-            {
-              "value": "paused",
-              "label": "Yes"
-            },
-            {
-              "value": "initial",
-              "label": "No"
-            }
-          ],
-          "default": "paused"
         }
         ],
         "blocks": [
         {
-          "name": "Sliding text",
+          "name": "announcement",
           "type": "block",
           "settings": [
             {
@@ -137,11 +107,11 @@
       ],
       "presets": [
         {
-          "name": "Sliding Text"
+          "name": "A Task Announcement"
         }
       ],
       "enabled_on": {
-        "templates": ["*"]
+        "groups": ["header"]
       }
       }
     {% endschema %}
