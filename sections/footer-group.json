@@ -6,7 +6,7 @@
       "type": "falcon-footer",
       "settings": {
         "footer-logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
-        "footer-text": "We provide a reputable and professional service that aims to give you the confidence to pass your test and drive safely on the roads.",
+        "footer-text": "<p>We provide a reputable and <\/p><p>professional service that aims to<\/p><p> give you the confidence to pass<\/p><p> your test and drive safely on the<\/p><p> roads.<\/p>",
         "footer-button-text": "We accept payments through Zelle",
         "footer-heading-1": "Information",
         "footer-menu-1": "falcon-footer-information",
@@ -17,7 +17,8 @@
         "insta": "shopify:\/\/shop_images\/instagram-symbol.png",
         "number": "201-865-5225",
         "phone-icon": "shopify:\/\/shop_images\/phone-ringing.png",
-        "address": "304 Central Ave, Jersey City, NJ 07307"
+        "address": "304 Central Ave, Jersey City, NJ 07307",
+        "last-text": ""
       }
     },
     "footer": {
