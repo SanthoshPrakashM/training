@@ -2,32 +2,43 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "text_alignment": "center",
-            "color_scheme": "scheme-1",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement-bar-0"
-      ]
+    "custom_announcement_bar_LzdDWk": {
+      "type": "custom-announcement-bar",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "location": "shopify:\/\/shop_images\/location.png",
+        "phone": "shopify:\/\/shop_images\/phone-ringing.png",
+        "mail": "shopify:\/\/shop_images\/email.png",
+        "time": "shopify:\/\/shop_images\/watch.png",
+        "announcement-bar-text1": "<p>304 Central Ave, Jersey City, NJ 07307<\/p>",
+        "announcement-bar-text2": "<p>201-865-5225<\/p>",
+        "announcement-bar-text3": "<p> info@falcondrivingnj.com <\/p>",
+        "announcement-bar-text4": "<p>9.00 AM to 5.00 PM \/ 7 Days<\/p>",
+        "font-size": 14,
+        "height": 0,
+        "background": "#383838",
+        "font-color": "#ffffff",
+        "facebook": "shopify:\/\/shop_images\/facebook-logo.png",
+        "twitter": "shopify:\/\/shop_images\/twitter.png",
+        "insta": "shopify:\/\/shop_images\/instagram-symbol.png"
+      }
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "a#HeaderMenu-login-register {font-size: x-small; color: #383838; padding-top: 15px;}",
+        "span.header__active-menu-item {text-decoration: none;}"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
         "logo_position": "middle-left",
-        "menu": "main-menu",
+        "menu": "falcon-driving-school",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "none",
         "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
@@ -38,7 +49,7 @@
     }
   },
   "order": [
-    "announcement-bar",
+    "custom_announcement_bar_LzdDWk",
     "header"
   ]
 }

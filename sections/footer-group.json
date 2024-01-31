@@ -2,44 +2,73 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "falcon_footer_JLDJXX": {
+      "type": "falcon-footer",
+      "settings": {
+        "footer-logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
+        "footer-text": "We provide a reputable and professional service that aims to give you the confidence to pass your test and drive safely on the roads.",
+        "footer-button-text": "We accept payments through Zelle",
+        "footer-heading-1": "Information",
+        "footer-menu-1": "falcon-footer-information",
+        "footer-heading-2": "Customer Service",
+        "footer-menu-2": "falcon-customer-service",
+        "facebook": "shopify:\/\/shop_images\/facebook-logo.png",
+        "twitter": "shopify:\/\/shop_images\/twitter.png",
+        "insta": "shopify:\/\/shop_images\/instagram-symbol.png",
+        "number": "201-865-5225",
+        "phone-icon": "shopify:\/\/shop_images\/phone-ringing.png",
+        "address": "304 Central Ave, Jersey City, NJ 07307"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
+        "brand_information_ignJCH": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        },
+        "link_list_cjTBgd": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Information",
+            "menu": "falcon-footer-information"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Customer Service",
+            "menu": "falcon-customer-service"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "brand_information_Badr6P": {
+          "type": "brand_information",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "show_social": true
           }
         }
       },
       "block_order": [
-        "footer-0",
+        "brand_information_ignJCH",
+        "link_list_cjTBgd",
         "footer-1",
-        "footer-2"
+        "brand_information_Badr6P"
+      ],
+      "disabled": true,
+      "custom_css": [
+
       ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "show_social": true,
+        "newsletter_enable": false,
+        "newsletter_heading": "",
+        "enable_follow_on_shop": false,
+        "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": false,
         "margin_top": 48,
         "padding_top": 36,
@@ -48,6 +77,7 @@
     }
   },
   "order": [
+    "falcon_footer_JLDJXX",
     "footer"
   ]
 }

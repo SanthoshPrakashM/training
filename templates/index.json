@@ -1,28 +1,378 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "falcon_section3_JEMXBh": {
+      "type": "falcon-section3",
       "blocks": {
-        "heading": {
+        "block_ACfmcw": {
+          "type": "block",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/professor.png",
+            "texts": "<h3><strong>4  <\/strong>INSTRUCTORS<\/h3>"
+          }
+        },
+        "block_yhtq3q": {
+          "type": "block",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/time.png",
+            "texts": "<h3><strong>1290 <\/strong>Training Hours<\/h3>"
+          }
+        },
+        "block_8nth6y": {
+          "type": "block",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/balloon.png",
+            "texts": "<h3><strong>20<\/strong> YEARS  IN BUSINESS<\/h3>"
+          }
+        },
+        "block_NU4XFP": {
+          "type": "block",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/driver-license.png",
+            "texts": "<h3><strong>5000+ <\/strong>LICENSES ISSUED<\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "block_ACfmcw",
+        "block_yhtq3q",
+        "block_8nth6y",
+        "block_NU4XFP"
+      ],
+      "custom_css": [
+        "h3 {color: #ffffff; font-weight: bolder; font-size: x-large; padding-left: 7px; display: grid;}"
+      ],
+      "settings": {
+      }
+    },
+    "image_with_text_9aKiAL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9LwRNF": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Are You Ready?",
             "heading_size": "h0"
           }
         },
-        "text": {
+        "text_fPkkjg": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<p>Over the past 20+ years Falcon has proudly serviced the greater Hudson County Area, helping thousands of students over the years learn how to drive safely. Our goal is to help you get on to the road and give you the best possible learning experience in the process. We believe it is extremely important to develop good driving habits right from the start, and our instructors take great pride in helping our students become capable drivers. We can't wait to see where the road takes you!<\/p>",
             "text_style": "body"
           }
         },
-        "button": {
-          "type": "buttons",
+        "text_bPdnJg": {
+          "type": "text",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "text": "<ul><li>We know all of the different test routes<\/li><li>Plate Learn with a company that cares, more than just an offer!<\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "text_jMNEHr": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Our Driving Instructors are having 30 years experience and they are extremely patient in teaching the students<\/h4>",
+            "text_style": "body"
+          }
+        },
+        "button_RAEFRt": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9LwRNF",
+        "text_fPkkjg",
+        "text_bPdnJg",
+        "text_jMNEHr",
+        "button_RAEFRt"
+      ],
+      "custom_css": [
+        "h2.image-with-text__heading.inline-richtext.h0 {font-weight: bolder; color: #383838; margin-top: -50px; padding-bottom: 15px;}",
+        ".image-with-text__text.rte.body {margin-right: -65px;}",
+        "h4 {background-color: #fdc400; border-radius: 8px; padding: 10px; text-align: center;}",
+        ".rte > *:last-child {margin-bottom: 15px;}",
+        "a.button.button--secondary {background-color: #4d4d4d; font-weight: bolder; color: white;}",
+        "a.button.button--secondary:hover {background-color: #fdc400; font-weight: bolder; color: #121212;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Falcon.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-f2eb05b8-888a-424d-8a52-be2015234f60",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 24
+      }
+    },
+    "falcon_section5_cBkGBn": {
+      "type": "falcon-section5",
+      "settings": {
+        "text1": "Schedule",
+        "yellow-text": "Your Driving Lessons",
+        "text2": "with Us!",
+        "description": "Book our experts lesson and meet your personal driving instructor",
+        "number": "201-865-5225"
+      }
+    },
+    "multicolumn_EyAbG3": {
+      "type": "multicolumn",
+      "custom_css": [
+        ".multicolumn .title-wrapper-with-link {margin-top: 0; display: flex; flex-direction: row; flex-wrap: nowrap; align-content: center; justify-content: center; align-items: center;}",
+        ".multicolumn .title {margin: 0; color: #54595f; font-size: x-large; font-weight: bolder;}"
+      ],
+      "settings": {
+        "title": "16 Year Olds Only",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_mWFwPC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gB7EQg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/box-subjects-img-06-1-300x225.webp",
+            "title": "<a href=\"https:\/\/falcondriving.theopenxpress.com\/product\/first-time-drivers-license-gdl-license\/\">First-Time Driver’s License & GDL License<\/a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Hkrrf3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tt-carusel-img01-03-300x225.webp",
+            "title": "<a href=\"https:\/\/falcondriving.theopenxpress.com\/product\/written-test-prep\/\">Written Test Prep<\/a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_f8YArp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tt-carusel-img01-01-300x225.webp",
+            "title": "<a href=\"https:\/\/falcondriving.theopenxpress.com\/product\/on-site-eye-exams\/\">On-Site Eye Exams<\/a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gB7EQg",
+        "column_Hkrrf3",
+        "column_f8YArp"
+      ],
+      "custom_css": [
+        ".multicolumn .title-wrapper-with-link {margin-top: 0; display: flex; flex-direction: row; flex-wrap: nowrap; align-content: center; justify-content: center; align-items: center;}",
+        ".multicolumn .title {margin: 0; color: #233d86; font-size: xxx-large; font-weight: bolder; line-height: 0;}",
+        ".multicolumn-card__info {padding: 2.5rem; background-color: #fdc400; margin-top: 20px;}",
+        ".inline-richtext a {text-decoration: none;}",
+        "h3.inline-richtext a:hover {color: #ffffff;}"
+      ],
+      "settings": {
+        "title": "Special Services",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_KbYVx8": {
+      "type": "multicolumn",
+      "custom_css": [
+        ".multicolumn .title-wrapper-with-link {margin-top: 0; display: flex; flex-direction: row; flex-wrap: nowrap; align-content: center; justify-content: center; align-items: center;}",
+        ".multicolumn .title {margin: 0; color: #54595f; font-size: xxx-large; font-weight: bolder;}"
+      ],
+      "settings": {
+        "title": "Learn to Drive the Right Way!",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_P3iacG": {
+      "type": "multicolumn",
+      "custom_css": [
+        ".multicolumn .title-wrapper-with-link {margin-top: 0; display: flex; flex-direction: row; flex-wrap: nowrap; align-content: center; justify-content: center; align-items: center;}",
+        ".multicolumn .title {margin: 0; color: #54595f; font-size: large; font-weight: lighter; color: #121212;}"
+      ],
+      "settings": {
+        "title": "Get started with your behind-the-wheel driver training lessons, with one of our friendly bilingual instructors today!",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "falcon_section8_N3XX3w": {
+      "type": "falcon-section8",
+      "blocks": {
+        "column_nTyzLJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/protection_11805559.png",
+            "title": "BEST SAFETY MEASURES",
+            "text": "<p>Our goal is to help you learn to drive safely, no matter what your age.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6WDgty": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/professor.png",
+            "title": "EXPERIENCED INSTRUCTOR",
+            "text": "<p>Each instructor genuinely enjoys helping our students learn even the most difficult driving skills with ease.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3Cjr4f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/time.png",
+            "title": "PROFESSIONAL TRAINING",
+            "text": "<p>Our instructors provide a wide range of on-going behind-the-wheel training designed to help you succeed.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jEDGMp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/money_970166.png",
+            "title": "CERTIFIED TRAININGS",
+            "text": "<p>We specialize in helping you complete your NJ state-certified driver training.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_r8FBeH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/car-wheel_9716302.png",
+            "title": "SAFE AND RELIABLE",
+            "text": "<p>We provide hands-on instruction and state-mandated defensive driving courses to help you learn to drive and enhance your skills.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kJAMqW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/credit-card_9190558.png",
+            "title": "PAYMENT PLANS",
+            "text": "<p>We allow you to decide when and how you want to pay. We accept all major forms of payments.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nTyzLJ",
+        "column_6WDgty",
+        "column_3Cjr4f",
+        "column_jEDGMp",
+        "column_r8FBeH",
+        "column_kJAMqW"
+      ],
+      "custom_css": [
+        "h3.inline-richtext {font-size: larger; font-weight: bolder;}",
+        ".rte {font-size: medium; font-weight: lighter; color: #121212;}",
+        ".multicolumn-list__item.center .media--adapt img {left: 5%; transform: translate(-50%); position: relative; width: 50px; height: 50px; margin: 0 auto; padding-bottom: 0px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_4RYFLJ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_B6VBHD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Professional driving lessons, that work for you.<\/p>"
+          }
+        },
+        "heading_raFCwK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Started Today!",
+            "heading_size": "h1"
+          }
+        },
+        "button_yYr6an": {
+          "type": "button",
+          "settings": {
+            "button_label": "BECOME A MEMBER",
+            "button_link": "",
+            "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -30,181 +380,45 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "text_B6VBHD",
+        "heading_raFCwK",
+        "button_yYr6an"
+      ],
+      "custom_css": [
+        ".rich-text__text.rte.scroll-trigger.animate--slide-in {font-size: xx-large; color: #ffffff; padding-top: 50px;}",
+        ".rich-text__heading {color: #ffffff; text-align: center; line-height: 40px; margin: 20px 0 0; font-size: 50px; font-weight: bold; font-family: system-ui;}",
+        "a.button.button--primary {margin-top: 30px; border: 2px #ffffff solid; background-color: transparent; font-weight: bolder; color: #ffffff;}",
+        "a.button.button--primary:hover {border: 3px #fdc400 solid; background-color: transparent; font-weight: bolder; color: #fdc400;}"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "falcon_section11_izXW4x": {
+      "type": "falcon-section11",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "text1": "Why Wait, Book Your",
+        "yellow-text": "First Lesson Now",
+        "phone": "shopify:\/\/shop_images\/phone-ringing.png",
+        "number": "201-865-5225"
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "falcon_section3_JEMXBh",
+    "image_with_text_9aKiAL",
+    "falcon_section5_cBkGBn",
+    "multicolumn_EyAbG3",
+    "multicolumn_mWFwPC",
+    "multicolumn_KbYVx8",
+    "multicolumn_P3iacG",
+    "falcon_section8_N3XX3w",
+    "rich_text_4RYFLJ",
+    "falcon_section11_izXW4x"
   ]
 }

@@ -530,7 +530,7 @@ h6:empty {
 }
 
 a:not([href]) {
-  cursor: not-allowed;
+  /* cursor: not-allowed; */
 }
 
 .circle-divider::after {
@@ -1353,8 +1353,8 @@ button.shopify-payment-button__button--unbranded {
 .customer button[aria-disabled='true'],
 .customer button.disabled,
 .quantity__button.disabled {
-  cursor: not-allowed;
-  opacity: 0.5;
+  /* cursor: not-allowed; */
+  /* opacity: 0.5; */
 }
 
 .button--full-width {
@@ -3284,11 +3284,11 @@ details-disclosure > details {
 
   .scroll-trigger.animate--fade-in,
   .scroll-trigger.animate--slide-in {
-    opacity: 0.01;
+    /* opacity: 0.01; */
   }
 
   .scroll-trigger.animate--slide-in {
-    transform: translateY(2rem);
+    /* transform: translateY(2rem); */
   }
 
   .scroll-trigger:not(.scroll-trigger--offscreen).animate--fade-in {
