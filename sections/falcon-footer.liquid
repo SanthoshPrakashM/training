@@ -1,51 +1,69 @@
 <footer class="falcon-footer-section">
 
 <div class="falcon-footer">
-    <img src="{{ section.settings.footer-logo | img_url: 'medium' }}" style="background-color:#ffffff">
+    <img class="logos" src="{{ section.settings.footer-logo | img_url: 'medium' }}">
     <li class="footer-text">{{ section.settings.footer-text }}</li>
-    <h3 class="footer-button-text">{{ section.settings.footer-button-text }}</h3>
+    <div class="payment">
+        <img src="{{ section.settings.atm-icon | img_url: '20x' }}">
+        <h3 class="footer-button-text">{{ section.settings.footer-button-text }}</h3>
+    </div>
+    <div class="copyrights">
+        <span> &COPY;2023 Falcon Driving School.</span>
+    </div>
 </div>
 
 <div class="falcon-footer-Information">
     <h2 class="footer-heading-1">{{ section.settings.footer-heading-1 }}</h2>
     <ul>
-        {%- for i in (1..3) -%}
-          <li>{{ section.settings.footer-menu-1 }}</li>
-        {%- endfor -%}    
+        {% comment %} {%- for i in (1..3) -%} {% endcomment %}
+        {% comment %} <li>{{ section.settings.footer-menu-1 }}</li> {% endcomment %}
+          <li>FAQ</li>
+          <li>Locations</li>
+          <li>Testimonials</li>
+        {% comment %} {%- endfor -%}     {% endcomment %}
     </ul>
 </div>
 
 <div class="falcon-footer-Customer-Service">
     <h2 class="footer-heading-2">{{ section.settings.footer-heading-2 }}</h2>
     <ul>
-        {%- for i in (1..3) -%}
+        <li>About Us</li>
+        <li>privacy</li>
+        <li>Terms of Use</li>
+        {% comment %} {%- for i in (1..3) -%}
           <li>{{ section.settings.footer-menu-2 }}</li>
-        {%- endfor -%}    
+        {%- endfor -%}     {% endcomment %}
     </ul>
 </div>
 
 <div class="falcon-footer-icon-address">
     <div class="media-icons">
-        <img src="{{ section.settings.facebook | img_url: '20x' }}" >
-        <img src="{{ section.settings.twitter | img_url: '20x' }}" >
-        <img src="{{ section.settings.insta | img_url: '20x' }}" >
+        <img class="fb" src="{{ section.settings.facebook | img_url: '30x' }}" >
+        <img class="twit" src="{{ section.settings.twitter | img_url: '30x' }}" >
+        <img class="ig" src="{{ section.settings.insta | img_url: '30x' }}" >
     </div>
     
     <div class="logo-address">
-        <img src="{{ section.settings.footer-logo | img_url: 'medium' }}" style="background-color:#ffffff">
+        <img src="{{ section.settings.footer-logo | img_url: 'medium' }}">
 
         <div class="phone-icon-in-number">
             <img src="{{ section.settings.phone-icon | img_url: '20x'}}">
             <h2 class="number-in-logo">{{ section.settings.number }}</h2>
-            <h4 class="address-in-logo">{{ section.settings.address }}</h4>
+            
         </div>
+        <h4 class="address-in-logo">{{ section.settings.address }}</h4>
+
     </div>
 
+        <h3 class="footer-last-text">{{ section.settings.last-text }}</h3>
+
+        <div class="footer-company">
+            <span>Designed & Developed by eGrove</span>
+        </div>
 </div>
+
+
 </footer>
-
-
-
 
 
 <style>
@@ -59,6 +77,13 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
+        width: -webkit-fill-available;
+    }
+
+    img.logos {
+        background-color: #ffffff;
+        width: fit-content;
+        padding: 10px;
     }
 
     .falcon-footer {
@@ -69,15 +94,27 @@
         font-size: 16px;
         {% comment %} margin-right: 50%; {% endcomment %}
         color: grey;
+        line-height: 0.5;
+
     }
 
-    h3.footer-button-text {
+    .payment {
+        display: flex;
         font-size: 16px;
-        color: #ffffff;
         border: 2px solid #fdc400;
         width: fit-content;
         border-radius: 10px;
-        padding: 5px;
+        padding: 0px 8px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3.footer-button-text{
+        color: #ffffff;
+        padding-left: 15px;
+        font-size: small;
+        font-weight: lighter;
     }
 
     h2.footer-heading-1,  h2.footer-heading-2 {
@@ -91,6 +128,13 @@
         padding: 0;
     }
 
+    .falcon-footer-Information ul li:hover,  .falcon-footer-Customer-Service ul li:hover {
+        list-style: none;
+        padding: 0;
+        color: #fdc400;
+        cursor: pointer;
+    }
+
     .logo-address {
         background-color: #ffffff;
         width: fit-content;
@@ -98,15 +142,99 @@
         padding: 10px;
     }
 
-    .media-icons img {
-        padding-left: 50px;
+    .media-icons {
+        margin-left: 80px;
     }
 
-    ..falcon-footer-Information .falcon-footer-Customer-Service {
-        margin-right: 100px;
+    .falcon-footer-Information  {
+        margin: 25px;
     }
     
+    .falcon-footer-Customer-Service {
+        margin: 25px;
+    }
 
+    img.fb {
+        background-color: #fdc400;
+        {% comment %} transform: rotate(45deg); {% endcomment %}
+        width: fit-content;
+        padding: 12px;
+        border-radius: 5px;
+    }
+    img.fb:hover {
+        background-color: #ffffff;
+        {% comment %} transform: rotate(45deg); {% endcomment %}
+        width: fit-content;
+        padding: 12px;
+        border-radius: 5px;
+    }
+
+    img.twit {
+        background-color: #fdc400;
+        {% comment %} transform: rotate(45deg); {% endcomment %}
+        width: fit-content;
+        padding: 12px;
+        border-radius: 5px;
+    }
+
+    img.twit:hover {
+        background-color: #ffffff;
+        {% comment %} transform: rotate(45deg); {% endcomment %}
+        width: fit-content;
+        padding: 12px;
+        border-radius: 5px;
+    }
+
+    img.ig {
+        background-color: #fdc400;
+        {% comment %} transform: rotate(45deg); {% endcomment %}
+        width: fit-content;
+        padding: 12px;
+        border-radius: 5px;
+    }
+
+    img.ig:hover {
+        background-color: #ffffff;
+        {% comment %} transform: rotate(45deg); {% endcomment %}
+        width: fit-content;
+        padding: 12px;
+        border-radius: 5px;
+    }
+
+    .falcon-footer-icon-address {
+        margin: 45px;
+    }
+
+    .phone-icon-in-number {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        padding-left: 20px;
+        justify-content: space-evenly;
+    }
+
+    h4.address-in-logo {
+        margin-top: -10px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    h3.footer-last-text {
+        color: #fdc400;
+        text-align: center;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    .footer-company {
+        text-align: end;
+    }
+
+    .copyrights {
+        padding-top: 60px;
+    }
 
 </style>
 
@@ -123,9 +251,14 @@
           "label": "Logo"
         },
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "footer-text",
           "label": "Left-Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "atm-icon",
+          "label": "ATM Icon"
         },
         {
           "type": "text",
@@ -184,6 +317,11 @@
             "type": "text",
             "id": "address",
             "label": "Address in Logo"
+          },
+          {
+            "type": "richtext",
+            "id": "last-text",
+            "label": "Last Yellow Text"
           }
     ],
     
