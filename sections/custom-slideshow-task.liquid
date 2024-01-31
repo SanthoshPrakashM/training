@@ -1,0 +1,190 @@
+
+<div class="image-with-text section {% if section.settings.reverse %}reverse{% endif %}">
+    <img src="{{ section.settings.image1 | img_url: '500x' }}" class="slide-container" >
+    <img src="{{ section.settings.image2 | img_url: '500x' }}" class="slide-container">
+    <img src="{{ section.settings.image3 | img_url: '500x' }}" class="slide-container">
+
+    {% comment %} <img srcset="//www.irresistibleme.com/cdn/shop/files/Vday-desktop_375x.gif?v=1705657241 375w,
+      //www.irresistibleme.com/cdn/shop/files/Vday-desktop_750x.gif?v=1705657241 750w,
+      //www.irresistibleme.com/cdn/shop/files/Vday-desktop_1100x.gif?v=1705657241 1100w,
+      //www.irresistibleme.com/cdn/shop/files/Vday-desktop_1500x.gif?v=1705657241 1500w,
+      //www.irresistibleme.com/cdn/shop/files/Vday-desktop_1780x.gif?v=1705657241 1780w," sizes="100vw" 
+      src="//www.irresistibleme.com/cdn/shop/files/Vday-desktop_750x.gif?v=1705657241" loading="lazy"  
+      width="1200" height="500"> {% endcomment %}
+
+    <div class="image-with-text-description-container">
+      <h2 class="heading">{{ section.settings.title }}</h2>
+      <div class="image-with-text-body1">{{ section.settings.text1 }}</div>
+      <div class="image-with-text-body2">{{ section.settings.text2 }}</div>
+
+    </div>
+</div>
+
+
+{%- schema -%}
+  {
+    "name": "Custom Image Change",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image1",
+        "label": "Image1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "Image2"
+      },
+      {
+        "type": "image_picker",
+        "id": "image3",
+        "label": "Image3"
+      } ,
+      {
+        "type": "richtext",
+        "id": "title",
+        "label": "Heading",
+        "default": "<h1>My First Section!!!</h1>"
+      },  
+      {
+        "type": "color",
+        "id": "heading-color",
+        "label": "Heading Color",
+        "default": "#F5D7DF"
+      },
+      {
+        "type": "range",
+        "id": "heading-size",
+        "min": 20,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "Font Size of Heading",
+        "default": 20
+      }, 
+      {
+        "type": "richtext",
+        "id": "text1",
+        "label": "Description1"
+      }, 
+      {
+        "type": "richtext",
+        "id": "text2",
+        "label": "Description2"
+      },
+      {
+        "type": "range",
+        "id": "desc1-size",
+        "min": 20,
+        "max": 200,
+        "step": 10,
+        "unit": "px",
+        "label": "Font Size of Description1",
+        "default": 100
+      },
+      {
+        "type": "range",
+        "id": "desc2-size",
+        "min": 20,
+        "max": 200,
+        "step": 10,
+        "unit": "px",
+        "label": "Font Size of Description2",
+        "default": 100
+      },
+      {
+        "type": "checkbox",
+        "id": "reverse",
+        "label": "Reverse Image Position",
+        "default": false
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Caurosal Image Change",
+        "category": "Image"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["*"]
+    }
+  }
+{%- endschema -%}
+
+
+<style>
+  .slide-container {
+    display: none;
+    width: 100%;
+    height: auto;
+    animation: infinite;
+  }
+
+  .heading {
+    padding-left: 50px;
+    font-size: {{ section.settings.heading-size }}px;
+    padding: 0 0 0 0 px;
+    color: {{ section.settings.heading-color }};
+  }
+
+  .image-with-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+  }
+
+  .reverse{
+    direction: rtl;
+  }
+
+  .image-with-text-description-container{
+    {% comment %} display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    direction: ltr; {% endcomment %}
+  }
+
+  .image-with-text-body1 {
+    
+    font-size: {{ section.settings.desc1-size }}px;
+    width: 75%;
+    color: black;
+    padding-left: 50px;
+    {% comment %} margin: 0 ; {% endcomment %}
+  }
+
+  .image-with-text-body2 {
+    padding-left: 50px;
+    font-size: {{ section.settings.desc2-size }}px;
+    width: 75%;
+    color: black;
+    {% comment %} margin: 0 ; {% endcomment %}
+  }
+  
+</style>
+
+<script>
+  let slideIndex = 0;
+
+  function showSlides() {
+    let slides = document.getElementsByClassName("slide-container");
+  
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+  
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+  
+    slides[slideIndex - 1].style.display = "block";
+  
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+  }
+  
+  showSlides();
+  
+</script>

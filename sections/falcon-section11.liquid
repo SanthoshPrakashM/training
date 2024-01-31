@@ -1,0 +1,154 @@
+<div class="section11">
+    <div class="container">
+        <div class="descriptions">
+            <h2 class="title contents">
+                {{ section.settings.text1 }}
+                    <span>{{ section.settings.yellow-text }}</span> 
+            </h2>
+            <img decoding="async" class="phone-icon" src="{{ section.settings.phone | img_url: '30x' }}" alt="icon">
+            <address class="addresses"> {{ section.settings.number }} </address> 
+        </div>
+    </div>
+</div>
+
+
+<style>
+
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .title.contents {
+        text-align: left;
+        color: #ffffff;
+        font-size: xx-large;
+        font-weight: lighter;
+        margin-top: 0px;
+    }
+
+    .section11 .title span {
+        font-weight: 800;
+        color: #fdc400;
+        font-size: xxx-large;
+    }
+
+    img.phone-icon {
+        display: flex;
+        margin-left: 150px;
+        margin-top: 0px;
+
+    }
+
+    .section11 .addresses {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        padding-left: 200px;
+        margin-top: -30px;
+        font-size: xx-large;
+        line-height: 1;
+        font-weight: lighter;
+        font-family: "Roboto",sans-serif;
+        font-style: normal;
+        margin-bottom: 0;
+    }
+
+
+    .section11 {
+        background: url(https://falcondriving.theopenxpress.com/wp-content/uploads/2017/10/tt-promo-01.jpg)  no-repeat;
+        position: relative;
+        background-color: #fdc400;
+        margin: 80px 40px;
+        height: 150px;
+
+
+    }
+
+    .section11 .descriptions {
+        text-align: center;
+        color: #fff;
+        position: relative;
+        font-size: 18px;
+        line-height: 0px; 
+    }
+
+    @media (max-width: 768px){
+    .container {
+        padding-left: 15px;
+        padding-right: 16px;
+    }
+    }
+
+    @media (max-width: 680px){
+        .section11 .description {
+            padding: 29px 0 57px;
+        }
+    }
+
+    @media (max-width: 680px){
+        .section11 .phone-icon {
+            left: auto;
+            right: 50%;
+            bottom: -30px;
+            top: auto;
+            max-width: 87px;
+            margin-left: -43px;
+        }
+    } 
+
+    @media (max-width: 680px){
+        .section11 .descriptions p {
+            margin-top: 6px;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    @media (max-width: 680px){
+        .section11 address {
+            margin-top: 9px;
+            font-size: 28px;
+        }
+    }
+
+</style>
+
+
+
+{% schema %}
+  {
+    "name": "Falcon Section 11",
+    "tag": "section",
+    "class": "section11",
+    "settings": [
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Text1"
+        },
+        {
+            "type": "text",
+            "id": "yellow-text",
+            "label": "Yellow Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "phone",
+          "label": "Phone Icon"
+        },
+        {
+            "type": "text",
+            "id": "number",
+            "label": "Phone Number"
+        }
+
+    ],
+    "presets": [
+      {
+        "name": "Falcon Section 11"
+      }
+    ]
+  }
+{% endschema %}

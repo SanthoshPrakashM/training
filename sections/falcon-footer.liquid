@@ -1,0 +1,200 @@
+<footer class="falcon-footer-section">
+
+<div class="falcon-footer">
+    <img src="{{ section.settings.footer-logo | img_url: 'medium' }}" style="background-color:#ffffff">
+    <li class="footer-text">{{ section.settings.footer-text }}</li>
+    <h3 class="footer-button-text">{{ section.settings.footer-button-text }}</h3>
+</div>
+
+<div class="falcon-footer-Information">
+    <h2 class="footer-heading-1">{{ section.settings.footer-heading-1 }}</h2>
+    <ul>
+        {%- for i in (1..3) -%}
+          <li>{{ section.settings.footer-menu-1 }}</li>
+        {%- endfor -%}    
+    </ul>
+</div>
+
+<div class="falcon-footer-Customer-Service">
+    <h2 class="footer-heading-2">{{ section.settings.footer-heading-2 }}</h2>
+    <ul>
+        {%- for i in (1..3) -%}
+          <li>{{ section.settings.footer-menu-2 }}</li>
+        {%- endfor -%}    
+    </ul>
+</div>
+
+<div class="falcon-footer-icon-address">
+    <div class="media-icons">
+        <img src="{{ section.settings.facebook | img_url: '20x' }}" >
+        <img src="{{ section.settings.twitter | img_url: '20x' }}" >
+        <img src="{{ section.settings.insta | img_url: '20x' }}" >
+    </div>
+    
+    <div class="logo-address">
+        <img src="{{ section.settings.footer-logo | img_url: 'medium' }}" style="background-color:#ffffff">
+
+        <div class="phone-icon-in-number">
+            <img src="{{ section.settings.phone-icon | img_url: '20x'}}">
+            <h2 class="number-in-logo">{{ section.settings.number }}</h2>
+            <h4 class="address-in-logo">{{ section.settings.address }}</h4>
+        </div>
+    </div>
+
+</div>
+</footer>
+
+
+
+
+
+<style>
+
+    .falcon-footer-section{
+        margin-top: 50px;
+        background: url(//falcondriving.theopenxpress.com/wp-content/themes/dricub-driving-school/images/tt-promo-03.jpg);
+        list-style: none;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+    .falcon-footer {
+        margin: 50px;
+    }
+
+    li.footer-text {
+        font-size: 16px;
+        {% comment %} margin-right: 50%; {% endcomment %}
+        color: grey;
+    }
+
+    h3.footer-button-text {
+        font-size: 16px;
+        color: #ffffff;
+        border: 2px solid #fdc400;
+        width: fit-content;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    h2.footer-heading-1,  h2.footer-heading-2 {
+        color: #fdc400;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+    .falcon-footer-Information ul,  .falcon-footer-Customer-Service ul{
+        list-style: none;
+        padding: 0;
+    }
+
+    .logo-address {
+        background-color: #ffffff;
+        width: fit-content;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .media-icons img {
+        padding-left: 50px;
+    }
+
+    ..falcon-footer-Information .falcon-footer-Customer-Service {
+        margin-right: 100px;
+    }
+    
+
+
+</style>
+
+
+{% schema %}
+  {
+    "name": "Falcon Footer Section",
+    "tag": "section",
+    "class": "falcon-footer-section",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "footer-logo",
+          "label": "Logo"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "footer-text",
+          "label": "Left-Text"
+        },
+        {
+          "type": "text",
+          "id": "footer-button-text",
+          "label": "Text in Footer Button"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "footer-heading-1",
+          "label": "Footer Heading 1",
+          "default": "Information"
+        },
+        {
+          "type": "link_list",
+          "id": "footer-menu-1",
+          "label": "Menus under Head 1"
+        },
+        {
+            "type": "inline_richtext",
+            "id": "footer-heading-2",
+            "label": "Footer Heading 2",
+            "default": "Customer Service"
+        },
+        {
+            "type": "link_list",
+            "id": "footer-menu-2",
+            "label": "Menus under Head 2"
+        },
+
+        {
+            "type": "image_picker",
+            "id": "facebook",
+            "label": "Facebook Icon"
+          },
+          {
+            "type": "image_picker",
+            "id": "twitter",
+            "label": "Twitter Icon"
+          },
+          {
+            "type": "image_picker",
+            "id": "insta",
+            "label": "Instagram Icon"
+          },
+          {
+            "type": "text",
+            "id": "number",
+            "label": "Number"
+          },
+          {
+            "type": "image_picker",
+            "id": "phone-icon",
+            "label": "Phone Icon in Logo "
+          },
+          {
+            "type": "text",
+            "id": "address",
+            "label": "Address in Logo"
+          }
+    ],
+    
+    "enabled_on": {
+      "groups": ["footer"]
+    },
+
+    "presets": [
+      {
+        "name": "Falcon Footer Section"
+      }
+    ]
+  }
+{% endschema %}

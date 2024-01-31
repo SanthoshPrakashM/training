@@ -1,0 +1,77 @@
+<section class="custom-sliding-section">
+    <div id="section-id-{{ section.id }}" class="hc-index-slider scroll">  
+      <div class="hc-slide-track">
+          {% for block in section.blocks %}
+            <div class="hc-slide">
+              <div class="text-wrapper">
+                <img src="{{ block.settings.brand-logo | img_url: 'medium' }}" alt="brands">
+                {% comment %} <p class="text">{{ block.settings.text }}</p> {% endcomment %}
+              </div>
+            </div>
+          {% endfor %}
+      </div>  
+    </div>
+
+<style>
+    
+    #section-id-{{ section.id }} .hc-slide img {
+        display: inline;
+        margin-bottom: 0;
+        height:50px;
+        width:100px;
+    }
+      
+      #section-id-{{ section.id }}.hc-index-slider {
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        --width: 250px;
+      }
+      #section-id-{{ section.id }}.hc-index-slider .hc-slide-track {
+        display: flex;
+      }
+      
+      #section-id-{{ section.id }}.hc-index-slider .hc-slide {
+        width: var(--width);
+        display: flex;
+        justify-content: center;
+      }
+    
+      @media screen and (max-width: 768px) {
+        #section-id-{{ section.id }}.hc-index-slider {
+          --width: 200px;
+        }
+    
+        }
+</style>
+</section>
+
+
+    {% schema %}
+      {
+        "name": "Display Brands",
+        "blocks": [
+        {
+          "name": "Display Brands",
+          "type": "block",
+          "settings": [
+            {
+              "type": "image_picker",
+              "label": "Brand Logo",
+              "id": "brand-logo"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Display Brands"
+        }
+      ],
+      "enabled_on": {
+        "templates": ["*"]
+      }
+      }
+    {% endschema %}
+    
+    

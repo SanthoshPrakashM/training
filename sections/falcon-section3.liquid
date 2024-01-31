@@ -1,0 +1,119 @@
+<section class="custom-sliding-section">
+    <div id="section-id-{{ section.id }}" class="hc-index-slider scroll">  
+      <div class="hc-slide-track">
+          {% for block in section.blocks %}
+            <div class="hc-slide">
+              <div class="text-wrapper">
+                <img src="{{ block.settings.brand-logo | img_url: '50x' }}">
+                <p class="text">{{ block.settings.texts }}</p>
+              </div>
+            </div>
+          {% endfor %}
+      </div>  
+    </div>
+
+<style>
+
+    #section-id-template--17288989901018__falcon_section3_JEMXBh.hc-index-slider .hc-slide-track {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background: url(//falcondriving.theopenxpress.com/wp-content/themes/dricub-driving-school/images/tt-promo-03.jpg) 0 0 repeat;
+    }
+
+    .text-wrapper {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      strong {
+        font-size: -webkit-xxx-large;
+        color: #ffffff;
+        line-height: 1;
+      }
+      
+      #section-id-template--17288989901018__falcon_section3_JEMXBh.hc-index-slider
+        .hc-slide-track {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    
+    #section-id-{{ section.id }} .hc-slide img {
+        display: inline;
+        margin-bottom: 0;
+        height:50px;
+        width:50px;
+    }
+      
+      #section-id-{{ section.id }}.hc-index-slider {
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        --width: 250px;
+      }
+      #section-id-{{ section.id }}.hc-index-slider .hc-slide-track {
+        display: flex;
+      }
+      
+      #section-id-{{ section.id }}.hc-index-slider .hc-slide {
+        width: var(--width);
+        display: flex;
+        justify-content: center;
+        background: rgba(77, 77, 77, 0.4);  /*done by sandy*/
+        {% comment %} -webkit-transform: skew(-22deg); {% endcomment %}
+      }
+      
+
+
+      @media screen and (max-width: 768px) {
+        #section-id-{{ section.id }}.hc-index-slider {
+          --width: 200px;
+        }
+    
+        }
+</style>
+</section>
+
+
+    {% schema %}
+      {
+        "name": "Falcon Section 3",
+        "blocks": [
+        {
+          "name": "Display instructions",
+          "type": "block",
+          "settings": [
+            {
+              "type": "image_picker",
+              "label": "Brand Logo",
+              "id": "brand-logo"
+            },
+            {
+              "type": "richtext",
+              "id": "texts",
+              "label": "Information"
+            }   
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Falcon Section 3"
+        }
+      ],
+      "enabled_on": {
+        "templates": ["*"]
+      }
+      }
+    {% endschema %}
+    
+    

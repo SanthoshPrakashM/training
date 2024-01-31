@@ -1,0 +1,157 @@
+<div class="text-to-edit">
+  <p class="message">{{ section.settings.text-to-edit }}</p>
+
+  {%- for product in section.settings.pro-list -%}
+    <p>{{ product.title }}</p>      
+  {%- endfor -%}
+
+</div>
+
+<style>
+
+  .text-to-edit p {
+
+    margin: 0 auto;
+    
+    text-align: {{ section.settings.align }};
+
+    font-size: {{ section.settings.font }}px;
+
+    {%- if section.settings.check-for-font-range -%}
+      font-size: {{ section.settings.font-size }}px;  /*for font range*/          
+    {%- endif -%} 
+     
+
+    {%- if section.settings.choose-color == 'Color-in-Picker' -%} /*for color in Picker*/ 
+      color: {{ section.settings.color }};
+
+      {%- elsif section.settings.choose-color == 'Color-in-Text' -%} /*for color in Text Format*/ 
+        color: {{ section.settings.color-text }}; 
+
+      {%- elsif section.settings.choose-color == 'Color-in-Range'-%}  /*for color in range*/ 
+        {%- if section.settings.range-color == 10 -%}  /* to set red color*/
+          color: red;
+
+          {%- elsif section.settings.range-color <= 20 -%}
+            color: black;
+
+          {%- elsif section.settings.range-color <= 30 -%}
+            color: green;
+
+          {%- elsif section.settings.range-color <= 40 -%}
+            color: blue;
+
+          {%- elsif section.settings.range-color <= 50 -%}
+            color: #BD18CA;   /* Like Lavendar Color */
+
+        {%- endif -%}
+    {%- endif -%}  
+  }
+
+</style>
+
+
+
+
+{% schema %}
+  {
+    "name": "My Task Section",
+    "tag": "section",
+    "class": "task_section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "My Task Section"
+      },
+      {
+        "type": "richtext",
+        "id": "text-to-edit",
+        "label": "Text to be Added "
+      },
+      {
+        "type": "product_list",
+        "id": "pro-list",
+        "label": "Select the Product",
+        "limit": 3
+      },
+      {
+        "type": "text_alignment",
+        "id": "align",
+        "label": "Text Alignment",
+        "default": "center"
+      },
+      {
+        "type": "text",
+        "id": "font",
+        "label": "Font-Size in Text",
+        "placeholder": "Enter font in numbers"
+      },
+      {
+        "type": "checkbox",
+        "id": "check-for-font-range",
+        "label": "Use Range for Font Size",
+        "default": false
+      }, 
+      {
+        "type": "range",
+        "id": "font-size",
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Font-Size in Range",
+        "default": 30
+      }, 
+      {
+        "type": "radio",
+        "id": "choose-color",
+        "label": "Coloring options: Choose One",
+        "options": [
+          {
+            "value": "Color-in-Picker",
+            "label": "In Picker"
+          },
+          {
+            "value": "Color-in-Range",
+            "label": "In Range"
+          },
+          {
+            "value": "Color-in-Text",
+            "label": "In Text"
+          }
+        ],
+        "default": "Color-in-Picker"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Font Color",
+        "default": "#121212"
+      }, 
+      {
+        "type": "range",
+        "id": "range-color",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "Color Range",
+        "default": 20
+      },
+      {
+        "type": "text",
+        "id": "color-text",
+        "label": "Color in Text Format",
+        "placeholder": "Ex: red, green, aqua, etc..."
+      }
+    ],
+    "presets": [
+      {
+        "name": "My Task Section"
+      }
+    ],
+    "enabled_on": {
+      "groups": ["header"]
+    } 
+  }
+{% endschema %}

@@ -1,0 +1,156 @@
+<div class="section5">
+    <div class="container">
+        <div class="description">
+            <h2 class="title content">
+                {{ section.settings.text1 }}
+                    <span>{{ section.settings.yellow-text }}</span> 
+                {{ section.settings.text2 }}
+            </h2>
+            <div class="short">
+                <p>{{ section.settings.description }}</p>
+            </div> 
+            <address> {{ section.settings.number }} </address> 
+            <img decoding="async" class="danger-icon" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2017/10/tt-promo-03-icon.png" alt="icon">
+        </div>
+    </div>
+</div>
+
+
+<style>
+
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 7px;
+        padding-right: 8px;
+    }
+
+    .title.content {
+        color: #ffffff;
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 0px;
+    }
+
+    .section5 .title span {
+        color: #fdc400;
+    }
+
+    .short {
+        font-size: large;
+    }
+
+    .section5 address {
+        margin-top: 6px;
+        font-size: 38px;
+        line-height: 1;
+        font-weight: lighter;
+        font-family: "Roboto",sans-serif;
+        font-style: normal;
+        margin-bottom: 0;
+    }
+
+    .section5 .danger-icon {
+        position: absolute;
+        right: 200px;
+        top: 24px;
+        z-index: 0;
+    }
+
+    .section5 {
+        background: url(//falcondriving.theopenxpress.com/wp-content/themes/dricub-driving-school/images/tt-promo-03.jpg) 0 0 repeat;
+        position: relative;
+    }
+
+    .section5 .description {
+        text-align: center;
+        padding: 20px 128px 23px;
+        color: #fff;
+        position: relative;
+        font-size: 18px;
+        line-height: 0px; 
+    }
+
+    @media (max-width: 768px){
+    .container {
+        padding-left: 15px;
+        padding-right: 16px;
+    }
+    }
+
+    @media (max-width: 680px){
+        .section5 .description {
+            padding: 29px 0 57px;
+        }
+    }
+
+    @media (max-width: 680px){
+        .section5 .danger-icon {
+            right: auto;
+            left: 50%;
+            bottom: -30px;
+            top: auto;
+            max-width: 87px;
+            margin-left: -43px;
+        }
+    }
+
+    @media (max-width: 680px){
+        .section5 .description p {
+            margin-top: 6px;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    @media (max-width: 680px){
+        .section5 address {
+            margin-top: 9px;
+            font-size: 28px;
+        }
+    }
+
+</style>
+
+
+
+{% schema %}
+  {
+    "name": "Falcon Section 5",
+    "tag": "section",
+    "class": "section5",
+    "settings": [
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Text1"
+        },
+        {
+            "type": "text",
+            "id": "yellow-text",
+            "label": "Yellow Text"
+        },
+        {
+            "type": "text",
+            "id": "text2",
+            "label": "Text2"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+            "type": "text",
+            "id": "number",
+            "label": "Phone Number"
+        }
+
+    ],
+    "presets": [
+      {
+        "name": "Falcon Section 5"
+      }
+    ]
+  }
+{% endschema %}

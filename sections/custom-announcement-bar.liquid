@@ -1,0 +1,198 @@
+<div class="custom-announcement-bar"> 
+  <address class="location"> 
+    <i class="icon-placeholder-for-map">
+      <img id ="location" src="{{ section.settings.location | img_url: '20x'}}" alt="">
+    </i>{{ section.settings.announcement-bar-text1 }} 
+  </address> 
+
+  <address class="phone">  
+    <i class="icon-phone-call">
+      <img id ="phone" src="{{ section.settings.phone | img_url: '20x'}}" alt="">
+    </i>{{ section.settings.announcement-bar-text2 }}</a> 
+  </address>
+
+  <address class="email"> 
+    <i class="icon-interface">
+      <img id ="mail" src="{{ section.settings.mail | img_url: '20x'}}" alt="">
+    </i> {{ section.settings.announcement-bar-text3 }} </a> 
+  </address> 
+
+  <address class="time"> 
+    <i class="icon-clock">
+      <img id ="time" src="{{ section.settings.time | img_url: '20x'}}" alt="">
+    </i> {{ section.settings.announcement-bar-text4 }} 
+  </address>
+
+  <address class="facebook"> 
+    <i class="facebook-icon">
+      <img id ="fb" src="{{ section.settings.facebook | img_url: '20x'}}" alt="">
+    </i> 
+  </address>
+
+  <address class="twitter"> 
+    <i class="twitter-icon">
+      <img id ="twitter" src="{{ section.settings.twitter | img_url: '20x'}}" alt="">
+    </i> 
+  </address>
+
+  <address class="insta"> 
+    <i class="insta-icon">
+      <img id ="ig" src="{{ section.settings.insta | img_url: '20x'}}" alt="">
+    </i> 
+  </address>
+
+</div>
+
+<style>
+
+  img#location, #phone, #mail, #time {
+    padding-right: 10px;
+    margin-top: 5px;
+  }
+
+  img#fb , #twitter , #ig{
+    padding-right: 5px;
+    margin-top: 5px;
+  }
+
+  
+  .custom-announcement-bar {
+    display: flex;
+
+    text-align: center;
+
+    padding: {{ section.settings.height }}px 0;
+
+    color: {{ section.settings.font-color }};
+
+    font-size: {{ section.settings.font-size }}px;
+
+    background-color: {{ section.settings.background }};
+
+    margin: 0;
+
+    justify-content: center;
+    
+  }
+
+  address {
+    font-style: normal;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+address.phone:hover, .email:hover{
+  color: #ffc21c;
+}
+
+
+</style>
+
+{%- schema -%}
+  {
+    "name": "My Task Announcement bar",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "location",
+        "label": "Location"
+      },
+      {
+        "type": "image_picker",
+        "id": "phone",
+        "label": "Phone"
+      },
+      {
+        "type": "image_picker",
+        "id": "mail",
+        "label": "Email"
+      },
+      {
+        "type": "image_picker",
+        "id": "time",
+        "label": "Time"
+      },
+      {
+        "type": "richtext",
+        "id": "announcement-bar-text1",
+        "label": "Announcement text"
+      },
+      {
+        "type": "richtext",
+        "id": "announcement-bar-text2",
+        "label": "Announcement text"
+      },
+      {
+        "type": "richtext",
+        "id": "announcement-bar-text3",
+        "label": "Announcement text"
+      },
+      {
+        "type": "richtext",
+        "id": "announcement-bar-text4",
+        "label": "Announcement text"
+      },
+      {
+        "type": "range",
+        "id": "font-size",
+        "default": 14,
+        "label": "Font Size",
+        "min": 12,
+        "max": 20,
+        "step": 1,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "height",
+        "default": 0,
+        "label": "Height",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "unit": "px"
+      }, {
+        "type": "color",
+        "id": "background",
+        "default": "#383838",
+        "label": "Background Color"
+      }, 
+      {
+        "type": "color",
+        "id": "font-color",
+        "default": "#FFFFFF",
+        "label": "Font Color"
+      },
+      {
+        "type": "image_picker",
+        "id": "facebook",
+        "label": "Facebook"
+      },
+      {
+        "type": "image_picker",
+        "id": "twitter",
+        "label": "Twitter"
+      },
+      {
+        "type": "image_picker",
+        "id": "insta",
+        "label": "Instagram"
+      }
+
+    ],    
+    "presets": [
+      {
+        "name": "My Task Announcement Bar"
+      }
+    ],
+
+    "enabled_on": {
+      "groups": ["header"]
+    }
+  }
+{%- endschema -%}

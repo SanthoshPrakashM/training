@@ -84,7 +84,7 @@
                   <div
                     class="media media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
-                      style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+                      {% comment %} style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;" {% endcomment %}
                     {% endif %}
                   >
                     {%- liquid
@@ -190,7 +190,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.multicolumn.name",
+  "name": "Falcon Section 8",
   "class": "section",
   "tag": "section",
   "disabled_on": {
@@ -413,7 +413,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "Falcon Section 8",
       "blocks": [
         {
           "type": "column"

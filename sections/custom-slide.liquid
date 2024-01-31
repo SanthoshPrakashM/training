@@ -1,0 +1,46 @@
+<div class="slide">
+    <video width="640" height="360" controls>
+        <source src="{{ section.settings.video }}">
+        Your browser does not support the video tag.
+    </video>
+   <p>{{ section.settings.text }}</p>
+</div>
+
+<style>
+
+    .slide{
+        background: url (" {{ section.settings.video }} "); 
+    }
+
+</style>
+
+{% schema %}
+  {
+    "name": "Santhosh-Slide",
+    "tag": "section",
+    "class": "slide",
+    "settings": [
+    {
+      "type": "video_url",
+      "id": "video",
+      "label": "Select the Video",
+      "accept": [
+        "youtube",
+        "vimeo"
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Heading"
+    }
+    ],
+    "presets": [
+      {
+        "name": "Santhosh-Slide",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}
