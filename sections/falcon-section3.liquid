@@ -4,7 +4,7 @@
           {% for block in section.blocks %}
             <div class="hc-slide">
               <div class="text-wrapper">
-                <img src="{{ block.settings.brand-logo | img_url: '50x' }}">
+                <img src="{{ block.settings.brand-logo | image_url: width: 50 }}">
                 <p class="text">{{ block.settings.texts }}</p>
               </div>
             </div>
@@ -15,8 +15,7 @@
 <style>
 
   .hc-slide-track {
-    background: url(//falcondriving.theopenxpress.com/wp-content/themes/dricub-driving-school/images/tt-promo-03.jpg) 0 0 repeat;
-    justify-content: center;
+    background: url(//falcondriving.theopenxpress.com/wp-content/themes/dricub-driving-school/images/tt-promo-03.jpg) 0 0 repeat;    justify-content: center;
   }
 
   
@@ -26,8 +25,8 @@
         align-content: center;
         justify-content: center;
         align-items: center;
-        background: url(//falcondriving.theopenxpress.com/wp-content/themes/dricub-driving-school/images/tt-promo-03.jpg) 0 0 repeat;
-    }
+        background: url( '{{ section.settings.bg-img }}' 0 0 repeat );
+      }
 
     .text-wrapper {
         display: inline-flex;
@@ -80,17 +79,31 @@
       
 
 
-      @media screen and (max-width: 768px) {
-        .hc-index-slider {
-          --width: 200px;
+      @media only screen and (max-width: 1024px) {
+        .text-wrapper {
+          /* Additional adjustments for the text wrapper on medium to large screens */
+          /* For example, you might increase the font size */
+          width: 100%;
+          margin-left: 30px;
         }
-        }
+      }
 </style>
 </section>
 
 
     {% schema %}
       {
+      "name": "Falcon Section 3",
+      "tag": "section",
+      "class": "section3",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Background",
+          "id": "bg-img"
+        }
+      ],
+      
         "name": "Falcon Section 3",
         "blocks": [
         {

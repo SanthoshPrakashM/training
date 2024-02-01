@@ -50,9 +50,39 @@
     margin-top: 5px;
   }
 
+  address.phone:hover, .email:hover{
+    color: #fdc400;
+    cursor: pointer;
+  }
+
+  img#phone:hover, img#mail:hover{
+    animation: vibrate 0.2s linear infinite;
+    cursor: pointer;
+    color: #fdc400;
+  }
+
+  @keyframes vibrate {
+    25% {
+      transform: translateX(-2px) translateY(-2px);
+    }
+    50% {
+      transform: translateX(2px) translateY(2px);
+    }
+    75% {
+      transform: translateX(-2px) translateY(-2px);
+    }
+    100% {
+      transform: translateX(2px) translateY(2px);
+    }
+  }
+
   img#fb , #twitter , #ig{
     padding-right: 5px;
     margin-top: 5px;
+  }
+
+  img#fb:hover, #twitter:hover, #ig:hover {
+    cursor: pointer;
   }
 
   
@@ -86,9 +116,30 @@
     align-items: center;
 }
 
-address.phone:hover, .email:hover{
-  color: #ffc21c;
+
+{% comment %}  Media Queries for responsive {% endcomment %}
+
+/* Media query for tablets (landscape) and small desktop screens */
+@media only screen and (max-width: 1024px) {
+  .custom-announcement-bar {
+    /* Adjust styles for tablets and small desktop screens */
+    font-size: 16px;
+    background-color:{{ section.settings.background }};
+    width: 150%;
+    margin-left: -200px;
+  }
 }
+
+/* Media query for tablets (portrait) and larger phones */
+@media only screen and (max-width: 768px) {
+  .custom-announcement-bar {
+    font-size: 7px;
+    background-color: #383838;
+    width: 200%;
+    margin-left: -400px;
+  }
+}
+
 
 
 </style>

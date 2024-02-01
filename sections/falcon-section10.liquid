@@ -1,11 +1,98 @@
-<div class="container section-moving-car">
-    <img class="car-background" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2023/12/carObj-mobile.jpg" alt="">
-    
+
+<div class="section-moving-car">
+   <img src="https://falcondriving.theopenxpress.com/wp-content/uploads/2023/12/carObj.png" alt="">
 </div>
 
+<div class="wheels">
+  <img decoding="async" class="wheel wheel1" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2018/02/car-wheel.png" alt="">
+  <img decoding="async" class="wheel wheel2" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2018/02/car-wheel.png" alt="">
+</div>
+
+<div class="cones">
+  <img decoding="async" class="cone cone1" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2017/10/car-limiter.png" alt="">
+  <img decoding="async" class="cone cone2" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2017/10/car-limiter.png" alt="">
+  <img decoding="async" class="cone cone2" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2017/10/car-limiter.png" alt="">
+  <img decoding="async" class="cone cone2" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2017/10/car-limiter.png" alt="">
+  <img decoding="async" class="cone cone2" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2017/10/car-limiter.png" alt="">
+
+</div>
+
+
 <style>
-    img.car-background {
-        width: 100%;
+
+  .section-moving-car{
+    background: url(https://falcondriving.theopenxpress.com/wp-content/uploads/2017/10/tt-promo-02-moving-bg.jpg) 0 0 repeat;
+    animation: bgLeftToRight 1s linear infinite;
+  }
+
+
+  .section-moving-car {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+    .wheel2, .wheel1 {
+      animation: rotate .7s linear infinite;  
+    }
+
+    .cone1, .cone2{
+      {% comment %} transform: translateX(0px); {% endcomment %}
+      animation: LefttoRight 5s linear infinite; 
+    }
+
+    .wheels {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .cones {
+      margin-top: -12rem;
+      display: flex;
+      margin-left: 12rem;
+      justify-content: center;
+  }
+
+    img.wheel.wheel1 {
+      margin-left: -13rem;
+      margin-right: -10rem;
+      margin-top: -23rem;
+        
+    }
+
+    img.wheel.wheel2 {
+      margin-top: -23rem;
+    }
+
+    @keyframes bgLeftToRight {
+      from {
+          background-position: 0 0 ;
+      }
+      to {
+          background-position: 100% ;
+      }
+  }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(360deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+    }
+
+    @keyframes LefttoRight {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(100%); /* Adjust the distance as needed */
+      }
     }
 
 </style>

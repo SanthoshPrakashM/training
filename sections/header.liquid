@@ -37,6 +37,12 @@
     }
   {%- endif -%}
 
+  {%- if section.settings.sticky_header_type == 'logo-vanish' -%}   /*Edited by Sandy*/
+    .scrolled-past-header .header__heading-logo-wrapper {
+      width: 0%;
+    }
+  {%- endif -%}
+
   {%- if section.settings.menu_type_desktop != "drawer" -%}
     @media screen and (min-width: 990px) {
       header-drawer {
@@ -58,7 +64,20 @@
   span.header__active-menu-item:hover {
     color: #ffc21c;
     text-decoration: none;
+    animation: rollShutter .5s forwards;
     
+  }
+
+  @keyframes rollShutter {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
   }
   /*Edited by santhosh */
 
@@ -612,6 +631,10 @@
         {
           "value": "reduce-logo-size",
           "label": "t:sections.header.settings.sticky_header_type.options__4.label"
+        },
+        {
+          "value": "logo-vanish",
+          "label": "Vanish Logo"
         }
       ],
       "default": "on-scroll-up",
