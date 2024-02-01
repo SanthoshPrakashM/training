@@ -399,6 +399,11 @@
         "padding_bottom": 20
       }
     },
+    "falcon_section10_JtpAfy": {
+      "type": "falcon-section10",
+      "settings": {
+      }
+    },
     "falcon_section11_izXW4x": {
       "type": "falcon-section11",
       "settings": {
@@ -419,6 +424,7 @@
     "multicolumn_P3iacG",
     "falcon_section8_N3XX3w",
     "rich_text_4RYFLJ",
+    "falcon_section10_JtpAfy",
     "falcon_section11_izXW4x"
   ]
 }
