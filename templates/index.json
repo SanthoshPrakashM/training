@@ -48,6 +48,7 @@
     "falcon_fixed_button_9NmRWj": {
       "type": "falcon-fixed-button",
       "settings": {
+        "fixed-button": "shopify:\/\/shop_images\/upload.png"
       }
     },
     "image_with_text_9aKiAL": {
