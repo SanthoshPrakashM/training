@@ -45,6 +45,11 @@
         "bg-img": "shopify:\/\/shop_images\/fal_ban_bg.jpg"
       }
     },
+    "falcon_fixed_button_9NmRWj": {
+      "type": "falcon-fixed-button",
+      "settings": {
+      }
+    },
     "image_with_text_9aKiAL": {
       "type": "image-with-text",
       "blocks": {
@@ -417,6 +422,7 @@
   },
   "order": [
     "falcon_section3_JEMXBh",
+    "falcon_fixed_button_9NmRWj",
     "image_with_text_9aKiAL",
     "falcon_section5_cBkGBn",
     "multicolumn_EyAbG3",
