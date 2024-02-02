@@ -125,6 +125,7 @@
     "falcon_section5_cBkGBn": {
       "type": "falcon-section5",
       "settings": {
+        "danger-icon": "shopify:\/\/shop_images\/Danger-icon.webp",
         "text1": "Schedule",
         "yellow-text": "Your Driving Lessons",
         "text2": "with Us!",
