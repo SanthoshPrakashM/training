@@ -1,0 +1,79 @@
+<div class="fixed-button">
+    <img src="{{ section.settings.fixed-button | image_url: width: 40 }}" >
+</div>
+
+<style>
+    .fixed-button img {
+        position: fixed;
+        background-color: #cfcfcf;
+        padding: 14px;
+        border: none;
+        border-radius: 40px;
+        margin-left: 115rem;
+        margin-top: 13rem;
+        z-index: 1;
+        transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+
+    .fixed-button img:hover{
+        cursor: pointer;
+        background: #fdc400;
+        box-shadow: 0 0 0 8px #fdc400;
+    }
+
+</style>
+
+
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var fixedButton = document.querySelector(".fixed-button");
+        window.addEventListener("scroll", function() {
+            var triggerDistance = 500;
+            if (window.scrollY > triggerDistance) {
+                fixedButton.style.display = "block";
+            } else {
+                fixedButton.style.display = "none";
+            }
+        });
+
+        fixedButton.addEventListener("click", function(event) {
+            event.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    });
+
+    
+    
+
+</script>
+
+{% schema %}
+  {
+    "name": "Falcon Fixed Button",
+    "tag": "section",
+    "class": "fixed-button",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "fixed-button",
+          "label": "Fixed Button"
+        }
+      
+    ],
+    "presets": [
+      {
+        "name": "Falcon Fixed Button",
+        "settings": {     
+        }
+      }
+    ],
+    "enabled_on": {
+      "templates": ["*"]
+    }
+  }
+{% endschema %}
