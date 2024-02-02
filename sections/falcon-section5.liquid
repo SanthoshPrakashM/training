@@ -10,7 +10,7 @@
                 <p>{{ section.settings.description }}</p>
             </div> 
             <address> {{ section.settings.number }} </address> 
-            <img decoding="async" class="danger-icon" src="https://falcondriving.theopenxpress.com/wp-content/uploads/2017/10/tt-promo-03-icon.png" alt="icon">
+            <img decoding="async" class="danger-icon" src="{{ section.settings.danger-icon | img_url: 'medium' }}" alt="icon">
         </div>
     </div>
 </div>
@@ -58,7 +58,7 @@
     }
 
     .section5 {
-        background: url(//falcondriving.theopenxpress.com/wp-content/themes/dricub-driving-school/images/tt-promo-03.jpg) 0 0 repeat;
+        background: url(https://cdn.shopify.com/s/files/1/0684/8823/3178/files/fal_ban_bg_150x.jpg?v=1706770555) ;
         position: relative;
     }
 
