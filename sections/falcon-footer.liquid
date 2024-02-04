@@ -24,6 +24,10 @@
     </ul>
 </div>
 
+<div class="vertical-outer-layer">
+  <div class="vertical-inner-layer"></div>
+</div>
+
 <div class="falcon-footer-Customer-Service">
     <h2 class="footer-heading-2">{{ section.settings.footer-heading-2 }}</h2>
     <ul>
@@ -67,6 +71,23 @@
 
 
 <style>
+
+  .vertical-outer-layer {
+  width: 1px;
+  height: 100vh;
+  margin-left: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.vertical-inner-layer {
+  position: absolute;
+  width:100%;
+  height: 90%;
+  background: #fdc400;
+  bottom: 5%;
+  top: 5%;
+  box-shadow: 0px 0px 20px 10px #fdc400;
+}
 
     .falcon-footer-section{
         margin-top: 50px;
