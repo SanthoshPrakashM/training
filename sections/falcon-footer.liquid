@@ -1,4 +1,4 @@
-<footer class="falcon-footer-section">
+<footer class="falcon-footer-section horizontal-yellow-line">
 
 <div class="falcon-footer">
     <img class="logos" src="{{ section.settings.footer-logo | img_url: 'medium' }}">
@@ -46,14 +46,14 @@
         <img class="twit" src="{{ section.settings.twitter | img_url: '30x' }}" >
         <img class="ig" src="{{ section.settings.insta | img_url: '30x' }}" >
     </div>
-    
+   
     <div class="logo-address">
         <img src="{{ section.settings.footer-logo | img_url: 'medium' }}">
 
         <div class="phone-icon-in-number">
             <img src="{{ section.settings.phone-icon | img_url: '20x'}}">
             <h2 class="number-in-logo">{{ section.settings.number }}</h2>
-            
+           
         </div>
         <h4 class="address-in-logo">{{ section.settings.address }}</h4>
 
@@ -71,7 +71,11 @@
 
 
 <style>
-  
+  .horizontal-yellow-line {
+    border-top: 5px solid #fdc400;
+    
+  }
+ 
   .vertical-line {
     border-left: 1px solid #ffffff;
     height: 30%;
@@ -80,8 +84,8 @@
   }
 
     .falcon-footer-section{
-        margin-top: 50px;
-        background: url(https://cdn.shopify.com/s/files/1/0684/8823/3178/files/fal_ban_bg_150x.jpg?v=1706770555);
+        margin-top: 15px;
+        background: url(https://cdn.shopify.com/s/files/1/0684/8823/3178/t/6/assets/tt-foter-bg.jpg?v=1707123204);
         list-style: none;
         color: #ffffff;
         display: flex;
@@ -159,12 +163,12 @@
 
     .falcon-footer-Information  {
         margin: 25px;
-        margin-right: 100px;
+        margin-right: 50px;
     }
-    
+   
     .falcon-footer-Customer-Service {
         margin: 25px;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     img.fb {
@@ -339,7 +343,7 @@
             "label": "Last Yellow Text"
           }
     ],
-    
+   
     "enabled_on": {
       "groups": ["footer"]
     },

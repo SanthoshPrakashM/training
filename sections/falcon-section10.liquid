@@ -12,6 +12,7 @@
   <img decoding="async" class="cone cone1" src="https://cdn.shopify.com/s/files/1/0684/8823/3178/t/3/assets/car-limiter.png?v=1706884029" alt="">
   <img decoding="async" class="cone cone2" src="https://cdn.shopify.com/s/files/1/0684/8823/3178/t/3/assets/car-limiter.png?v=1706884029" alt="">
   <img decoding="async" class="cone cone2" src="https://cdn.shopify.com/s/files/1/0684/8823/3178/t/3/assets/car-limiter.png?v=1706884029" alt="">
+  <img decoding="async" class="cone cone2" src="https://cdn.shopify.com/s/files/1/0684/8823/3178/t/3/assets/car-limiter.png?v=1706884029" alt="">
 </div>
 
 
@@ -20,6 +21,7 @@
   .section-moving-car{
     background: url(https://cdn.shopify.com/s/files/1/0684/8823/3178/t/3/assets/tt-promo-02-moving-bg.jpg?v=1706884056) 0 0 repeat;
     animation: bgLeftToRight 1s linear infinite;
+    overflow: hidden;
   }
 
 
@@ -70,7 +72,7 @@
           background-position: 0 0 ;
       }
       to {
-          background-position: 200px ;
+          background-position: 100% 0 ;
       }
   }
 
@@ -85,10 +87,10 @@
 
     @keyframes LefttoRight {
       from {
-        transform: translateX(0px);
+        transform: translateX(0);
       }
       to {
-        transform: translateX(0px); /* Adjust the distance as needed */
+        transform: translateX(100%); /* Adjust the distance as needed */
       }
     }
 
