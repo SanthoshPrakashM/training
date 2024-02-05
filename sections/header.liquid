@@ -26,6 +26,43 @@
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
 <style>
+
+  /*Edited by Santhosh*/
+
+  .header__heading-logo-wrapper:hover:after {
+    right: 10%;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px #ffd2feff, 0 0 15px #ffd2feff, 0 0 7px #ffd2feff, 0 0 3px #ffd2feff;
+    opacity: 0;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+  }
+
+  .header__heading-logo-wrapper:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    height: 100%;
+    right: 80%;
+    width: 50px;
+    background-color: #ffffff00;
+    box-shadow: 0 0 20px #ffd2fe00, 0 0 10px #ffd2fe00, 0 0 5px #ffd2fe00, 0 0 2px #ffd2fe00;
+    opacity: 1;
+  }
+
+  .header__heading-logo-wrapper {
+    display: inline-block;
+    position: relative;
+    transition: 0.1s;
+    box-shadow: none;
+    animation: glow 3s infinite;
+    animation-timing-function: ease-out;
+  }
+
+  /*Edited by Santhosh */
+
+
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
@@ -39,7 +76,7 @@
 
   {%- if section.settings.sticky_header_type == 'logo-vanish' -%}   /*Edited by Sandy*/
     .scrolled-past-header .header__heading-logo-wrapper {
-      width: 0%;
+      display: none;
     }
   {%- endif -%}
 
@@ -63,10 +100,22 @@
 
   span.header__active-menu-item:hover {
     color: #fdc400;
-    text-decoration: none;   
+    text-decoration: none;
+    animation: rollShutter .5s forwards;
+    
   }
-  
 
+  @keyframes rollShutter {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
   /*Edited by santhosh */
 
   .list-menu {
@@ -80,9 +129,7 @@
     flex-wrap: wrap;
     font-weight: 800;
     padding-left: 230px;
-    overflow: hidden;
-    position: relative;
-    transition: transform 0.3s ease;
+    
   }
 
   summary.list-menu__item {

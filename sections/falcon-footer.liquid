@@ -151,10 +151,49 @@
     }
 
     .logo-address {
-        background-color: #ffffff;
-        width: fit-content;
-        border-radius: 8px;
-        padding: 10px;
+      color: #fff !important;
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 56px;
+      letter-spacing: 0.07em;
+      text-decoration: none !important;
+      text-transform: uppercase;
+      padding: 0 30px;
+      position: relative;
+      transition: 0.3s;
+      box-shadow: none;
+      animation: glow 3s infinite;
+      animation-timing-function: ease-out;
+      background-color: #ffffff;
+      width: fit-content;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .logo-address:after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      height: 100%;
+      right: 80%;
+      width: 50px;
+      background-color: #ffffff00;
+      box-shadow: 0 0 20px #ffd2fe00, 0 0 10px #ffd2fe00, 0 0 5px #ffd2fe00, 0 0 2px #ffd2fe00;
+      opacity: 1;
+    }
+
+    .logo-address:hover:after {
+      right: 2%;
+      background-color: #ffffff;
+      box-shadow: 0 0 30px #ffd2feff, 0 0 15px #ffd2feff, 0 0 7px #ffd2feff, 0 0 3px #ffd2feff;
+      opacity: 0;
+      transition: 0.6s;
+      -webkit-transition: 0.6s;
     }
 
     .media-icons {

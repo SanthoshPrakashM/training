@@ -1,0 +1,310 @@
+<div class="falcon-header" id="myHeader">
+    <img class="falcon-logo" src="{{ section.settings.logo | img_url: 'medium' }}" >
+    <ul class="ul">
+        <li class="li">
+            <a class="a" href="/">
+                <span>{{ section.settings.option1 }}</span>
+                <span>{{ section.settings.option1 }}</span>
+            </a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="">
+                <span>{{ section.settings.option2 }}</span>
+                <span>{{ section.settings.option2 }}</span>
+            </a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="">
+                <span>{{ section.settings.option3 }}</span>
+                <span>{{ section.settings.option3 }}</span>
+            </a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="">
+                <span>{{ section.settings.option4 }}</span>
+                <span>{{ section.settings.option4 }}</span>
+            </a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="">
+                <span>{{ section.settings.option5 }}</span>
+                <span>{{ section.settings.option5 }}</span>
+            </a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="">
+                <span>{{ section.settings.option6 }}</span>
+                <span>{{ section.settings.option6 }}</span>
+            </a>
+        </li>
+
+        <li class="li7">
+            <a class="a" href="">
+                <span><a class="log" href="">{{ section.settings.option7 }}</a>/<a class="reg" href="">{{ section.settings.option8 }}</a></span>
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<script>
+
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+
+</script>
+
+
+
+<style>
+
+    {% comment %} .falcon-logo {
+        color: #fff !important;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 56px;
+        letter-spacing: 0.07em;
+        text-decoration: none !important;
+        text-transform: uppercase;
+        padding: 0 30px;
+        position: relative;
+        transition: 0.3s;
+        box-shadow: none;
+        animation: glow 3s infinite;
+        animation-timing-function: ease-out;
+        background-color: #ffffff;
+        width: fit-content;
+        border-radius: 8px;
+        padding: 10px;
+      }
+  
+      .falcon-logo:after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        height: 100%;
+        right: 80%;
+        width: 50px;
+        background-color: #ffffff00;
+        box-shadow: 0 0 20px #ffd2fe00, 0 0 10px #ffd2fe00, 0 0 5px #ffd2fe00, 0 0 2px #ffd2fe00;
+        opacity: 1;
+      }
+  
+      .falcon-logo:hover:after {
+        right: 2%;
+        background-color: #ffffff;
+        box-shadow: 0 0 30px #ffd2feff, 0 0 15px #ffd2feff, 0 0 7px #ffd2feff, 0 0 3px #ffd2feff;
+        opacity: 0;
+        transition: 0.6s;
+        -webkit-transition: 0.6s;
+      } {% endcomment %}
+
+
+    .falcon-header.sticky {
+        background-color: #ffffff;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        {% comment %} padding: 10px; {% endcomment %}
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 0px;
+        margin-left: 0%;
+    }
+
+    .sticky img{
+        display: none;
+    }
+    .sticky .ul {
+        margin-left: -20%;
+    }
+
+    .sticky {
+        padding: 20px;
+    }
+
+    .sticky .log {
+        color: grey;
+        margin-left: 300px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .sticky .reg {
+        color: grey;
+        {% comment %} margin-left: 150px; {% endcomment %}
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+
+    .falcon-header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+        margin-left: 20%;
+
+        {% comment %} transition: 0.5s; {% endcomment %}
+        position: relative;
+        z-index: 1000;
+    }
+
+    ul.ul {
+        margin-left: 150px;
+    }
+    
+    .ul {
+        display: flex;
+        margin: 0 10px;
+    }
+    
+    .ul .li, .li7  {
+        list-style: none;
+        margin: 0 10px;
+        position: relative;
+    }
+    
+    .ul .li .a  {
+        display: block;
+        font-weight: 600;
+        height: 25px;
+        overflow: hidden;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .li7{
+        padding-top: 2px;
+        color: #121212;
+        height: 20px;
+        overflow: hidden;
+        position: relative;
+        text-decoration: none !important;
+        font-size: small;
+
+    }
+
+    .log, .reg{
+        color: #121212;
+        text-decoration: none !important;
+    }
+
+    .log:hover, .reg:hover{
+        color: #fdc400;
+    }
+    
+    .ul .li .a span {
+        color: #121212;
+        display: block;
+        height: 100%;
+        transition: transform 0.5s ease;
+        width: 100%;
+    }
+    
+    
+    .ul .li:hover .a span:nth-child(1) {
+        transform: translateY(-100%);
+    }
+    
+    .ul .li .a span:nth-child(2) {
+        color: #fdc400;
+    }
+    
+    .ul .li:hover .a span:nth-child(2) {
+        transform: translateY(-100%);
+    }
+</style>
+
+
+{% schema %}
+  {
+    "name": "Falcon Header",
+    "tag": "section",
+    "class": "header",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "text",
+          "id": "option1",
+          "label": "Option 1"
+        },
+        {
+            "type": "text",
+            "id": "option2",
+            "label": "Option 2"
+        },
+        {
+            "type": "text",
+            "id": "option3",
+            "label": "Option 3"
+        },
+        {
+            "type": "text",
+            "id": "option4",
+            "label": "Option 4"
+        },
+        {
+            "type": "text",
+            "id": "option5",
+            "label": "Option 5"
+        },
+        {
+            "type": "text",
+            "id": "option6",
+            "label": "Option 6"
+        },
+        {
+            "type": "text",
+            "id": "option7",
+            "label": "Login"
+        },
+        {
+            "type": "text",
+            "id": "option8",
+            "label": "Register"
+        }
+
+      
+    ],
+    "presets": [
+      {
+        "name": "Falcon Header",
+        "settings": 
+        {
+          
+        }
+        
+      }
+    ],
+    "enabled_on": {
+      "groups": ["header"]
+    }
+  }
+{% endschema %}
