@@ -25,8 +25,23 @@
         "insta": "shopify:\/\/shop_images\/instagram-symbol.png"
       }
     },
+    "falcon_header_YLgVA9": {
+      "type": "falcon-header",
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
+        "option1": "Home",
+        "option2": "Aboutus",
+        "option3": "SERVICES",
+        "option4": "Testimonials",
+        "option5": "faqs",
+        "option6": "contactus",
+        "option7": "Login",
+        "option8": "Register"
+      }
+    },
     "header": {
       "type": "header",
+      "disabled": true,
       "custom_css": [
         "a#HeaderMenu-login-register {font-size: x-small; color: #383838; padding-top: 15px;}",
         "span.header__active-menu-item {text-decoration: none;}"
@@ -50,6 +65,7 @@
   },
   "order": [
     "custom_announcement_bar_LzdDWk",
+    "falcon_header_YLgVA9",
     "header"
   ]
 }
