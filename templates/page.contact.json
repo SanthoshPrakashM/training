@@ -12,10 +12,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "contact_form_C8UzLK": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Book a Service",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "falcon_fixed_button_CWGxbW",
-    "main"
+    "main",
+    "contact_form_C8UzLK"
   ]
 }
