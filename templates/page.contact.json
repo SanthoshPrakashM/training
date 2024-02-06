@@ -23,15 +23,15 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_hqixJA": {
+    "featured_collection_8kQzdf": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Related Products<\/strong>",
+        "title": "Featured collection",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "images-for-task-collections",
+        "collection": "",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -56,6 +56,6 @@
     "falcon_fixed_button_CWGxbW",
     "main",
     "contact_form_C8UzLK",
-    "featured_collection_hqixJA"
+    "featured_collection_8kQzdf"
   ]
 }
