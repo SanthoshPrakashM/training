@@ -167,6 +167,7 @@
         "column_XdTWLf",
         "column_YXNgfY"
       ],
+      "disabled": true,
       "custom_css": [
         "span.icon-wrap {display: none;}",
         "h2.title.inline-richtext.h1 {font-size: large; margin-left: 20px;}",
