@@ -1,21 +1,21 @@
 {
   "sections": {
+    "falcon_fixed_button_CWGxbW": {
+      "type": "falcon-fixed-button",
+      "settings": {
+        "fixed-button": "shopify:\/\/shop_images\/upload.png"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "falcon_fixed_button_CWGxbW": {
-      "type": "falcon-fixed-button",
-      "settings": {
-        "fixed-button": "shopify:\/\/shop_images\/upload.png"
-      }
     }
   },
   "order": [
-    "main",
-    "falcon_fixed_button_CWGxbW"
+    "falcon_fixed_button_CWGxbW",
+    "main"
   ]
 }
