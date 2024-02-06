@@ -27,7 +27,6 @@
     },
     "falcon_header_for_pages_pA3KmJ": {
       "type": "falcon-header-for-pages",
-      "disabled": true,
       "settings": {
         "logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
         "option1": "home",
@@ -42,6 +41,7 @@
     },
     "falcon_header_YLgVA9": {
       "type": "falcon-header",
+      "disabled": true,
       "settings": {
         "logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
         "option1": "Home",
