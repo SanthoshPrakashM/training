@@ -42,9 +42,20 @@
 
 <div class="falcon-footer-icon-address">
     <div class="media-icons">
-        <img class="fb" src="{{ section.settings.facebook | img_url: '30x' }}" >
-        <img class="twit" src="{{ section.settings.twitter | img_url: '30x' }}" >
-        <img class="ig" src="{{ section.settings.insta | img_url: '30x' }}" >
+      <div class="fb-tweet-ig">
+        <div class="test1">
+          <img class="fb" src="{{ section.settings.facebook | img_url: '30x' }}" >
+        </div>
+          
+        <div class="test2">
+          <img class="twit" src="{{ section.settings.twitter | img_url: '30x' }}" >
+        </div>
+
+        <div class="test3">
+          <img class="ig" src="{{ section.settings.insta | img_url: '30x' }}" >
+        </div>
+
+      </div>
     </div>
    
     <div class="logo-address">
@@ -71,13 +82,67 @@
 
 
 <style>
+
+  .test1 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+
+  .test1:after {
+    content: "";
+    width: 45px;
+    height: 45px;
+    background: #fdc400;
+    position: absolute;
+    left: 0px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    z-index: -99;
+  }
+  
+  .test2 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+
+  .test2:after {
+    content: "";
+    width: 45px;
+    height: 45px;
+    background: #fdc400;
+    position: absolute;
+    left: 0px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    z-index: -99;
+  }
+
+  .test3 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+
+  .test3:after {
+    content: "";
+    width: 45px;
+    height: 45px;
+    background: #fdc400;
+    position: absolute;
+    left: 0px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    z-index: -99;
+  }
   .horizontal-yellow-line {
     border-top: 5px solid #fdc400;
     
   }
  
   .vertical-line {
-    border-left: 1px solid #ffffff;
+    border: 1px solid #ffffff;
     height: 30%;
     margin-top: 55px;
     opacity: 0.2;
@@ -198,6 +263,15 @@
 
     .media-icons {
         margin-left: 80px;
+        position: relative;
+
+    }
+
+    .fb-tweet-ig {
+      display: flex;
+      justify-content: space-around;
+      margin-left: -20px;
+      margin-right: 20px;  
     }
 
     .falcon-footer-Information  {
@@ -211,51 +285,27 @@
     }
 
     img.fb {
-        background-color: #fdc400;
-        {% comment %} transform: rotate(45deg); {% endcomment %}
-        width: 50px;
-        padding: 15px;
-        border-radius: 5px;
-    }
-    img.fb:hover {
-        background-color: #ffffff;
-        {% comment %} transform: rotate(45deg); {% endcomment %}
+        {% comment %} background-color: #fdc400; {% endcomment %}
         width: 50px;
         padding: 15px;
         border-radius: 5px;
     }
 
     img.twit {
-        background-color: #fdc400;
-        {% comment %} transform: rotate(45deg); {% endcomment %}
-        width: 50px;
-        padding: 15px;
-        border-radius: 5px;
-    }
-
-    img.twit:hover {
-        background-color: #ffffff;
-        {% comment %} transform: rotate(45deg); {% endcomment %}
+        {% comment %} background-color: #fdc400; {% endcomment %}
         width: 50px;
         padding: 15px;
         border-radius: 5px;
     }
 
     img.ig {
-        background-color: #fdc400;
-        {% comment %} transform: rotate(45deg); {% endcomment %}
+        {% comment %} background-color: #fdc400; {% endcomment %}
         width: 50px;
         padding: 15px;
         border-radius: 5px;
     }
 
-    img.ig:hover {
-        background-color: #ffffff;
-        {% comment %} transform: rotate(45deg); {% endcomment %}
-        width: 50px;
-        padding: 15px;
-        border-radius: 5px;
-    }
+    
 
     .falcon-footer-icon-address {
         margin: 45px;
