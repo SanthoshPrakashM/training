@@ -2,6 +2,28 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+/* Edited by Santhosh */
+  .colours {
+    position: relative;
+    z-index: 1;
+    height: 100px;
+  }
+
+  .colours:after {
+    content: "";
+    width: 70px;
+    height: 70px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 135px;
+    top: 15px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    z-index: -99;
+    border-style: outset;
+}
+
+
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -82,7 +104,7 @@
                 {% endif %}
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
                   <div
-                    class="media media--transparent media--{{ section.settings.image_ratio }}"
+                    class="media media--transparent media--{{ section.settings.image_ratio }} colours"
                     {% if section.settings.image_ratio == 'adapt' %}
                       {% comment %} style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;" {% endcomment %}
                     {% endif %}

@@ -89,16 +89,29 @@
     z-index: 1;
   }
 
-  .test1:after {
+  .test1::after {
     content: "";
     width: 45px;
     height: 45px;
     background: #fdc400;
     position: absolute;
-    left: 0px;
+    left: 3px;
     transform: rotate(45deg);
     border-radius: 5px;
     z-index: -99;
+  }
+
+  .test1:hover::after {
+    background: #ffffff; /* Change background color on hover */
+    content: "";
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 3px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    z-index: -99;
+    cursor: pointer;
   }
   
   .test2 {
@@ -107,16 +120,29 @@
     z-index: 1;
   }
 
-  .test2:after {
+  .test2::after {
     content: "";
     width: 45px;
     height: 45px;
     background: #fdc400;
     position: absolute;
-    left: 0px;
+    left: 3px;
     transform: rotate(45deg);
     border-radius: 5px;
     z-index: -99;
+  }
+
+  .test2:hover::after {
+    background: #ffffff; /* Change background color on hover */
+    content: "";
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 3px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    z-index: -99;
+    cursor: pointer;
   }
 
   .test3 {
@@ -125,17 +151,31 @@
     z-index: 1;
   }
 
-  .test3:after {
+  .test3::after {
     content: "";
     width: 45px;
     height: 45px;
     background: #fdc400;
     position: absolute;
-    left: 0px;
+    left: 3px;
     transform: rotate(45deg);
     border-radius: 5px;
     z-index: -99;
   }
+
+  .test3:hover::after {
+    background: #ffffff; /* Change background color on hover */
+    content: "";
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 3px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    z-index: -99;
+    cursor: pointer;
+  }
+
   .horizontal-yellow-line {
     border-top: 5px solid #fdc400;
     
@@ -272,6 +312,10 @@
       justify-content: space-around;
       margin-left: -20px;
       margin-right: 20px;  
+    }
+
+    .fb-tweet-ig:hover  {
+      cursor: pointer;
     }
 
     .falcon-footer-Information  {
