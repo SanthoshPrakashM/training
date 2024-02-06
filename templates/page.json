@@ -50,13 +50,101 @@
             "link_label": "Read More",
             "link": "shopify:\/\/pages\/defensive-driving-point-reduction"
           }
+        },
+        "column_rUtrCm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/box-subjects-img-06-1-300x225_eaa8d326-34a6-46be-b706-4e8ef210230d.webp",
+            "title": "First-Time Driver’s License & GDL License",
+            "text": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        },
+        "column_wgniwN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/box-subjects-img-05-300x225.webp",
+            "title": "Highway and Local Driving Lessons",
+            "text": "",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_rNcAAJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/box-subjects-img-02-1-300x225.webp",
+            "title": "New Jersey Road Test & Follow Up",
+            "text": "",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_yrcydQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tt-carusel-img01-01-300x225_8575076a-7828-4c0b-98a9-58debcaedae3.webp",
+            "title": "On-Site Eye Exams",
+            "text": "",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_ALhVTD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tt-carusel-img01-03-300x225_2.webp",
+            "title": "Point & Insurance Reduction Program",
+            "text": "",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_aAdiHT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/parallax-img-02-300x225.webp",
+            "title": "Practical Test Preparation",
+            "text": "",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_XdTWLf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/box-subjects-img-01-1-300x225.webp",
+            "title": "Use of Road Test Vehicle",
+            "text": "",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_YXNgfY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tt-carusel-img01-03-300x225_2.webp",
+            "title": "Written Test Prep",
+            "text": "",
+            "link_label": "Read More",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_QabhLX",
         "column_DHXdb9",
         "column_K3wwpK",
-        "column_Jjc86Y"
+        "column_Jjc86Y",
+        "column_rUtrCm",
+        "column_wgniwN",
+        "column_rNcAAJ",
+        "column_yrcydQ",
+        "column_ALhVTD",
+        "column_aAdiHT",
+        "column_XdTWLf",
+        "column_YXNgfY"
       ],
       "custom_css": [
         "span.icon-wrap {display: none;}",
