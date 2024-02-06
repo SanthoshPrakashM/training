@@ -58,6 +58,9 @@
         "column_K3wwpK",
         "column_Jjc86Y"
       ],
+      "custom_css": [
+        "span.icon-wrap {display: none;}"
+      ],
       "settings": {
         "title": "Showing all 12 results",
         "heading_size": "h1",
