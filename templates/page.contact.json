@@ -25,6 +25,9 @@
     },
     "featured_collection_8kQzdf": {
       "type": "featured-collection",
+      "custom_css": [
+        ".price {display: none;}"
+      ],
       "settings": {
         "title": "<strong>Featured collection<\/strong>",
         "heading_size": "h1",
