@@ -18,30 +18,43 @@
             "title": "16 Years old drivers Ed program",
             "text": "",
             "link_label": "Read More",
-            "link": ""
+            "link": "shopify:\/\/pages\/1-16-year-old-drivers-ed-program"
+          }
+        },
+        "column_DHXdb9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/box-subjects-img-06-1-300x225_eaa8d326-34a6-46be-b706-4e8ef210230d.webp",
+            "title": "Basic Driving Abilities",
+            "text": "",
+            "link_label": "Read More",
+            "link": "shopify:\/\/pages\/a-page-for-basic-driving-abilities"
           }
         },
         "column_K3wwpK": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/box-subjects-img-05-300x225.webp",
+            "title": "Bilingual Instructors",
+            "text": "",
+            "link_label": "Read More",
+            "link": "shopify:\/\/pages\/bilingual-instructors"
           }
         },
         "column_Jjc86Y": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/box-subjects-img-01-1-300x225.webp",
+            "title": "Defensive Driving & Point Reduction",
+            "text": "",
+            "link_label": "Read More",
+            "link": "shopify:\/\/pages\/defensive-driving-point-reduction"
           }
         }
       },
       "block_order": [
         "column_QabhLX",
+        "column_DHXdb9",
         "column_K3wwpK",
         "column_Jjc86Y"
       ],
@@ -50,16 +63,16 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     }
   },
