@@ -60,7 +60,8 @@
       ],
       "custom_css": [
         "span.icon-wrap {display: none;}",
-        "h2.title.inline-richtext.h1 {font-size: large; margin-left: 20px;}"
+        "h2.title.inline-richtext.h1 {font-size: large; margin-left: 20px;}",
+        "a.link.animate-arrow {background: #121212; color: #ffffff; font-weight: bold; padding: 3px 20px;}"
       ],
       "settings": {
         "title": "Showing all 12 results",
