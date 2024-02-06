@@ -1,5 +1,19 @@
 {
   "sections": {
+    "falcon_header_for_pages_8G6LbH": {
+      "type": "falcon-header-for-pages",
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
+        "option1": "home",
+        "option2": "aboutus",
+        "option3": "services",
+        "option4": "testimonials",
+        "option5": "faqs",
+        "option6": "contactus",
+        "option7": "Login",
+        "option8": "Register"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -171,6 +185,7 @@
     }
   },
   "order": [
+    "falcon_header_for_pages_8G6LbH",
     "main",
     "multicolumn_rcnaX3"
   ]
