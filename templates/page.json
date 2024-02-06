@@ -23,6 +23,12 @@
         "padding_bottom": 28
       }
     },
+    "falcon_fixed_button_cXk7aX": {
+      "type": "falcon-fixed-button",
+      "settings": {
+        "fixed-button": "shopify:\/\/shop_images\/upload.png"
+      }
+    },
     "multicolumn_rcnaX3": {
       "type": "multicolumn",
       "blocks": {
@@ -188,6 +194,7 @@
   "order": [
     "falcon_header_for_pages_8G6LbH",
     "main",
+    "falcon_fixed_button_cXk7aX",
     "multicolumn_rcnaX3"
   ]
 }
