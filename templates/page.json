@@ -59,7 +59,8 @@
         "column_Jjc86Y"
       ],
       "custom_css": [
-        "span.icon-wrap {display: none;}"
+        "span.icon-wrap {display: none;}",
+        "h2.title.inline-richtext.h1 {font-size: large; margin-left: 20px;}"
       ],
       "settings": {
         "title": "Showing all 12 results",
