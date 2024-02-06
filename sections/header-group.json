@@ -25,6 +25,20 @@
         "insta": "shopify:\/\/shop_images\/instagram-symbol.png"
       }
     },
+    "falcon_header_for_pages_pA3KmJ": {
+      "type": "falcon-header-for-pages",
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": ""
+      }
+    },
     "falcon_header_YLgVA9": {
       "type": "falcon-header",
       "disabled": true,
@@ -66,6 +80,7 @@
   },
   "order": [
     "custom_announcement_bar_LzdDWk",
+    "falcon_header_for_pages_pA3KmJ",
     "falcon_header_YLgVA9",
     "header"
   ]
