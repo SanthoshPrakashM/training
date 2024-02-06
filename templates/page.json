@@ -1,5 +1,11 @@
 {
   "sections": {
+    "falcon_fixed_button_cXk7aX": {
+      "type": "falcon-fixed-button",
+      "settings": {
+        "fixed-button": "shopify:\/\/shop_images\/upload.png"
+      }
+    },
     "falcon_header_for_pages_8G6LbH": {
       "type": "falcon-header-for-pages",
       "disabled": true,
@@ -21,12 +27,6 @@
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "falcon_fixed_button_cXk7aX": {
-      "type": "falcon-fixed-button",
-      "settings": {
-        "fixed-button": "shopify:\/\/shop_images\/upload.png"
       }
     },
     "multicolumn_rcnaX3": {
@@ -192,9 +192,9 @@
     }
   },
   "order": [
+    "falcon_fixed_button_cXk7aX",
     "falcon_header_for_pages_8G6LbH",
     "main",
-    "falcon_fixed_button_cXk7aX",
     "multicolumn_rcnaX3"
   ]
 }
