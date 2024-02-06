@@ -52,7 +52,7 @@
 
 </div>
 
-<script>
+{% comment %} <script>
 
     window.onscroll = function() {myFunction()};
 
@@ -67,7 +67,7 @@
         }
     }
 
-</script>
+</script> {% endcomment %}
 
 
 
@@ -120,7 +120,7 @@
       } {% endcomment %}
 
 
-    .falcon-header.sticky {
+    {% comment %} .falcon-header.sticky {
         background-color: #ffffff;
         position: fixed;
         top: 0;
@@ -154,7 +154,7 @@
         {% comment %} margin-left: 150px; {% endcomment %}
         text-transform: uppercase;
         font-weight: bold;
-    }
+    } {% endcomment %}
 
 
     .falcon-header {
@@ -245,7 +245,7 @@
 
 {% schema %}
   {
-    "name": "Falcon Header",
+    "name": "Falcon Header for Pages",
     "tag": "section",
     "class": "header",
     "settings": [
@@ -299,7 +299,7 @@
     ],
     "presets": [
       {
-        "name": "Falcon Header",
+        "name": "Falcon Header for Pages",
         "settings": 
         {
           
@@ -308,7 +308,7 @@
       }
     ],
     "enabled_on": {
-      "groups": ["header"]
+      "templates": ["*"]
     }
   }
 {% endschema %}
