@@ -69,7 +69,8 @@
         "column_qMC69Y"
       ],
       "custom_css": [
-        "span.icon-wrap {display: none;}"
+        "span.icon-wrap {display: none;}",
+        "a.link.animate-arrow {background: #ebe9eb; color: #515151; font-weight: bold; padding: 3px 20px;}"
       ],
       "settings": {
         "title": "<strong>Related Products<\/strong>",
