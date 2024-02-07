@@ -97,6 +97,9 @@
         "column_KNdBGw",
         "column_bb93x9"
       ],
+      "custom_css": [
+        "span.icon-wrap {display: none;}"
+      ],
       "settings": {
         "title": "<strong>Related products<\/strong>",
         "heading_size": "h1",
