@@ -282,12 +282,12 @@
     </script>
   </head>
 
-  {% if template == 'index' %}
-    {% section 'falcon-header' %}
-  {% elsif template != 'index' %}
+  {% if template != 'index' %}
+    {% section 'falcon-header-for-pages' %}
+  {% elsif template == 'index' %}
       <style>
-        .falcon-header {
-          display: none !important;
+        .for-pages {
+          display: block;
         }
      </style>
   {% endif %}
