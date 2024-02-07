@@ -98,7 +98,8 @@
         "column_bb93x9"
       ],
       "custom_css": [
-        "span.icon-wrap {display: none;}"
+        "span.icon-wrap {display: none;}",
+        "a.link.animate-arrow {color: #ffffff; background: #121212; font-weight: bold; padding: 3px 20px;}"
       ],
       "settings": {
         "title": "<strong>Related products<\/strong>",
