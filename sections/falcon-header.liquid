@@ -1,3 +1,8 @@
+{% if template == 'index' %}
+    {% section 'falcon-header' %}
+{% endif %}
+
+
 <div class="falcon-header" id="myHeader">
     <img class="falcon-logo" src="{{ section.settings.logo | img_url: 'medium' }}" >
     <ul class="ul">
