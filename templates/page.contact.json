@@ -8,6 +8,9 @@
     },
     "main": {
       "type": "main-page",
+      "custom_css": [
+        ".rte>*:first-child {margin-top: 0; margin-left: -20%; margin-right: -30%;}"
+      ],
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
