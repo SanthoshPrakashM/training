@@ -68,6 +68,9 @@
         "column_zDycnD",
         "column_qMC69Y"
       ],
+      "custom_css": [
+        "span.icon-wrap {display: none;}"
+      ],
       "settings": {
         "title": "<strong>Related Products<\/strong>",
         "heading_size": "h1",
