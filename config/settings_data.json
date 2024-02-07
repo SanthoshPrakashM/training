@@ -131,6 +131,20 @@
         "settings": {
           "color_scheme": "scheme-1"
         }
+      },
+      "falcon-header-for-pages": {
+        "type": "falcon-header-for-pages",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
+          "option1": "asdasda",
+          "option2": "asdasdas",
+          "option3": "asdasd",
+          "option4": "asdasd",
+          "option5": "asdasd",
+          "option6": "asdasd",
+          "option7": "asd",
+          "option8": "asd"
+        }
       }
     },
     "content_for_index": [
