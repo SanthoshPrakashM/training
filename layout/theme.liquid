@@ -282,14 +282,8 @@
     </script>
   </head>
 
-  {% if template != 'index' %}
-    {% section 'falcon-header-for-pages' %}
-  {% elsif template == 'index' %}
-      <style>
-        .for-pages {
-          display: block;
-        }
-     </style>
+  {% if template.name == 'index' %}
+    {% section 'falcon-header' %}
   {% endif %}
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
