@@ -20,7 +20,6 @@
     },
     "featured_collection_Vqt97m": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "<strong>Related Products<\/strong>",
         "heading_size": "h1",
@@ -46,84 +45,12 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
-    },
-    "multicolumn_9rBnc8": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_cbarei": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/box-subjects-img-01-1-300x225.webp",
-            "title": "<strong>Use of Road Test Vehicle<\/strong>",
-            "text": "",
-            "link_label": "Read more",
-            "link": "shopify:\/\/pages\/use-of-road-test-vehicle"
-          }
-        },
-        "column_HQDN44": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/parallax-img-02-300x225.webp",
-            "title": "<strong>Practical Test Preparation<\/strong>",
-            "text": "",
-            "link_label": "Read more",
-            "link": "shopify:\/\/pages\/practical-test-preparation"
-          }
-        },
-        "column_KNdBGw": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/box-subjects-img-06-1-300x225_47a0c4a4-ff05-45ae-a594-5aadce509727.webp",
-            "title": "<strong>Basic Driving Ability<\/strong>",
-            "text": "",
-            "link_label": "Read more",
-            "link": "shopify:\/\/pages\/basic-driving-abilities"
-          }
-        },
-        "column_bb93x9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/box-subjects-img-01-1-300x225.webp",
-            "title": "<strong>Defective Driving & Point Reduction<\/strong>",
-            "text": "",
-            "link_label": "Read more",
-            "link": "shopify:\/\/pages\/defensive-driving-point-reduction"
-          }
-        }
-      },
-      "block_order": [
-        "column_cbarei",
-        "column_HQDN44",
-        "column_KNdBGw",
-        "column_bb93x9"
-      ],
-      "custom_css": [
-        "span.icon-wrap {display: none;}",
-        "a.link.animate-arrow {color: #ffffff; background: #121212; font-weight: bold; padding: 3px 20px;}"
-      ],
-      "settings": {
-        "title": "<strong>Related products<\/strong>",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "falcon_redirect_Wm9wc6",
     "falcon_fixed_button_UHgMk4",
     "main",
-    "featured_collection_Vqt97m",
-    "multicolumn_9rBnc8"
+    "featured_collection_Vqt97m"
   ]
 }
