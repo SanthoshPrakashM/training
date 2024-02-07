@@ -1,5 +1,10 @@
 {
   "sections": {
+    "falcon_redirect_idMUiM": {
+      "type": "falcon-redirect",
+      "settings": {
+      }
+    },
     "falcon_header_for_pages_8G6LbH": {
       "type": "falcon-header-for-pages",
       "disabled": true,
@@ -186,6 +191,7 @@
     }
   },
   "order": [
+    "falcon_redirect_idMUiM",
     "falcon_header_for_pages_8G6LbH",
     "main",
     "multicolumn_rcnaX3"
