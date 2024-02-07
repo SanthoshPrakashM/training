@@ -1,0 +1,50 @@
+<div class="redirect">
+    <a href="https://how-do-i-tell-you.myshopify.com/">Home</a> &nbsp; &gt; &nbsp; 
+    <a href="https://how-do-i-tell-you.myshopify.com/pages/falcon-services">Lessons</a> &nbsp; &gt; &nbsp;
+
+    {{ page.title }}
+</div>
+
+
+
+
+<style>
+
+    .redirect {
+        margin-left: 60px;
+        color: #121212;
+    }
+
+    .redirect a {
+        text-decoration: none;
+        color: #121212;
+    }
+
+    .redirect a:hover {
+        text-decoration: none;
+        color: #fdc400;
+    }
+
+</style>
+
+{% schema %}
+  {
+    "name": "Falcon redirect Section",
+    "tag": "section",
+    "class": "redirect",
+    "settings": [
+      
+    ],
+    "presets": [
+      {
+        "name": "Falcon redirect Section",
+        "settings": {
+        }
+      }
+    ],
+    "enabled_on": {
+      "templates": ["*"],
+      "groups": ["header"]
+    }
+  }
+{% endschema %}

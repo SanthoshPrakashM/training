@@ -1,14 +1,7 @@
 {
   "sections": {
-    "falcon_fixed_button_cXk7aX": {
-      "type": "falcon-fixed-button",
-      "settings": {
-        "fixed-button": "shopify:\/\/shop_images\/upload.png"
-      }
-    },
     "falcon_header_for_pages_8G6LbH": {
       "type": "falcon-header-for-pages",
-      "disabled": true,
       "settings": {
         "logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
         "option1": "home",
@@ -49,7 +42,7 @@
             "title": "Basic Driving Abilities",
             "text": "",
             "link_label": "Read More",
-            "link": "shopify:\/\/pages\/basic-driving-abilities"
+            "link": "shopify:\/\/pages\/a-page-for-basic-driving-abilities"
           }
         },
         "column_K3wwpK": {
@@ -79,7 +72,7 @@
             "title": "First-Time Driver’s License & GDL License",
             "text": "",
             "link_label": "Read more",
-            "link": "shopify:\/\/pages\/first-time-driver-s-license-gdl-license"
+            "link": ""
           }
         },
         "column_wgniwN": {
@@ -89,7 +82,7 @@
             "title": "Highway and Local Driving Lessons",
             "text": "",
             "link_label": "Read More",
-            "link": "shopify:\/\/pages\/highway-and-local-driving-lessons"
+            "link": ""
           }
         },
         "column_rNcAAJ": {
@@ -99,7 +92,7 @@
             "title": "New Jersey Road Test & Follow Up",
             "text": "",
             "link_label": "Read More",
-            "link": "shopify:\/\/pages\/new-jersey-road-test-follow-up"
+            "link": ""
           }
         },
         "column_yrcydQ": {
@@ -109,7 +102,7 @@
             "title": "On-Site Eye Exams",
             "text": "",
             "link_label": "Read More",
-            "link": "shopify:\/\/pages\/on-site-eye-exams"
+            "link": ""
           }
         },
         "column_ALhVTD": {
@@ -119,7 +112,7 @@
             "title": "Point & Insurance Reduction Program",
             "text": "",
             "link_label": "Read More",
-            "link": "shopify:\/\/pages\/point-insurance-reduction-program"
+            "link": ""
           }
         },
         "column_aAdiHT": {
@@ -129,7 +122,7 @@
             "title": "Practical Test Preparation",
             "text": "",
             "link_label": "Read More",
-            "link": "shopify:\/\/pages\/practical-test-preparation"
+            "link": ""
           }
         },
         "column_XdTWLf": {
@@ -139,7 +132,7 @@
             "title": "Use of Road Test Vehicle",
             "text": "",
             "link_label": "Read More",
-            "link": "shopify:\/\/pages\/use-of-road-test-vehicle"
+            "link": ""
           }
         },
         "column_YXNgfY": {
@@ -149,7 +142,7 @@
             "title": "Written Test Prep",
             "text": "",
             "link_label": "Read More",
-            "link": "shopify:\/\/pages\/written-test-prep"
+            "link": ""
           }
         }
       },
@@ -186,13 +179,12 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 100,
+        "padding_top": 52,
         "padding_bottom": 100
       }
     }
   },
   "order": [
-    "falcon_fixed_button_cXk7aX",
     "falcon_header_for_pages_8G6LbH",
     "main",
     "multicolumn_rcnaX3"

@@ -11,7 +11,6 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
-    "animations_reveal_on_scroll": true,
     "animations_hover_elements": "default",
     "buttons_border_thickness": 0,
     "buttons_border_opacity": 0,
@@ -130,19 +129,6 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "scheme-1"
-        }
-      },
-      "falcon-header-for-pages": {
-        "type": "falcon-header-for-pages",
-        "settings": {
-          "option1": "",
-          "option2": "",
-          "option3": "",
-          "option4": "",
-          "option5": "",
-          "option6": "",
-          "option7": "",
-          "option8": ""
         }
       }
     },
