@@ -12,6 +12,11 @@
         "padding_bottom": 36
       }
     },
+    "falcon_fixed_button_UHgMk4": {
+      "type": "falcon-fixed-button",
+      "settings": {
+      }
+    },
     "featured_collection_Vqt97m": {
       "type": "featured-collection",
       "settings": {
@@ -44,6 +49,7 @@
   "order": [
     "falcon_redirect_Wm9wc6",
     "main",
+    "falcon_fixed_button_UHgMk4",
     "featured_collection_Vqt97m"
   ]
 }
