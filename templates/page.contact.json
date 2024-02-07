@@ -13,7 +13,8 @@
         "ol {margin-left: -16%; margin-right: -30%; font-size: 16px; color: #121212;}",
         ".rte.scroll-trigger.animate--slide-in img {width: 70%; margin-left: -25%; float: left;}",
         ".mail-contact {display: flex; flex-direction: row; align-content: center; justify-content: space-evenly;}",
-        "form.form-inline.contact-label label {font-size: larger; color: #121212;}"
+        "form.form-inline.contact-label label {font-size: larger; color: #121212;}",
+        "input#exampleInputEmail1 {padding: 8px 12px;}"
       ],
       "settings": {
         "padding_top": 36,
