@@ -1,12 +1,8 @@
 {
   "sections": {
-    "falcon_redirect_idMUiM": {
-      "type": "falcon-redirect",
-      "settings": {
-      }
-    },
     "falcon_header_for_pages_8G6LbH": {
       "type": "falcon-header-for-pages",
+      "disabled": true,
       "settings": {
         "logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
         "option1": "home",
@@ -17,6 +13,11 @@
         "option6": "contactus",
         "option7": "Login",
         "option8": "Register"
+      }
+    },
+    "falcon_redirect_idMUiM": {
+      "type": "falcon-redirect",
+      "settings": {
       }
     },
     "main": {
@@ -190,8 +191,8 @@
     }
   },
   "order": [
-    "falcon_redirect_idMUiM",
     "falcon_header_for_pages_8G6LbH",
+    "falcon_redirect_idMUiM",
     "main",
     "multicolumn_rcnaX3"
   ]
