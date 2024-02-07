@@ -9,11 +9,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".rte > *:first-child {margin-top: 0; margin-left: -20%; margin-right: -30%; color: #121212;}",
-        "ol {margin-left: -16%; margin-right: -30%; font-size: 16px; color: #121212;}",
-        ".rte.scroll-trigger.animate--slide-in img {width: 70%; margin-left: -25%;}",
-        ".mail-contact {display: flex; flex-direction: row; align-content: center; justify-content: space-evenly;}",
-        "form.form-inline.contact-label label {font-size: larger; color: #121212;}"
+
       ],
       "settings": {
         "padding_top": 36,
