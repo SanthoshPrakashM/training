@@ -284,13 +284,8 @@
 
   {% if template == 'index' %}
     {% section 'falcon-header' %}
-  {% elsif handle contains 'falcon-services' %}
-    
-      <style>
-        .falcon-header {
-          display: none !important;
-        }
-     </style>
+  {% elsif template != 'index' %}
+      {% section 'falcon-header-for-pages' %}
   {% endif %}
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
