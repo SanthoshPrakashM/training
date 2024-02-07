@@ -284,10 +284,13 @@
 
   {% if template == 'index' %}
     {% section 'falcon-header' %}
-    {% else %}
-      {% section 'falcon-header-for-pages' %} 
+  {% elsif template != 'index' %}
+      <style>
+        .falcon-header {
+          display: none !important;
+        }
+     </style>
   {% endif %}
-
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
