@@ -1,5 +1,10 @@
 {
   "sections": {
+    "falcon_redirect_YqPpKA": {
+      "type": "falcon-redirect",
+      "settings": {
+      }
+    },
     "falcon_fixed_button_GAGYMj": {
       "type": "falcon-fixed-button",
       "settings": {
@@ -165,6 +170,7 @@
     }
   },
   "order": [
+    "falcon_redirect_YqPpKA",
     "falcon_fixed_button_GAGYMj",
     "main",
     "related-products"
