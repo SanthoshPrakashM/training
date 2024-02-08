@@ -12,6 +12,7 @@
         },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
           }
         },
@@ -117,6 +118,9 @@
         "collapsible-row-3",
         "share",
         "popup_Rbj68y"
+      ],
+      "custom_css": [
+        "p.product__text.inline-richtext {font-size: xx-large; text-align: center; color: #233d86; font-weight: bold; font-family: system-ui;}"
       ],
       "settings": {
         "enable_sticky_info": true,
