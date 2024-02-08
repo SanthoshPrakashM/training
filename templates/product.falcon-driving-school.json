@@ -139,6 +139,12 @@
         "padding_bottom": 12
       }
     },
+    "falcon_fixed_button_GAGYMj": {
+      "type": "falcon-fixed-button",
+      "settings": {
+        "fixed-button": "shopify:\/\/shop_images\/upload.png"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -160,6 +166,7 @@
   },
   "order": [
     "main",
+    "falcon_fixed_button_GAGYMj",
     "related-products"
   ]
 }
