@@ -59,7 +59,7 @@
       onload="this.media='all'"
     >
   {%- endif -%}
-
+  {{ product.title }}
   {{ product.description }}
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
