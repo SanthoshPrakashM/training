@@ -61,7 +61,7 @@
   {%- endif -%}
   
   <h1 style="text-align: center;"> {{ product.title }} </h1>
-  <p style="margin-left: 15rem;"> {{ product.description }} </p>
+  <p style="text-align: center; margin-left: 15rem;"> {{ product.description }} </p>
   <!-- {{ product.description }} -->
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
