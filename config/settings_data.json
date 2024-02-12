@@ -161,7 +161,7 @@
       },
       "3735154525232246443": {
         "type": "shopify:\/\/apps\/sendvio-email-sms\/blocks\/app_block\/6fb7816d-63ad-49f9-ae13-e7c831b17dc6",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
