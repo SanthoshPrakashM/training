@@ -118,10 +118,6 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_position": "center",
-    "checkout_input_background_color_mode": "white",
-    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_layout": "onepage",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -139,34 +135,6 @@
     "content_for_index": [
 
     ],
-    "blocks": {
-      "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": true,
-        "settings": {
-          "button_color": "#000000",
-          "secondary_color": "#FFFFFF",
-          "ternary_color": "#6A6A6A",
-          "button_icon": "chat_bubble",
-          "button_text": "chat_with_us",
-          "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": ""
-        }
-      },
-      "13731700976389606599": {
-        "type": "shopify:\/\/apps\/coupon-x-discount-code-pop-up\/blocks\/coupon-x\/49ebf3b1-06cb-46be-8af6-a07932a42780",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "3735154525232246443": {
-        "type": "shopify:\/\/apps\/sendvio-email-sms\/blocks\/app_block\/6fb7816d-63ad-49f9-ae13-e7c831b17dc6",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    },
     "color_schemes": {
       "scheme-1": {
         "settings": {

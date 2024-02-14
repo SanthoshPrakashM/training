@@ -18,75 +18,32 @@
         "padding_bottom": 100
       }
     },
-    "multicolumn_HxxBkB": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_CKBajh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/box-subjects-img-01-1-300x225.webp",
-            "title": "<strong>Use of Road Test Vehicle<\/strong>",
-            "text": "",
-            "link_label": "Read more",
-            "link": "shopify:\/\/pages\/use-of-road-test-vehicle"
-          }
-        },
-        "column_VyUkzY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/parallax-img-02-300x225.webp",
-            "title": "<strong>Practical Test Preparation<\/strong>",
-            "text": "",
-            "link_label": "Read more",
-            "link": "shopify:\/\/pages\/practical-test-preparation"
-          }
-        },
-        "column_zDycnD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/box-subjects-img-06-1-300x225_47a0c4a4-ff05-45ae-a594-5aadce509727.webp",
-            "title": "<strong>Basic Driving Abilities<\/strong>",
-            "text": "",
-            "link_label": "Read more",
-            "link": "shopify:\/\/pages\/basic-driving-abilities"
-          }
-        },
-        "column_qMC69Y": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/box-subjects-img-01-1-300x225.webp",
-            "title": "<strong>Defensive Driving & Point Reduction<\/strong>",
-            "text": "",
-            "link_label": "Read more",
-            "link": "shopify:\/\/pages\/defensive-driving-point-reduction"
-          }
-        }
-      },
-      "block_order": [
-        "column_CKBajh",
-        "column_VyUkzY",
-        "column_zDycnD",
-        "column_qMC69Y"
-      ],
-      "custom_css": [
-        "span.icon-wrap {display: none;}",
-        "a.link.animate-arrow {background: #ebe9eb; color: #515151; font-weight: bold; padding: 3px 20px;}"
-      ],
+    "featured_collection_Vqt97m": {
+      "type": "featured-collection",
       "settings": {
         "title": "<strong>Related Products<\/strong>",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "collection-16-years-old-drivers-ed-program",
+        "products_to_show": 4,
         "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "",
-        "columns_mobile": "1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 100,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     }
   },
@@ -94,6 +51,6 @@
     "falcon_redirect_Wm9wc6",
     "falcon_fixed_button_UHgMk4",
     "main",
-    "multicolumn_HxxBkB"
+    "featured_collection_Vqt97m"
   ]
 }
