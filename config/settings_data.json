@@ -153,12 +153,6 @@
         "settings": {
         }
       },
-      "16278478101612877664": {
-        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "3795279179704589772": {
         "type": "shopify:\/\/apps\/k-discount-pop-up-coupon\/blocks\/app-embeded\/e0ade282-a9c0-4b1a-8e88-f1210052f348",
         "disabled": true,
@@ -173,6 +167,12 @@
       },
       "1700746595972018580": {
         "type": "shopify:\/\/apps\/equate-product-compare\/blocks\/app-embed\/5ad1f821-35bf-43a6-bd56-bd2086d56828",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16278478101612877664": {
+        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {
         }
