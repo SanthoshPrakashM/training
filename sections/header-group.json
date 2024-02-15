@@ -47,9 +47,9 @@
       ],
       "settings": {
         "logo_position": "middle-left",
-        "menu": "falcon-driving-school",
+        "menu": "",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "logo-vanish",
+        "sticky_header_type": "none",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "",
