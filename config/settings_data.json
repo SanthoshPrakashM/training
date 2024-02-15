@@ -165,39 +165,14 @@
         "settings": {
         }
       },
-      "10583289249535060075": {
-        "type": "shopify:\/\/apps\/basic-wishlist\/blocks\/popup\/1611f065-e251-4250-8609-2fa2f1877c57",
-        "disabled": true,
-        "settings": {
-          "icon_width": 26,
-          "icon": "regular",
-          "icon_color": "#000000",
-          "counter_font_size": 8,
-          "counter_padding": 3,
-          "counter_radius": 30,
-          "counter_offset": 4,
-          "counter_color": "#ffffff",
-          "counter_bg_color": "#121212",
-          "sidebar_position": "topright",
-          "sidebar_border_width": 2,
-          "sidebar_border_radius": 200,
-          "sidebar_padding": 12,
-          "sidebar_margin": 40,
-          "sidebar_bg_color": "#ffffff",
-          "sidebar_border_color": "#121212",
-          "popup_border_radius": 0,
-          "popup_border_width": 0,
-          "popup_bg_color": "#ffffff",
-          "popup_border_color": "#e7e7e7",
-          "popup_heading": "#121212",
-          "close_icon": "thin",
-          "popup_image_radius": 0,
-          "popup_link": "#121212",
-          "popup_backdrop": "#FDF2F4"
-        }
-      },
       "5946647744298494267": {
         "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/wishlist-app-embed\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "940650814580334357": {
+        "type": "shopify:\/\/apps\/product-compare\/blocks\/app-embed-block\/2ec083cc-5677-4d10-a2af-c02464aa361b",
         "disabled": false,
         "settings": {
         }
