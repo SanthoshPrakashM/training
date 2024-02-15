@@ -3,17 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "basic_wishlist_buttons_b4eKza": {
-          "type": "shopify:\/\/apps\/basic-wishlist\/blocks\/buttons\/1611f065-e251-4250-8609-2fa2f1877c57",
-          "settings": {
-            "text_color": "#121212",
-            "added_text_color": "#121212",
-            "text_size": 14,
-            "icon_color": "#EA3C53",
-            "added_icon_color": "#EA3C53",
-            "icon_width": 20
-          }
-        },
         "vendor": {
           "type": "text",
           "disabled": true,
@@ -113,7 +102,6 @@
         }
       },
       "block_order": [
-        "basic_wishlist_buttons_b4eKza",
         "vendor",
         "title",
         "caption",
