@@ -27,6 +27,9 @@
     },
     "falcon_header_YLgVA9": {
       "type": "falcon-header",
+      "custom_css": [
+
+      ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/Falcon_driving_school.webp",
         "option1": "Home",
@@ -41,7 +44,6 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "custom_css": [
         "a#HeaderMenu-login-register {font-size: x-small; color: #383838; padding-top: 15px;}",
         "span.header__active-menu-item {text-decoration: none;}"
