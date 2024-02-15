@@ -135,12 +135,6 @@
 
     ],
     "blocks": {
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "13731700976389606599": {
         "type": "shopify:\/\/apps\/coupon-x-discount-code-pop-up\/blocks\/coupon-x\/49ebf3b1-06cb-46be-8af6-a07932a42780",
         "disabled": false,
@@ -153,28 +147,46 @@
         "settings": {
         }
       },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16278478101612877664": {
+        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "3795279179704589772": {
+        "type": "shopify:\/\/apps\/k-discount-pop-up-coupon\/blocks\/app-embeded\/e0ade282-a9c0-4b1a-8e88-f1210052f348",
+        "disabled": true,
+        "settings": {
+        }
+      },
       "10583289249535060075": {
         "type": "shopify:\/\/apps\/basic-wishlist\/blocks\/popup\/1611f065-e251-4250-8609-2fa2f1877c57",
         "disabled": false,
         "settings": {
           "icon_width": 26,
           "icon": "regular",
-          "icon_color": "#fdc400",
+          "icon_color": "#000000",
           "counter_font_size": 8,
-          "counter_padding": 4,
+          "counter_padding": 3,
           "counter_radius": 30,
           "counter_offset": 4,
           "counter_color": "#ffffff",
-          "counter_bg_color": "#fdc400",
-          "sidebar_position": "bottomleft",
+          "counter_bg_color": "#121212",
+          "sidebar_position": "topright",
           "sidebar_border_width": 2,
-          "sidebar_border_radius": 140,
-          "sidebar_padding": 30,
-          "sidebar_margin": 20,
+          "sidebar_border_radius": 200,
+          "sidebar_padding": 12,
+          "sidebar_margin": 40,
           "sidebar_bg_color": "#ffffff",
-          "sidebar_border_color": "#EA3C53",
+          "sidebar_border_color": "#121212",
           "popup_border_radius": 0,
-          "popup_border_width": 1,
+          "popup_border_width": 0,
           "popup_bg_color": "#ffffff",
           "popup_border_color": "#e7e7e7",
           "popup_heading": "#121212",
