@@ -240,7 +240,7 @@
                                 {% render 'icon-info' %}
                               </button>
                             {%- endif -%}
-                            <quantity-input class="quantity cart-quantity">
+                            <!-- <quantity-input class="quantity cart-quantity">
                               <button class="quantity__button no-js-hidden" name="minus" type="button">
                                 <span class="visually-hidden">
                                   {{- 'products.product.quantity.decrease' | t: product: item.product.title | escape -}}
@@ -271,7 +271,7 @@
                                 </span>
                                 {% render 'icon-plus' %}
                               </button>
-                            </quantity-input>
+                            </quantity-input> -->
                           </div>
                           <cart-remove-button
                             id="Remove-{{ item.index | plus: 1 }}"
