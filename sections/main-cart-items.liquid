@@ -69,9 +69,9 @@
                     colspan="1"
                     scope="col"
                   >
-                    Remove Products
-                    <!-- {{ 'sections.cart.headings.quantity' | t }} -->
-                  </th>
+                    Remove Product
+                    {% comment %} {{ 'sections.cart.headings.quantity' | t }} {% endcomment %}
+                  </th> 
                   <th class="small-hide right caption-with-letter-spacing" colspan="1" scope="col">
                     {{ 'sections.cart.headings.total' | t }}
                   </th>
@@ -241,7 +241,7 @@
                                 {% render 'icon-info' %}
                               </button>
                             {%- endif -%}
-                            <!-- <quantity-input class="quantity cart-quantity">
+                            {% comment %} <quantity-input class="quantity cart-quantity">
                               <button class="quantity__button no-js-hidden" name="minus" type="button">
                                 <span class="visually-hidden">
                                   {{- 'products.product.quantity.decrease' | t: product: item.product.title | escape -}}
@@ -272,7 +272,7 @@
                                 </span>
                                 {% render 'icon-plus' %}
                               </button>
-                            </quantity-input> -->
+                            </quantity-input> {% endcomment %}
                           </div>
                           <cart-remove-button
                             id="Remove-{{ item.index | plus: 1 }}"
