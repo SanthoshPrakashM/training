@@ -282,7 +282,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">{%- include 'mc-required-login' -%}
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -349,5 +349,16 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+
+    {% if customer %}
+      <a href="/account">View account details</a>
+      <a href="/wishlist">See your wishlist</a>
+      <a href="/order-history">Track your orders</a>
+    {% else %}
+      <a href="/login">Sign in</a>
+      <a href="/create-account">Create an account</a>
+    {% endif %}
+
   </body>
 </html>
