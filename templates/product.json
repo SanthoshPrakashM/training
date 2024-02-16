@@ -232,29 +232,12 @@
         "padding_top": 56,
         "padding_bottom": 100
       }
-    },
-    "1708004255af7a515f": {
-      "type": "apps",
-      "blocks": {
-        "equate_product_compare_product_block_bhqqdN": {
-          "type": "shopify:\/\/apps\/equate-product-compare\/blocks\/product-block\/5ad1f821-35bf-43a6-bd56-bd2086d56828",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "equate_product_compare_product_block_bhqqdN"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products",
-    "1708004255af7a515f"
+    "related-products"
   ]
 }
