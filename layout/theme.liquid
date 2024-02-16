@@ -349,16 +349,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-
-
-    {% if customer %}
-      <a href="/account">View account details</a>
-      <a href="/wishlist">See your wishlist</a>
-      <a href="/order-history">Track your orders</a>
-    {% else %}
-      <a href="/login">Sign in</a>
-      <a href="/create-account">Create an account</a>
-    {% endif %}
-
   </body>
 </html>

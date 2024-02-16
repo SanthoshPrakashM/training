@@ -42,16 +42,27 @@
                 <span>{{ section.settings.option6 }}</span>
             </a>
         </li>
-
-        <li class="li7">
+        {% if customer %}
+            <a href="https://shopify.theopenxpress.com/account/">Account</a>
+            <a href="https://shopify.theopenxpress.com/pages/swym-wishlist">Wishlist</a>
+            <a href="">Track</a>
+        {% else %}
+            <li class="li7">
+                <a class="a" href="">
+                    <span><a class="log" href="https://shopify.theopenxpress.com/account/login">{{ section.settings.option7 }}</a>/<a class="reg" href="https://shopify.theopenxpress.com/account/register">{{ section.settings.option8 }}</a></span>
+                </a>
+            </li>
+        {% endif %}
+          
+        {% comment %} <li class="li7">
             <a class="a" href="">
                 <span><a class="log" href="https://shopify.theopenxpress.com/account/login">{{ section.settings.option7 }}</a>/<a class="reg" href="https://shopify.theopenxpress.com/account/register">{{ section.settings.option8 }}</a></span>
             </a>
-        </li> 
+        </li>  {% endcomment %}
 
         <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
             {%- liquid
-              if cart == empty
+              if cart == empty  
                 render 'icon-cart-empty'
               else
                 render 'icon-cart'
