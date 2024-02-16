@@ -349,5 +349,19 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+
+    {% if customer %}
+<style>
+.price {
+    display: block;
+}
+</style>
+{% else %}
+.price {
+    display: none;
+}
+</style>
+{% endif %}
   </body>
 </html>
