@@ -4,6 +4,7 @@
   "sections": {
     "custom_announcement_bar_LzdDWk": {
       "type": "custom-announcement-bar",
+      "disabled": true,
       "custom_css": [
 
       ],
