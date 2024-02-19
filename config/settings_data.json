@@ -129,6 +129,20 @@
         "settings": {
           "color_scheme": "scheme-1"
         }
+      },
+      "main-account": {
+        "type": "main-account",
+        "settings": {
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "main-addresses": {
+        "type": "main-addresses",
+        "settings": {
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
       }
     },
     "content_for_index": [
@@ -187,8 +201,8 @@
         "type": "shopify:\/\/apps\/helium-customer-fields\/blocks\/app-embed\/bab58598-3e6a-4377-aaaa-97189b15f131",
         "disabled": false,
         "settings": {
-          "registration_form_id": "",
-          "edit_account_form_id": "",
+          "registration_form_id": "WBtxJW",
+          "edit_account_form_id": "WBtxJW",
           "edit_account_link_text": "Edit account",
           "edit_account_heading": "Edit account",
           "edit_account_back_link_text": "Back to account",
