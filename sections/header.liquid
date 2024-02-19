@@ -78,6 +78,8 @@
     .scrolled-past-header .header__heading-logo-wrapper {
       display: none;
     }
+
+
   {%- endif -%}
 
   {%- if section.settings.menu_type_desktop != "drawer" -%}
@@ -128,9 +130,9 @@
     display: inline-flex;
     flex-wrap: wrap;
     font-weight: 800;
-    padding-left: 230px;
-    
+    padding-left: 50px;
   }
+
 
   summary.list-menu__item {
     padding-right: 2.7rem;
@@ -397,7 +399,7 @@
 
         <span class="visually-hidden">Log in</span>
       </a>
-      {% comment %} <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
             render 'icon-cart-empty'
@@ -414,7 +416,7 @@
             <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
           </div>
         {%- endif -%}
-      </a> {% endcomment %}
+      </a> 
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>

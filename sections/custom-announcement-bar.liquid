@@ -116,14 +116,14 @@
     align-items: center;
 }
 
-.custom-announcement-bar {
+{% comment %} .custom-announcement-bar {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
+} {% endcomment %}
 
 {% comment %}  Media Queries for responsive {% endcomment %}
 
-@media only screen and (min-width: 1200px) and (max-width: 1240px) {
+{% comment %} @media only screen and (min-width: 1200px) and (max-width: 1240px) {
   .custom-announcement-bar {
     /* Adjust layout here (e.g., flex-direction, width, margins) */
       flex-direction: row;
@@ -149,7 +149,7 @@
   .location, .phone, .email, .time {
     flex: 1 0 auto;
   }
-}
+} {% endcomment %}
 
 
 
