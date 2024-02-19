@@ -421,11 +421,18 @@
     },
     "falcon_section11_izXW4x": {
       "type": "falcon-section11",
+      "disabled": true,
       "settings": {
         "text1": "Why Wait, Book Your",
         "yellow-text": "First Lesson Now",
         "phone": "shopify:\/\/shop_images\/phone-ringing.png",
         "number": "201-865-5225"
+      }
+    },
+    "pagefly_section_tF6Apm": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-9a42c437"
       }
     }
   },
@@ -442,6 +449,7 @@
     "falcon_section8_N3XX3w",
     "rich_text_4RYFLJ",
     "falcon_section10_JtpAfy",
-    "falcon_section11_izXW4x"
+    "falcon_section11_izXW4x",
+    "pagefly_section_tF6Apm"
   ]
 }
