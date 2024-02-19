@@ -44,14 +44,13 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "a#HeaderMenu-login-register {font-size: x-small; color: #383838; padding-top: 15px;}",
-        "span.header__active-menu-item {text-decoration: none;}"
+
       ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "falcon-driving-school",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "none",
+        "sticky_header_type": "logo-vanish",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "",
