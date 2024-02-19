@@ -179,6 +179,12 @@
         "settings": {
         }
       },
+      "16278478101612877664": {
+        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "8554118278144459913": {
         "type": "shopify:\/\/apps\/ldt-product-compare\/blocks\/embed\/4efd09c5-8a59-401e-a364-e3440f693913",
         "disabled": false,
@@ -204,33 +210,27 @@
           "js_api_version": ""
         }
       },
-      "16278478101612877664": {
-        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
-        "disabled": true,
+      "12046557757412368804": {
+        "type": "shopify:\/\/apps\/accounts-concierge\/blocks\/customer_account_page\/3c495b68-652c-468d-a0ef-5bad6935d104",
+        "disabled": false,
         "settings": {
+          "style": "dark",
+          "dropdownMenu": "dropdown",
+          "mobile_nav_offset_top": 0,
+          "shadow": true,
+          "border_radius": 4,
+          "background_color": "#ffffff",
+          "text_color": "#202202",
+          "primary_color": "#5873F9",
+          "btn_text_color": "#ffffff",
+          "max_width": 800,
+          "custom_css": ""
         }
       },
       "10534424223343191814": {
         "type": "shopify:\/\/apps\/customer-dashboard\/blocks\/app-embed\/f81081fd-cd04-43ee-897a-18ef0e5d9b04",
         "disabled": true,
         "settings": {
-        }
-      },
-      "12046557757412368804": {
-        "type": "shopify:\/\/apps\/accounts-concierge\/blocks\/customer_account_page\/3c495b68-652c-468d-a0ef-5bad6935d104",
-        "disabled": false,
-        "settings": {
-          "style": "light",
-          "dropdownMenu": "dropdown",
-          "mobile_nav_offset_top": 0,
-          "shadow": false,
-          "border_radius": 4,
-          "background_color": "#ffffff",
-          "text_color": "#202202",
-          "primary_color": "#5873f9",
-          "btn_text_color": "#ffffff",
-          "max_width": 800,
-          "custom_css": ""
         }
       }
     },
