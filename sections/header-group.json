@@ -41,14 +41,13 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "custom_css": [
         "a#HeaderMenu-login-register {font-size: x-small; color: #383838; padding-top: 15px;}",
         "span.header__active-menu-item {text-decoration: none;}"
       ],
       "settings": {
         "logo_position": "middle-left",
-        "menu": "falcon-customer-service",
+        "menu": "falcon-driving-school",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "none",
         "show_line_separator": true,
