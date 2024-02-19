@@ -4,7 +4,6 @@
   "sections": {
     "custom_announcement_bar_LzdDWk": {
       "type": "custom-announcement-bar",
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -44,13 +43,14 @@
     "header": {
       "type": "header",
       "custom_css": [
-
+        "a#HeaderMenu-login-register {font-size: x-small; color: #383838; padding-top: 15px;}",
+        "span.header__active-menu-item {text-decoration: none;}"
       ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "falcon-driving-school",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "logo-vanish",
+        "sticky_header_type": "none",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "",
