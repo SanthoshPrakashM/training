@@ -38,6 +38,7 @@
         "block_8nth6y",
         "block_NU4XFP"
       ],
+      "disabled": true,
       "custom_css": [
         "h3 {color: #ffffff; font-weight: bolder; font-size: x-large; padding-left: 7px; display: grid;}"
       ],
@@ -420,6 +421,12 @@
         "phone": "shopify:\/\/shop_images\/phone-ringing.png",
         "number": "201-865-5225"
       }
+    },
+    "pagefly_section_B4dpMm": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": ""
+      }
     }
   },
   "order": [
@@ -434,6 +441,7 @@
     "falcon_section8_N3XX3w",
     "rich_text_4RYFLJ",
     "falcon_section10_JtpAfy",
-    "falcon_section11_izXW4x"
+    "falcon_section11_izXW4x",
+    "pagefly_section_B4dpMm"
   ]
 }
