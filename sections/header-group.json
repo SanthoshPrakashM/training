@@ -43,8 +43,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "a#HeaderMenu-login-register {font-size: x-small; color: #383838; padding-top: 15px;}",
-        "span.header__active-menu-item {text-decoration: none;}"
+
       ],
       "settings": {
         "logo_position": "middle-left",
