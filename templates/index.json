@@ -414,8 +414,15 @@
         "padding_bottom": 20
       }
     },
+    "pagefly_section_P6EazJ": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-b3bf64a5"
+      }
+    },
     "falcon_section10_JtpAfy": {
       "type": "falcon-section10",
+      "disabled": true,
       "settings": {
       }
     },
@@ -454,6 +461,7 @@
     "multicolumn_P3iacG",
     "falcon_section8_N3XX3w",
     "rich_text_4RYFLJ",
+    "pagefly_section_P6EazJ",
     "falcon_section10_JtpAfy",
     "falcon_section11_izXW4x",
     "pagefly_section_tF6Apm",
