@@ -1,11 +1,5 @@
 {
   "sections": {
-    "pagefly_section_npgkGj": {
-      "type": "pagefly-section",
-      "settings": {
-        "section_id": "pf-f8e40029"
-      }
-    },
     "pagefly_section_ENPU43": {
       "type": "pagefly-section",
       "settings": {
@@ -449,7 +443,6 @@
     }
   },
   "order": [
-    "pagefly_section_npgkGj",
     "pagefly_section_ENPU43",
     "falcon_section3_JEMXBh",
     "falcon_fixed_button_9NmRWj",
