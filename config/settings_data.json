@@ -168,12 +168,6 @@
         "settings": {
         }
       },
-      "3795279179704589772": {
-        "type": "shopify:\/\/apps\/k-discount-pop-up-coupon\/blocks\/app-embeded\/e0ade282-a9c0-4b1a-8e88-f1210052f348",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "5946647744298494267": {
         "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/wishlist-app-embed\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
         "disabled": false,
@@ -255,6 +249,12 @@
           "btn_text_color": "#ffffff",
           "max_width": 1440,
           "custom_css": ""
+        }
+      },
+      "6048552914641687618": {
+        "type": "shopify:\/\/apps\/webrex-converter\/blocks\/app-embed\/065e70d9-d1e0-4d56-a8a3-a58701e43093",
+        "disabled": false,
+        "settings": {
         }
       }
     },
