@@ -253,7 +253,7 @@
           "text_color": "#202202",
           "primary_color": "#5873f9",
           "btn_text_color": "#ffffff",
-          "max_width": 800,
+          "max_width": 1440,
           "custom_css": ""
         }
       }
