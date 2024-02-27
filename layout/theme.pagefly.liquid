@@ -312,12 +312,11 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 
 
 
+
+
 {% include 'pagefly-app-header' %}</head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}"><div class="pagefly-container">
-            {% capture pagefly_content_for_layout %}
               {{ content_for_layout }}
-            {% endcapture %}
-            {% render 'pagefly-render-section', pagefly_content_for_layout: pagefly_content_for_layout %}
             </div></body>
 </html>
