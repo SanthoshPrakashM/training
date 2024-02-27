@@ -441,13 +441,6 @@
       "settings": {
         "section_id": "pf-9a42c437"
       }
-    },
-    "pagefly_section_BFTUt7": {
-      "type": "pagefly-section",
-      "disabled": true,
-      "settings": {
-        "section_id": "pf-c43fa990"
-      }
     }
   },
   "order": [
@@ -465,7 +458,6 @@
     "pagefly_section_P6EazJ",
     "falcon_section10_JtpAfy",
     "falcon_section11_izXW4x",
-    "pagefly_section_tF6Apm",
-    "pagefly_section_BFTUt7"
+    "pagefly_section_tF6Apm"
   ]
 }
