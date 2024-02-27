@@ -444,6 +444,7 @@
     },
     "pagefly_section_BFTUt7": {
       "type": "pagefly-section",
+      "disabled": true,
       "settings": {
         "section_id": "pf-c43fa990"
       }
