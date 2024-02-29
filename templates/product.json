@@ -47,17 +47,11 @@
             "custom_liquid": "Total : {{ product.price_varies | money }}"
           }
         },
-        "complementary_U9DeUD": {
-          "type": "complementary",
+        "text_kJreJi": {
+          "type": "text",
           "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": true,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": false
+            "text": "{{ product.metafields.custom.price_tag | metafield_tag }}",
+            "text_style": "body"
           }
         }
       },
@@ -69,7 +63,7 @@
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_kJYkEt",
-        "complementary_U9DeUD"
+        "text_kJreJi"
       ],
       "settings": {
         "enable_sticky_info": true,
