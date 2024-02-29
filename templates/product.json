@@ -43,7 +43,7 @@
         "custom_liquid_kJYkEt": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "Total : {{ product.price| money }} + {{variant.price | money }}"
+            "custom_liquid": "Total : {{ product.price| money }}"
           }
         }
       },
