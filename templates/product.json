@@ -56,7 +56,7 @@
         "custom_liquid_kJYkEt": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "Total : {{ product.compare_at_price_max | money }}"
+            "custom_liquid": "Total : {{ product.compare_at_price_min | money }}"
           }
         },
         "collapsible-row-0": {
