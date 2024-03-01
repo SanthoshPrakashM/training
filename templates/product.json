@@ -8,17 +8,17 @@
           "settings": {
           }
         },
+        "custom_liquid_kJYkEt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.price| money }}"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
             "text": "Crispy chicken tossed with your favorite sauce and served in a hand rolled waffle cone! + Side + Drink",
             "text_style": "body"
-          }
-        },
-        "custom_liquid_kJYkEt": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{{ product.price| money }}"
           }
         },
         "variant_picker": {
@@ -49,8 +49,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "custom_liquid_kJYkEt",
+        "caption",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
