@@ -15,11 +15,6 @@
             "text_style": "body"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -45,16 +40,21 @@
           "settings": {
             "custom_liquid": "Total : {{ product.price| money }}"
           }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "title",
         "caption",
-        "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "custom_liquid_kJYkEt"
+        "custom_liquid_kJYkEt",
+        "price"
       ],
       "settings": {
         "enable_sticky_info": true,
