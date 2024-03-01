@@ -252,13 +252,13 @@
       },
       "14656832010101544780": {
         "type": "shopify:\/\/apps\/apo-product-options\/blocks\/app-embed-block\/a1199153-7462-4b5b-8a80-f0eefba85e99",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       },
-      "8170924994765517213": {
-        "type": "shopify:\/\/apps\/tepo-product-options\/blocks\/app-embed\/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
-        "disabled": true,
+      "10042746950867549768": {
+        "type": "shopify:\/\/apps\/hulk-product-options\/blocks\/app-embed\/380168ef-9475-4244-a291-f66b189208b5",
+        "disabled": false,
         "settings": {
         }
       }
