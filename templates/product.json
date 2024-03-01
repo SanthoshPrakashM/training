@@ -11,7 +11,7 @@
         "custom_liquid_kJYkEt": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{ product.price| money }}"
+            "custom_liquid": "<h2 class = \"custom-price-tag\">{{ product.price| money }}<\/h2>"
           }
         },
         "caption": {
