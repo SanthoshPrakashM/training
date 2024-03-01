@@ -21,6 +21,12 @@
             "text_style": "body"
           }
         },
+        "tepo_product_options_product_app_block_LEB4tB": {
+          "type": "shopify:\/\/apps\/tepo-product-options\/blocks\/product-app-block\/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -51,6 +57,7 @@
         "title",
         "custom_liquid_kJYkEt",
         "caption",
+        "tepo_product_options_product_app_block_LEB4tB",
         "variant_picker",
         "buy_buttons",
         "quantity_selector",
