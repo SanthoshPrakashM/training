@@ -252,13 +252,13 @@
       },
       "14656832010101544780": {
         "type": "shopify:\/\/apps\/apo-product-options\/blocks\/app-embed-block\/a1199153-7462-4b5b-8a80-f0eefba85e99",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       },
       "10042746950867549768": {
         "type": "shopify:\/\/apps\/hulk-product-options\/blocks\/app-embed\/380168ef-9475-4244-a291-f66b189208b5",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
