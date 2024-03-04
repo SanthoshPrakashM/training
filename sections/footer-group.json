@@ -34,7 +34,8 @@
       ],
       "custom_css": [
         ".footer-block--newsletter.scroll-trigger.animate--slide-in {display: flex; justify-content: flex-end; margin-top: -4rem; margin-right: 15rem;}",
-        "svg.icon.icon-facebook {background-color: #3b5998; width: 33px; height: 33px; border-radius: 4px; padding: 5px;}"
+        "svg.icon.icon-facebook {background-color: #3b5998; width: 33px; height: 33px; border-radius: 4px; padding: 5px;}",
+        "svg.icon.icon-instagram {background-color: #69727d; width: 33px; height: 33px; border-radius: 4px; padding: 5px;}"
       ],
       "settings": {
         "color_scheme": "scheme-4",
