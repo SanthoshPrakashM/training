@@ -11,8 +11,16 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_Hwg4FH": {
+          "type": "text",
+          "settings": {
+            "heading": "ADDRESS",
+            "subtext": "<p><strong>586 Newark Ave.,<\/strong><\/p><p><strong>Store A Jersey City,<\/strong><\/p><p><strong>NJ 07306<\/strong><\/p><p><\/p><p><strong>(551) 328-4750<\/strong><\/p>"
+          }
+        },
         "text_aTQnth": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "ADDRESS",
             "subtext": "<p>586 Newark Ave.,<br\/>Store A Jersey City,<br\/>NJ 07306<\/p><p>(551) 328-4750<\/p>"
@@ -34,6 +42,7 @@
         }
       },
       "block_order": [
+        "text_Hwg4FH",
         "text_aTQnth",
         "footer-0",
         "footer-2"
