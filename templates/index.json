@@ -185,7 +185,7 @@
         ".multicolumn-card.content-container {display: flex;}",
         "h3.inline-richtext {padding-bottom: 15px; border-bottom: 1px dashed #ffffff;}",
         "h3.inline-richtext {margin-top: -20px;}",
-        "a.button.button--primary:hover {color: #ffffff; background: #121212; transition: 0.2s;}"
+        "a.button.button--primary:hover {color: #ffffff; background: #121212; transition: 0.6s;}"
       ],
       "settings": {
         "title": "<strong>MOST FAVORITE SIDES!<\/strong>",
