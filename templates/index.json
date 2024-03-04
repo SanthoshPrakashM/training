@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/fresh-food-home.webp",
-            "heading": "",
+            "heading": "<strong>FRESH FOOD & FRIENDLY STAFF<\/strong>",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
@@ -64,7 +64,7 @@
         "slide_V7PpKR"
       ],
       "custom_css": [
-        ".slideshow__text.banner__box {display: none;}"
+        ".slideshow__text.banner__box {background: #0000;}"
       ],
       "settings": {
         "layout": "full_bleed",
