@@ -5,6 +5,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_aTQnth": {
+          "type": "text",
+          "settings": {
+            "heading": "ADDRESS",
+            "subtext": "<p>586 Newark Ave.,<br\/>Store A Jersey City,<br\/>NJ 07306<\/p><p>(551) 328-4750<\/p>"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -19,13 +26,6 @@
             "subtext": "<p><strong>Monday to Thursday – 11am to 8pmFriday – 11am to 9pmSaturday – 12pm to 9pmSunday – Closed<\/strong><\/p>"
           }
         },
-        "text_aTQnth": {
-          "type": "text",
-          "settings": {
-            "heading": "ADDRESS",
-            "subtext": "<p>586 Newark Ave.,<br\/>Store A Jersey City,<br\/>NJ 07306<\/p><p>(551) 328-4750<\/p>"
-          }
-        },
         "brand_information_3KRnR9": {
           "type": "brand_information",
           "settings": {
@@ -34,9 +34,9 @@
         }
       },
       "block_order": [
+        "text_aTQnth",
         "footer-0",
         "footer-2",
-        "text_aTQnth",
         "brand_information_3KRnR9"
       ],
       "settings": {
