@@ -91,7 +91,7 @@
         "text_VQK4CU": {
           "type": "text",
           "settings": {
-            "text": "<em><strong>Loved by many people<\/strong><\/em>",
+            "text": "<strong>Loved by many people<\/strong>",
             "text_style": "subtitle"
           }
         }
@@ -101,7 +101,8 @@
         "text_VQK4CU"
       ],
       "custom_css": [
-        "h2.banner__heading.inline-richtext.h0 {color: red;}"
+        "h2.banner__heading.inline-richtext.h0 {color: red;}",
+        ".banner__box .banner__heading + * {margin-top: 1rem; color: red; font-size: xx-large;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/WaffleCrunchShakes.webp",
