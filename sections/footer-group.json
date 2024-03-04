@@ -2,10 +2,10 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "pagefly_section_fHGCYT": {
+    "pagefly_section_AmVycG": {
       "type": "pagefly-section",
       "settings": {
-        "section_id": "pf-de2b4831"
+        "section_id": ""
       }
     },
     "footer": {
@@ -60,7 +60,7 @@
     }
   },
   "order": [
-    "pagefly_section_fHGCYT",
+    "pagefly_section_AmVycG",
     "footer"
   ]
 }
