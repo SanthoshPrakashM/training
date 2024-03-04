@@ -181,7 +181,9 @@
         "column_jWadNq"
       ],
       "custom_css": [
-        ".multicolumn .title-wrapper-with-link {margin-top: 0; justify-content: center;}"
+        ".multicolumn .title-wrapper-with-link {margin-top: 0; justify-content: center;}",
+        ".multicolumn-card.content-container {display: flex;}",
+        "h3.inline-richtext {padding-bottom: 15px; border-bottom: 1px dashed #ffffff;}"
       ],
       "settings": {
         "title": "<strong>MOST FAVORITE SIDES!<\/strong>",
