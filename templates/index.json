@@ -157,8 +157,9 @@
         "column_JgyLUp": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Copy-of-CajnFries-300x300.webp",
+            "title": "Caj’nFries",
+            "text": "<p>Crispy shoestring fries seasoned with our Caj’n seasoning.  (Cal 240)<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -166,8 +167,9 @@
         "column_jWadNq": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/MacnCheese-300x300.webp",
+            "title": "Mac’nCheese",
+            "text": "<p>Our Creamy Mac’nCheese<\/p>",
             "link_label": "",
             "link": ""
           }
