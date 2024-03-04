@@ -113,10 +113,39 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "image_banner_7P6t9W": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_4cJ3Kp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>WAFFLE CRUNCH SHAKE<\/strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4cJ3Kp"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WaffleCrunchShakes.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "slideshow_XnkEpB",
-    "rich_text_Tir6er"
+    "rich_text_Tir6er",
+    "image_banner_7P6t9W"
   ]
 }
