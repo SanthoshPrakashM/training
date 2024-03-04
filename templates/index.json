@@ -147,8 +147,9 @@
         "column_LVQQEz": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/CajnCorn-300x300.webp",
+            "title": "Caj’nCorn",
+            "text": "<p>Buttery off-the-cob corn marinated in our Caj’n seasoning<\/p>",
             "link_label": "",
             "link": ""
           }
