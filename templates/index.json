@@ -140,11 +140,65 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "multicolumn_478Axb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LVQQEz": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JgyLUp": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jWadNq": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LVQQEz",
+        "column_JgyLUp",
+        "column_jWadNq"
+      ],
+      "settings": {
+        "title": "<strong>MOST FAVORITE SIDES!<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "ALL PRODUCTS",
+        "button_link": "",
+        "color_scheme": "scheme-cc80aebe-c80e-473e-89c3-f8cc9ee171d0",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow_XnkEpB",
     "rich_text_xEEnVA",
-    "image_banner_7P6t9W"
+    "image_banner_7P6t9W",
+    "multicolumn_478Axb"
   ]
 }
