@@ -7,7 +7,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1400,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -15,7 +15,7 @@
     "animations_hover_elements": "3d-lift",
     "buttons_border_thickness": 0,
     "buttons_border_opacity": 100,
-    "buttons_radius": 28,
+    "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -220,7 +220,7 @@
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#121212",
-          "secondary_button_label": "rgba(0,0,0,0)",
+          "secondary_button_label": "#121212",
           "shadow": "rgba(0,0,0,0)"
         }
       }
