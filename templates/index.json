@@ -78,9 +78,45 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "rich_text_Tir6er": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_49VUNe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>WAFFLE CRUNCH SHAKE<\/strong>",
+            "heading_size": "hxl"
+          }
+        },
+        "caption_piX6UQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "Loved by many people",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_49VUNe",
+        "caption_piX6UQ"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "slideshow_XnkEpB"
+    "slideshow_XnkEpB",
+    "rich_text_Tir6er"
   ]
 }
