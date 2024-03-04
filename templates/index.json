@@ -65,7 +65,7 @@
       ],
       "custom_css": [
         ".slideshow__text.banner__box {background: #0000;}",
-        ".banner__box > *:first-child {margin-top: 0px; font-size: 278%; margin-left: 10%; color: #ff8228;}"
+        ".banner__box > *:first-child {margin-top: 0px; font-size: 278%; margin-left: 30%; color: #ff8228;}"
       ],
       "settings": {
         "layout": "full_bleed",
