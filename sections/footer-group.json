@@ -28,6 +28,7 @@
         },
         "brand_information_3KRnR9": {
           "type": "brand_information",
+          "disabled": true,
           "settings": {
             "show_social": true
           }
