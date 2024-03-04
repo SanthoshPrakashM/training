@@ -14,7 +14,7 @@
             "link": "",
             "button_style_secondary": true,
             "box_align": "middle-right",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
@@ -64,7 +64,6 @@
         "slide_V7PpKR"
       ],
       "custom_css": [
-        ".slideshow__text.banner__box {background: #0000;}",
         ".banner__box > *:first-child {margin-top: 0px; font-size: 278%; margin-left: 30%; color: #ff8228;}",
         ".slideshow__controls.slideshow__controls--top.slider-buttons.no-js-hidden.slideshow__controls--border-radius-mobile {display: none;}"
       ],
