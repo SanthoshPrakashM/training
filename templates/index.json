@@ -183,10 +183,10 @@
       "settings": {
         "title": "<strong>MOST FAVORITE SIDES!<\/strong>",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "circle",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "ALL PRODUCTS",
         "button_link": "",
