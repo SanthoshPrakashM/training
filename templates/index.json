@@ -42,6 +42,7 @@
         "slide_V7PpKR": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ChicknSandwich2.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
