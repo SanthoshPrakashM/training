@@ -78,6 +78,29 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "rich_text_xEEnVA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_p8FnDb": {
+          "type": "heading",
+          "settings": {
+            "heading": "BEST SELLER",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p8FnDb"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_7P6t9W": {
       "type": "image-banner",
       "blocks": {
@@ -121,6 +144,7 @@
   },
   "order": [
     "slideshow_XnkEpB",
+    "rich_text_xEEnVA",
     "image_banner_7P6t9W"
   ]
 }
