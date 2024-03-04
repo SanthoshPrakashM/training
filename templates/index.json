@@ -25,7 +25,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/41.webp",
-            "heading": "",
+            "heading": "<strong>FEATURES OF FAST FOOD FRIED CHICKEN ...<\/strong>",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
@@ -65,7 +65,7 @@
       ],
       "custom_css": [
         ".slideshow__text.banner__box {background: #0000;}",
-        ".banner__box>*:first-child {margin-top: 0px; font-size: 278%; margin-left: 10%;}"
+        ".banner__box > *:first-child {margin-top: 0px; font-size: 278%; margin-left: 10%;}"
       ],
       "settings": {
         "layout": "full_bleed",
