@@ -25,20 +25,12 @@
             "heading": "HOURS OF OPERATION",
             "subtext": "<p><strong>Monday to Thursday – 11am to 8pmFriday – 11am to 9pmSaturday – 12pm to 9pmSunday – Closed<\/strong><\/p>"
           }
-        },
-        "brand_information_3KRnR9": {
-          "type": "brand_information",
-          "disabled": true,
-          "settings": {
-            "show_social": true
-          }
         }
       },
       "block_order": [
         "text_aTQnth",
         "footer-0",
-        "footer-2",
-        "brand_information_3KRnR9"
+        "footer-2"
       ],
       "settings": {
         "color_scheme": "scheme-4",
