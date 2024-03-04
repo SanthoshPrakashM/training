@@ -63,6 +63,9 @@
         "slide_h8GBWN",
         "slide_V7PpKR"
       ],
+      "custom_css": [
+        ".slideshow__text.banner__box {background: #0000; }"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
