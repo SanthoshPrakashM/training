@@ -5,33 +5,39 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_k3pchn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/light-logo_bfc2e4d5-b0b3-4ac8-8ff0-3918e2952b38.webp",
-            "image_width": 100,
-            "alignment": "center"
-          }
-        },
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "MENU LINKS",
+            "menu": "chickn-cone"
           }
         },
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "HOURS OF OPERATION",
+            "subtext": "<p><strong>Monday to Thursday – 11am to 8pmFriday – 11am to 9pmSaturday – 12pm to 9pmSunday – Closed<\/strong><\/p>"
+          }
+        },
+        "text_aTQnth": {
+          "type": "text",
+          "settings": {
+            "heading": "ADDRESS",
+            "subtext": "<p>586 Newark Ave.,<br\/>Store A Jersey City,<br\/>NJ 07306<\/p><p>(551) 328-4750<\/p>"
+          }
+        },
+        "brand_information_3KRnR9": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
           }
         }
       },
       "block_order": [
-        "image_k3pchn",
         "footer-0",
-        "footer-2"
+        "footer-2",
+        "text_aTQnth",
+        "brand_information_3KRnR9"
       ],
       "settings": {
         "color_scheme": "scheme-4",
@@ -43,7 +49,7 @@
         "enable_language_selector": false,
         "payment_enable": false,
         "show_policy": false,
-        "margin_top": 48,
+        "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
