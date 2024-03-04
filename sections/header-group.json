@@ -4,6 +4,9 @@
   "sections": {
     "header": {
       "type": "header",
+      "custom_css": [
+        "span.header__active-menu-item {text-decoration: none;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "chickn-cone",
