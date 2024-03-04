@@ -64,7 +64,8 @@
         "slide_V7PpKR"
       ],
       "custom_css": [
-        ".slideshow__text.banner__box {background: #0000;}"
+        ".slideshow__text.banner__box {background: #0000;}",
+        ".banner__box>*:first-child {margin-top: 0px; font-size: 278%; margin-left: 10%;}"
       ],
       "settings": {
         "layout": "full_bleed",
