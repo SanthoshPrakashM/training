@@ -189,7 +189,7 @@
       ],
       "settings": {
         "title": "<strong>MOST FAVORITE SIDES!<\/strong>",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "circle",
         "columns_desktop": 3,
