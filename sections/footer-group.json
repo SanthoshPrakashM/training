@@ -51,7 +51,8 @@
         ".footer-block--newsletter.scroll-trigger.animate--slide-in {display: flex; justify-content: flex-end; margin-right: 15rem;}",
         "svg.icon.icon-facebook {background-color: #3b5998; width: 33px; height: 33px; border-radius: 4px; padding: 5px;}",
         "svg.icon.icon-instagram {background-color: #69727d; width: 33px; height: 33px; border-radius: 4px; padding: 5px;}",
-        ".footer-block__details-content.rte {color: #ff8228;}"
+        ".footer-block__details-content.rte {color: #ff8228;}",
+        ".footer-block.grid__item.scroll-trigger.animate--slide-in {text-align: center;}"
       ],
       "settings": {
         "color_scheme": "scheme-4",
