@@ -2,6 +2,12 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "pagefly_section_fHGCYT": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": ""
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -23,7 +29,7 @@
           "type": "text",
           "settings": {
             "heading": "HOURS OF OPERATION",
-            "subtext": "<p><strong>Monday to Thursday – 11am to 8pmFriday – 11am to 9pmSaturday – 12pm to 9pmSunday – Closed<\/strong><\/p>"
+            "subtext": "<p><strong>Monday to Thursday – 11am to 8pm<\/strong><\/p><p><strong>Friday – 11am to 9pm<\/strong><\/p><p><strong>Saturday – 12pm to 9pmSunday – Closed<\/strong><\/p>"
           }
         }
       },
@@ -54,6 +60,7 @@
     }
   },
   "order": [
+    "pagefly_section_fHGCYT",
     "footer"
   ]
 }
