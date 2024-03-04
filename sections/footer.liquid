@@ -6,6 +6,19 @@
 {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+/* Edited by sandy */
+  a.link.link--text.list-menu__item.list-menu__item--link {
+    text-decoration: none;
+    font-size: medium;
+    color: #ffffff;
+}
+
+  a.link.link--text.list-menu__item.list-menu__item--link:hover {
+    color: #ff8228;
+    transition: 0.3s;
+}
+
+  /* Edited by sandy */
   .footer {
     margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
   }
