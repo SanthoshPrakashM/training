@@ -183,7 +183,9 @@
       "custom_css": [
         ".multicolumn .title-wrapper-with-link {margin-top: 0; justify-content: center;}",
         ".multicolumn-card.content-container {display: flex;}",
-        "h3.inline-richtext {padding-bottom: 15px; border-bottom: 1px dashed #ffffff;}"
+        "h3.inline-richtext {padding-bottom: 15px; border-bottom: 1px dashed #ffffff;}",
+        "h3.inline-richtext {margin-top: -20px;}",
+        "a.button.button--primary {border-radius: 20px;}"
       ],
       "settings": {
         "title": "<strong>MOST FAVORITE SIDES!<\/strong>",
@@ -194,7 +196,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "ALL PRODUCTS",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections\/all",
         "color_scheme": "scheme-cc80aebe-c80e-473e-89c3-f8cc9ee171d0",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
