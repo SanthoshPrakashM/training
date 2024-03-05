@@ -8,11 +8,9 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
+        "description_ajAbXp": {
+          "type": "description",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
           }
         },
         "price": {
@@ -20,71 +18,11 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
           }
         },
         "quantity_selector": {
@@ -95,29 +33,22 @@
       },
       "block_order": [
         "title",
-        "caption",
+        "description_ajAbXp",
         "price",
-        "variant_picker",
         "buy_buttons",
-        "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share",
         "quantity_selector"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "",
-        "media_size": "large",
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "stacked",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "hide",
-        "hide_variants": true,
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
