@@ -1,5 +1,33 @@
 {
   "sections": {
+    "image_banner_KfJnBQ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NEr7ag": {
+          "type": "heading",
+          "settings": {
+            "heading": "MENU",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NEr7ag"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/chickenncone_303mag_madisonmcmullen-9-of-13-scaled.webp",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-cc80aebe-c80e-473e-89c3-f8cc9ee171d0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "rich_text_KGjzAw": {
       "type": "rich-text",
       "blocks": {
@@ -14,6 +42,7 @@
       "block_order": [
         "heading_XynVkB"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -25,6 +54,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": true,
@@ -53,6 +83,7 @@
     }
   },
   "order": [
+    "image_banner_KfJnBQ",
     "rich_text_KGjzAw",
     "banner",
     "product-grid"
