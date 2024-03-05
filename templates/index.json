@@ -9,6 +9,20 @@
         "section_id": "pf-c2871fc0"
       }
     },
+    "rich_text_cdTYYD": {
+      "type": "rich-text",
+      "custom_css": [
+        ".content-container--full-width:after {left: 0; right: 0; border-radius: 0; background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0684\/8823\/3178\/files\/4.webp?v=1709613705) no-repeat;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-cc80aebe-c80e-473e-89c3-f8cc9ee171d0",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "pagefly_section_QFjnNy": {
       "type": "pagefly-section",
       "settings": {
@@ -219,29 +233,15 @@
         "padding_top": 48,
         "padding_bottom": 52
       }
-    },
-    "rich_text_cdTYYD": {
-      "type": "rich-text",
-      "custom_css": [
-        ".content-container--full-width:after {left: 0; right: 0; border-radius: 0; background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0684\/8823\/3178\/files\/4.webp?v=1709613705) no-repeat;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-cc80aebe-c80e-473e-89c3-f8cc9ee171d0",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "pagefly_section_mp6JPp",
+    "rich_text_cdTYYD",
     "pagefly_section_QFjnNy",
     "slideshow_XnkEpB",
     "rich_text_xEEnVA",
     "image_banner_7P6t9W",
-    "multicolumn_478Axb",
-    "rich_text_cdTYYD"
+    "multicolumn_478Axb"
   ]
 }
