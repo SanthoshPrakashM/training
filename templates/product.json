@@ -39,7 +39,7 @@
         "quantity_selector"
       ],
       "custom_css": [
-        ".rte>*:last-child {margin-bottom: 0;}"
+        ".rte > *:last-child {margin-bottom: 0; color: #121212;}"
       ],
       "settings": {
         "enable_sticky_info": true,
