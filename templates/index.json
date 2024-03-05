@@ -222,30 +222,6 @@
     },
     "rich_text_6mVnfp": {
       "type": "rich-text",
-      "blocks": {
-        "heading_KDh4Qh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "button_EFEUJi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_KDh4Qh",
-        "button_EFEUJi"
-      ],
       "disabled": true,
       "settings": {
         "desktop_content_position": "center",
