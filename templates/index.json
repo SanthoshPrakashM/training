@@ -222,6 +222,18 @@
     },
     "rich_text_cdTYYD": {
       "type": "rich-text",
+      "blocks": {
+        "heading_PQ6y8b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PQ6y8b"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
