@@ -222,17 +222,8 @@
     },
     "rich_text_cdTYYD": {
       "type": "rich-text",
-      "blocks": {
-        "heading_PQ6y8b": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PQ6y8b"
+      "custom_css": [
+        ".content-container--full-width:after {left: 0; right: 0; border-radius: 0; background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0684\/8823\/3178\/files\/4.webp?v=1709613705) no-repeat;}"
       ],
       "settings": {
         "desktop_content_position": "center",
