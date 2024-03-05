@@ -12,7 +12,7 @@
     "rich_text_cdTYYD": {
       "type": "rich-text",
       "custom_css": [
-        ".content-container--full-width:after {left: 0; right: 0; border-radius: 0; background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0684\/8823\/3178\/files\/4.webp?v=1709613705) no-repeat;}"
+        ".content-container--full-width:after {left: 0; right: 0; border-radius: 0; background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0684\/8823\/3178\/files\/4.webp?v=1709613705) no-repeat; margin-top: -44px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
