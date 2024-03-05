@@ -219,18 +219,6 @@
         "padding_top": 48,
         "padding_bottom": 52
       }
-    },
-    "rich_text_6mVnfp": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -239,7 +227,6 @@
     "slideshow_XnkEpB",
     "rich_text_xEEnVA",
     "image_banner_7P6t9W",
-    "multicolumn_478Axb",
-    "rich_text_6mVnfp"
+    "multicolumn_478Axb"
   ]
 }
