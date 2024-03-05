@@ -3,7 +3,7 @@
     "pagefly_section_mp6JPp": {
       "type": "pagefly-section",
       "custom_css": [
-
+        ".cuWasL .nav-style-1:hover, .cuWasL .pagination-style-1 button.active {background: #ff8228;}"
       ],
       "settings": {
         "section_id": "pf-c2871fc0"
