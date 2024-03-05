@@ -6,6 +6,12 @@
         "section_id": "pf-c2871fc0"
       }
     },
+    "pagefly_section_QFjnNy": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-b925e8b4"
+      }
+    },
     "slideshow_XnkEpB": {
       "type": "slideshow",
       "blocks": {
@@ -214,6 +220,7 @@
   },
   "order": [
     "pagefly_section_mp6JPp",
+    "pagefly_section_QFjnNy",
     "slideshow_XnkEpB",
     "rich_text_xEEnVA",
     "image_banner_7P6t9W",
