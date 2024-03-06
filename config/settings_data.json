@@ -197,9 +197,9 @@
           "custom_css": ""
         }
       },
-      "16881471024131275657": {
-        "type": "shopify:\/\/apps\/searchanise-search-filter\/blocks\/app-embed\/d8f24ada-02b1-458a-bbeb-5bf16d5c921e",
-        "disabled": true,
+      "ba7228b9-c53d-4110-b8a7-6c67c82bcc26": {
+        "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/boost-sd\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": false,
         "settings": {
         }
       }
