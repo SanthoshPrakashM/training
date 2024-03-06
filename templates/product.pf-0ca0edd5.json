@@ -84,7 +84,7 @@
     "custom_liquid_4WGJ4r": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% for collection in collections %}\n  {{- collection.title | link_to: collection.url }}\n{% endfor %}",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
