@@ -13,6 +13,11 @@
           "settings": {
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -24,19 +29,14 @@
           "type": "price",
           "settings": {
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "title",
         "description_ajAbXp",
+        "quantity_selector",
         "buy_buttons",
-        "price",
-        "quantity_selector"
+        "price"
       ],
       "custom_css": [
         ".rte > *:last-child {margin-bottom: 0; color: #121212;}"
