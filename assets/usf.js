@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/5/2024 8:51:26 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/5/2024 8:56:12 PM*/
 /* Begin custom theme code */
 // define templates for the Dawn-Shopify-12.0.0 theme
 var _usfWrapClass = 'grid product-grid grid--2-col-tablet-down grid--one-third-max grid--4-col-desktop';

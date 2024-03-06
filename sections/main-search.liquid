@@ -395,6 +395,10 @@
 <!-- END USF -->
 
 {% comment %}USF
+
+
+
+
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -729,6 +733,8 @@
 {% if section.settings.image_shape == 'arch' %}
   {% render 'mask-arch' %}
 {%- endif -%}
+
+
 
 
 USF{% endcomment %}
