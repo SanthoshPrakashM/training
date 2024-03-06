@@ -30,7 +30,16 @@
     },
     "61a7b2fc-8e14-4948-88df-5514e50d4209": {
       "type": "apps",
-      "disabled": true,
+      "blocks": {
+        "searchanise_search_filter_app_block_wyN3mW": {
+          "type": "shopify:\/\/apps\/searchanise-search-filter\/blocks\/app-block\/d8f24ada-02b1-458a-bbeb-5bf16d5c921e",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "searchanise_search_filter_app_block_wyN3mW"
+      ],
       "settings": {
         "include_margins": true
       }
