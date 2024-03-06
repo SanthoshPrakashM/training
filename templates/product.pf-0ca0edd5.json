@@ -60,6 +60,9 @@
     },
     "pf-0ca0edd5": {
       "type": "pf-0ca0edd5",
+      "custom_css": [
+        ".hJMZle .pf-variant-select {display: none;}"
+      ],
       "settings": {
       }
     },
@@ -80,11 +83,21 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "custom_liquid_iYNYaX": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "pf-0ca0edd5",
-    "related-products"
+    "related-products",
+    "custom_liquid_iYNYaX"
   ]
 }
