@@ -60,9 +60,6 @@
     },
     "pf-0ca0edd5": {
       "type": "pf-0ca0edd5",
-      "custom_css": [
-        ".hJMZle .pf-variant-select {display: none !important;}"
-      ],
       "settings": {
       }
     },
