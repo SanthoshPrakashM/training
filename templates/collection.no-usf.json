@@ -14,6 +14,7 @@
       "block_order": [
         "heading_NEr7ag"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/chickenncone_303mag_madisonmcmullen-9-of-13-scaled.webp",
         "image_overlay_opacity": 0,
@@ -79,6 +80,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid-no-usf",
+      "disabled": true,
       "settings": {
         "products_per_page": 12,
         "columns_desktop": 3,
