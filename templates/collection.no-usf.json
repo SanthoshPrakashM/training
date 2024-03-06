@@ -16,7 +16,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/chickenncone_303mag_madisonmcmullen-9-of-13-scaled.webp",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
