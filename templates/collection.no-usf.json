@@ -1,0 +1,100 @@
+{
+  "sections": {
+    "image_banner_KfJnBQ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NEr7ag": {
+          "type": "heading",
+          "settings": {
+            "heading": "MENU",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NEr7ag"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/chickenncone_303mag_madisonmcmullen-9-of-13-scaled.webp",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-cc80aebe-c80e-473e-89c3-f8cc9ee171d0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "61a7b2fc-8e14-4948-88df-5514e50d4209": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_KGjzAw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XynVkB": {
+          "type": "heading",
+          "settings": {
+            "heading": "MENU",
+            "heading_size": "hxl"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XynVkB"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid-no-usf",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_KfJnBQ",
+    "61a7b2fc-8e14-4948-88df-5514e50d4209",
+    "rich_text_KGjzAw",
+    "banner",
+    "product-grid"
+  ],
+  "wrapper": ".boost-sd__product-filter-fallback"
+}

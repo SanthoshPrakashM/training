@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-search-no-usf",
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "article_show_date": true,
+        "article_show_author": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7abef21f-7555-42d0-b8b9-55e06e8910f9": {
+      "type": "apps",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "7abef21f-7555-42d0-b8b9-55e06e8910f9",
+    "main"
+  ],
+  "wrapper": ".boost-sd__product-filter-fallback"
+}
