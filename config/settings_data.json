@@ -115,7 +115,8 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_layout": "threepage",
+    "checkout_logo_image": "shopify:\/\/shop_images\/light-logo_bfc2e4d5-b0b3-4ac8-8ff0-3918e2952b38.webp",
+    "checkout_layout": "onepage",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
