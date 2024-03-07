@@ -2,6 +2,9 @@
   "sections": {
     "cart-items": {
       "type": "main-cart-items",
+      "custom_css": [
+        "a.mw-apo-configure-link {color: #ff8228; text-decoration: none; font-weight: bolder; font-family: cursive;}"
+      ],
       "settings": {
         "color_scheme": "",
         "padding_top": 36,
