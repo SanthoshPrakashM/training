@@ -77,11 +77,11 @@
               </div>
             {%- else -%}
               <div class="cart__ctas" {{ block.shopify_attributes }}>
-                <!-- <noscript> -->
+                <noscript>
                   <button type="submit" class="cart__update-button button button--secondary" form="cart">
                     {{ 'sections.cart.update' | t }}
                   </button>
-                <!-- </noscript> -->
+                </noscript>
 
                 <button
                   type="submit"
