@@ -96,12 +96,15 @@
           "type": "heading",
           "settings": {
             "heading": "WHY IS CHICK'NCONE SO POPULAR?",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
         "heading_gDaQLk"
+      ],
+      "custom_css": [
+        "h2.rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in {color: #ff8228;}"
       ],
       "settings": {
         "desktop_content_position": "center",
