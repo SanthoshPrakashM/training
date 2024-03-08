@@ -188,6 +188,12 @@
         "padding_top": 36,
         "padding_bottom": 80
       }
+    },
+    "pagefly_section_JPPQ6b": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": ""
+      }
     }
   },
   "order": [
@@ -197,6 +203,7 @@
     "rich_text_eNUfRG",
     "pagefly_section_xNQB4G",
     "rich_text_J4UhGJ",
-    "image_with_text_gwzY63"
+    "image_with_text_gwzY63",
+    "pagefly_section_JPPQ6b"
   ]
 }
