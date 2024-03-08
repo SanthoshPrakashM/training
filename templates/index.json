@@ -3,7 +3,7 @@
     "ss_back_to_top_button_bmxDAG": {
       "type": "ss-back-to-top-button",
       "settings": {
-        "hide_on_mobile": true,
+        "hide_on_mobile": false,
         "show_when_precent_of_page": 70,
         "pos": "right",
         "bg_color": "#ff8228",
