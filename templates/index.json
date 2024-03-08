@@ -1,5 +1,20 @@
 {
   "sections": {
+    "ss_back_to_top_button_bmxDAG": {
+      "type": "ss-back-to-top-button",
+      "settings": {
+        "hide_on_mobile": true,
+        "show_when_precent_of_page": 23,
+        "pos": "right",
+        "bg_color": "#F4F2F2",
+        "border_color": "#CEC5C5",
+        "arrow_color": "#333333",
+        "button_size": 54,
+        "arrow_size": 30,
+        "horizontal_dst_to_edge": 20,
+        "vertical_dst_to_edge": 20
+      }
+    },
     "pagefly_section_mp6JPp": {
       "type": "pagefly-section",
       "custom_css": [
@@ -21,21 +36,6 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 52
-      }
-    },
-    "ss_back_to_top_button_bmxDAG": {
-      "type": "ss-back-to-top-button",
-      "settings": {
-        "hide_on_mobile": true,
-        "show_when_precent_of_page": 23,
-        "pos": "right",
-        "bg_color": "#F4F2F2",
-        "border_color": "#CEC5C5",
-        "arrow_color": "#333333",
-        "button_size": 54,
-        "arrow_size": 30,
-        "horizontal_dst_to_edge": 20,
-        "vertical_dst_to_edge": 20
       }
     },
     "pagefly_section_QFjnNy": {
@@ -251,9 +251,9 @@
     }
   },
   "order": [
+    "ss_back_to_top_button_bmxDAG",
     "pagefly_section_mp6JPp",
     "rich_text_cdTYYD",
-    "ss_back_to_top_button_bmxDAG",
     "pagefly_section_QFjnNy",
     "slideshow_XnkEpB",
     "rich_text_xEEnVA",
