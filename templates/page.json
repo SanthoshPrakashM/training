@@ -102,11 +102,31 @@
             "link": ""
           }
         },
+        "column_i8hTcV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9-1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_nzidgL": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_1fdfa368-ae1a-466e-8c38-b3a07b65a5fb.webp",
             "title": "<strong>FAST SERVICE<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QA79jn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-1.webp",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -125,7 +145,9 @@
       },
       "block_order": [
         "column_ene8P8",
+        "column_i8hTcV",
         "column_nzidgL",
+        "column_QA79jn",
         "column_MBCEPq"
       ],
       "settings": {
@@ -133,7 +155,7 @@
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
