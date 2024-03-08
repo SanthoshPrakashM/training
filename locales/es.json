@@ -568,5 +568,44 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shinepages": {
+    "general": {
+      "view_all": "View all",
+      "load_more": "Load more",
+      "read_more": "READ MORE"
+    },
+    "form": {
+      "field_required": "{{ field }} is required",
+      "field_invalid": "{{ field }} is invalid",
+      "error_required": "is required",
+      "error_invalid": "is invalid",
+      "form_error": "An error occurred, please check the information and resubmit.",
+      "form_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
+      "input_error": "Subscribe failed",
+      "input_success": "Subscribe successes",
+      "name_label": "Your name",
+      "email_label": "Your email",
+      "phone_label": "Your phone",
+      "message_label": "Your message"
+    },
+    "product": {
+      "product_title_default": "Example product title",
+      "add_to_cart": "Add to cart",
+      "cart_added": "Cart added!",
+      "cart_failed": "Add cart failed",
+      "sold_out": "Sold out",
+      "sale_html": "Save {{ price }}",
+      "no_products": "No products",
+      "from_price_html": "From {{ price }}",
+      "unit_price": "Unit price",
+      "unit_price_separator": "per",
+      "unavailable": "Unavailable",
+      "value_unavailable": "{{ option_value }} - Unavailable",
+      "quantity": {
+        "label": "Quantity",
+        "input_label": "Quantity Input"
+      }
+    }
   }
 }
