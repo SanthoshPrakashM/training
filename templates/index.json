@@ -4,7 +4,7 @@
       "type": "ss-back-to-top-button",
       "settings": {
         "hide_on_mobile": true,
-        "show_when_precent_of_page": 23,
+        "show_when_precent_of_page": 82,
         "pos": "right",
         "bg_color": "#F4F2F2",
         "border_color": "#CEC5C5",
