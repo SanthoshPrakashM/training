@@ -17,10 +17,18 @@
             "heading": "ABOUT US",
             "heading_size": "h1"
           }
+        },
+        "text_RgLinz": {
+          "type": "text",
+          "settings": {
+            "text": "Home \/ About",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "heading_pFGWx7"
+        "heading_pFGWx7",
+        "text_RgLinz"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/21_c9e4ee74-b464-4780-ad7f-8d4f3807d604.webp",
@@ -29,7 +37,7 @@
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-cc80aebe-c80e-473e-89c3-f8cc9ee171d0",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
