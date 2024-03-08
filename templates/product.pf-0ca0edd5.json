@@ -60,9 +60,6 @@
     },
     "pf-0ca0edd5": {
       "type": "pf-0ca0edd5",
-      "custom_css": [
-        ".pf-option-swatches {display: none !important;}"
-      ],
       "settings": {
       }
     },
