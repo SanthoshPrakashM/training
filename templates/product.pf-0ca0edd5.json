@@ -60,6 +60,9 @@
     },
     "pf-0ca0edd5": {
       "type": "pf-0ca0edd5",
+      "custom_css": [
+        ".dgSwCD .pf-th {display: none; \/* display: grid; *\/ \/* grid-template-columns: 1fr; *\/}"
+      ],
       "settings": {
       }
     },
