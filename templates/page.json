@@ -67,6 +67,11 @@
         "heading_UnTjRa",
         "button_9BbhYK"
       ],
+      "custom_css": [
+        "h2.image-with-text__heading.inline-richtext.h1 {color: #ff8228; font-weight: 800;}",
+        "a.button.button--secondary {background-color: #ff8228; color: #fff; font-family: fangsong;}",
+        "a.button.button--secondary:hover {background-color: #121212; transition:0.5s;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/chickencone.webp",
         "height": "adapt",
