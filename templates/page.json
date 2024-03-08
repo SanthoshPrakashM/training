@@ -2,13 +2,43 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_KChyxC": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_pFGWx7": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT US",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pFGWx7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/21_c9e4ee74-b464-4780-ad7f-8d4f3807d604.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_KChyxC"
   ]
 }
