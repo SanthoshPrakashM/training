@@ -88,11 +88,68 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_eTiWAh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ene8P8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_ceb80a13-c990-4ed0-8ad7-171bd714a476.webp",
+            "title": "<strong>FRESH FOOD<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nzidgL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_1fdfa368-ae1a-466e-8c38-b3a07b65a5fb.webp",
+            "title": "<strong>FAST SERVICE<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MBCEPq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_1.webp",
+            "title": "<strong>FRIENDLY STAFF<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ene8P8",
+        "column_nzidgL",
+        "column_MBCEPq"
+      ],
+      "settings": {
+        "title": "WHY IS CHICK'NCONE SO POPULAR?",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_KChyxC",
-    "image_with_text_8pQ3hD"
+    "image_with_text_8pQ3hD",
+    "multicolumn_eTiWAh"
   ]
 }
