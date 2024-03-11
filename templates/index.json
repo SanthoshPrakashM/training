@@ -248,46 +248,6 @@
         "padding_top": 48,
         "padding_bottom": 52
       }
-    },
-    "sp_tabs_8iMLLC": {
-      "type": "sp-tabs",
-      "blocks": {
-        "tab_9QBDjA": {
-          "type": "tab",
-          "settings": {
-            "tab_name": "CART",
-            "tab_content": "<p><a href=\"https:\/\/shopify.theopenxpress.com\/cart\" title=\"https:\/\/shopify.theopenxpress.com\/cart\">cart<\/a><\/p>"
-          }
-        },
-        "tab_wVgxHz": {
-          "type": "tab",
-          "settings": {
-            "tab_name": "CHECKOUT",
-            "tab_content": "<p><a href=\"https:\/\/shopify.theopenxpress.com\/checkout\" title=\"https:\/\/shopify.theopenxpress.com\/checkout\">Check<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "tab_9QBDjA",
-        "tab_wVgxHz"
-      ],
-      "settings": {
-        "text_font": "sans-serif",
-        "text_size": 15,
-        "headline_font": "sans-serif",
-        "headline_size": 44,
-        "text_color": "#111",
-        "background_color": "transparent",
-        "tab_active_color": "#111",
-        "tab_inactive_color": "#888",
-        "tab_border_color": "#ddd",
-        "max_width": 1000,
-        "padding_top": 25,
-        "padding_bottom": 25,
-        "padding_left": 400,
-        "padding_right": 10,
-        "element_spacing": 15
-      }
     }
   },
   "order": [
@@ -298,7 +258,6 @@
     "slideshow_XnkEpB",
     "rich_text_xEEnVA",
     "image_banner_7P6t9W",
-    "multicolumn_478Axb",
-    "sp_tabs_8iMLLC"
+    "multicolumn_478Axb"
   ]
 }
