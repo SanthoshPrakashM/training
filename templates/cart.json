@@ -2,17 +2,6 @@
   "sections": {
     "1710134460a99f3817": {
       "type": "apps",
-      "blocks": {
-        "essential_ai_section_builder_magic_block_KQ7Xyy": {
-          "type": "shopify:\/\/apps\/essential-ai-section-builder\/blocks\/magic-block\/c35653a8-4f0b-4bf8-a93d-51f0f5c6932c",
-          "settings": {
-            "widget_key": "d5316ae5-56ea-4d96-885f-d1f1975c428e"
-          }
-        }
-      },
-      "block_order": [
-        "essential_ai_section_builder_magic_block_KQ7Xyy"
-      ],
       "settings": {
         "include_margins": true
       }
