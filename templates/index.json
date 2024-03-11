@@ -256,7 +256,7 @@
           "type": "tab",
           "settings": {
             "tab_name": "CART",
-            "tab_content": "<p><a href=\"https:\/\/shopify.theopenxpress.com\/cart\" title=\"https:\/\/shopify.theopenxpress.com\/cart\">CART<\/a><\/p>"
+            "tab_content": "<p><\/p><p><\/p>"
           }
         },
         "tab_wVgxHz": {
@@ -284,7 +284,7 @@
         "max_width": 1000,
         "padding_top": 25,
         "padding_bottom": 25,
-        "padding_left": 10,
+        "padding_left": 400,
         "padding_right": 10,
         "element_spacing": 15
       }
